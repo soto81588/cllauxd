@@ -2,16 +2,12 @@
 
 | Routine | ID | Schedule | Status |
 |---|---|---|---|
-| Vantier · Instagram publisher | trig_01DWRAMD6Gb5ERpraFi7mDVe | hourly at :12 | Paused until cutover (needs the Composio connector attached) |
+| Vantier · Instagram publisher | trig_01Q6E3koX8KjzEMQsiEoRU29 | hourly at :50 | ON since 2026-10-02 cutover. Fires into the persistent session "Vantier · Instagram publisher (runner)" (session_01NckoXSozcQfSDWUN7EbmQT), which has Composio. |
 | Vantier · Morning brief | trig_01VjJGsrZ81DMo9eSzp2pnnc | daily 7:52am ET | On |
 
 Prompts: `instagram-publisher.md` (the brief's prompt is stored in the Routine itself).
 
-## Cutover from Base44 (Instagram)
-1. In claude.ai → Code → Routines → "Vantier · Instagram publisher", add the **Composio** connector.
-2. Tell Claude "cut over". Claude will then:
-   a. Pause the Base44 "Instagram Scheduled Posts" workflow (toggle-status; reversible).
-   b. Sync every ScheduledPost status, permalink and caption from Base44 into Vantier OS so nothing already posted goes out again.
-   c. Set `config/automation.instagram_publisher_enabled = true` and enable the Routine.
-   d. Test-fire it and confirm the next post publishes.
-3. Rollback: turn the switch off in Vantier OS → Automations, and resume the Base44 workflow.
+## Cutover from Base44 (done 2026-10-02)
+- Base44 "Instagram Scheduled Posts" workflow (6ab71f7e64bcd83dc6e54c8f) paused via toggle-status.
+- Post statuses verified against Instagram; Vantier OS `config/automation.instagram_publisher_enabled = true`.
+- Rollback: switch the publisher off in Vantier OS → Automations, then resume the Base44 workflow.

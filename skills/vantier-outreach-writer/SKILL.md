@@ -1,6 +1,6 @@
 ---
 name: vantier-outreach-writer
-description: Writes personalized cold outreach for a Vantier lead (Instagram DM, 20-30s voice note script, 60-90s Loom-style video script, cold email and follow-ups) using real details about that business. Use when Juan asks to write a DM, email, voice note or video script for a lead, or "do outreach for <business>".
+description: Writes personalized cold outreach for a Vantier lead (Instagram DM, 20-30s voice note script, 60-90s Loom-style video script, cold email and follow-ups) using real details about that business. Use when Juan asks to write a DM, email, voice note or video script for a lead, or says "do outreach for" a business.
 ---
 
 # Vantier Outreach Writer

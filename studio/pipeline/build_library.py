@@ -10,6 +10,7 @@ OUT = os.path.join(ROOT, "out")
 LIB = os.path.join(os.path.dirname(ROOT), "vantier-instagram-library")
 plan = json.load(open(os.path.join(ROOT, "public/data/plan.json")))
 REELS, CARS = plan["reels"], plan["carousels"]
+SKIP = set(os.environ.get("SKIP", "").split())  # reel IDs whose video is still rendering
 
 MUSIC_DESC = {
     "pulse": "Vantier Original — “Pulse” (96 BPM, D minor; sub pulse, muted plucks, soft pads). Tension / problem-driven.",
@@ -103,7 +104,7 @@ def build():
         vid = os.path.join(OUT, f"{rid}_video.mp4")
         mixw = os.path.join(OUT, f"{rid}_mix.wav")
         final = os.path.join(d, f"{name}.mp4")
-        if os.path.exists(vid) and os.path.exists(mixw):
+        if os.path.exists(vid) and os.path.exists(mixw) and rid not in SKIP:
             if not (os.path.exists(final) and os.path.getmtime(final) > max(os.path.getmtime(vid), os.path.getmtime(mixw))):
                 run(["ffmpeg", "-y", "-i", vid, "-i", mixw, "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "medium", "-crf", "20",
                      "-pix_fmt", "yuv420p", "-profile:v", "high", "-r", "30", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest",

@@ -127,7 +127,7 @@ def build():
             lines.append(f"| {tc(tb['scene_s'])}–{tc(tb['scene_e'])} | {describe(b['scene'])} | {b['vo']} | {st} |")
             if b["scene"].get("stock"):
                 shot_md.append(f"- `{tc(tb['scene_s'])}–{tc(tb['scene_e'])}` — **{b['scene']['stock']}** (replaces: {b['scene']['t']} · {b['scene'].get('icon') or b['scene'].get('img')})")
-        lines += ["", "## Sound design", "Cut whooshes on scene changes, UI pops/dings on phone messages, ticks on data reveals, a low impact on the hook and big numbers. Music ducks about 6 dB under the voice. Master at -14 LUFS, -1 dBFS peak.", "",
+        lines += ["", "## Sound design", "Cut whooshes on scene changes, UI pops/dings on phone messages, ticks on data reveals, a low impact on the hook and big numbers. Music ducks about 6 dB under the voice. Master at -14 LUFS with a -1.5 dBFS peak ceiling.", "",
                   "## Trending-audio option", f"`audio-stem_vo-sfx_no-music.m4a` is the voice + SFX without music. To use a trending sound, post the Reel, add the sound in Instagram at about 8–12% volume and lower original audio to 100%. Look for {TRENDING_HINT[r['music']]}.", "",
                   "## Instagram caption", "", "```", caption_text(r).strip(), "```", ""]
         open(os.path.join(d, "script.md"), "w").write("\n".join(lines))

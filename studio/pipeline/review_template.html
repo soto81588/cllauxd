@@ -3,43 +3,92 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Manrope:wght@500;600;700;800&display=swap">
 <style>
-/* Layout: review board — brand header, tab bar, filterable 4:5 grid; a detail sheet plays the Reel or pages the carousel beside its caption. */
+/* Layout: Vantier's social media app. Sticky brand header + tabs; Approvals is a working queue (status chips, post rows with actions);
+   Library is the 4:5 grid of finished pieces; Schedule is a week-by-week table; a detail sheet plays a Reel or pages a carousel beside its caption and approval controls. */
 :root{
   --bg:#F5F2ED; --panel:#FBF9F5; --soft:#EEE8DE; --ink:#1A1A1A; --muted:#6B655B; --line:#DDD6CA;
   --gold:#A3895D; --gold-ink:#7E6740; --on-gold:#141414; --shade:rgba(20,18,15,.55);
+  --ok:#3F7A4E; --warn:#A8642A; --bad:#A33A2F; --chip:#E7E0D3;
   --serif:"Playfair Display",Georgia,"Times New Roman",serif; --sans:Manrope,system-ui,-apple-system,"Segoe UI",sans-serif;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#141414; --panel:#1C1B19; --soft:#24221F; --ink:#F5F2ED; --muted:#A39C90; --line:#34312C;
-  --gold:#C5A975; --gold-ink:#D9C196; --on-gold:#141414; --shade:rgba(0,0,0,.7); color-scheme:dark}}
+  --gold:#C5A975; --gold-ink:#D9C196; --on-gold:#141414; --shade:rgba(0,0,0,.7);
+  --ok:#7DB88B; --warn:#D9A066; --bad:#E07B6F; --chip:#2B2925; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#141414; --panel:#1C1B19; --soft:#24221F; --ink:#F5F2ED; --muted:#A39C90; --line:#34312C;
-  --gold:#C5A975; --gold-ink:#D9C196; --on-gold:#141414; --shade:rgba(0,0,0,.7); color-scheme:dark}
+  --gold:#C5A975; --gold-ink:#D9C196; --on-gold:#141414; --shade:rgba(0,0,0,.7);
+  --ok:#7DB88B; --warn:#D9A066; --bad:#E07B6F; --chip:#2B2925; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--sans);margin:0}
+a{color:var(--gold-ink)}
 .wrap{max-width:1240px;margin:0 auto;padding-inline:20px;padding-block:0 64px}
 header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
 .bar{max-width:1240px;margin:0 auto;padding:16px 20px 0;display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .word{font:600 20px var(--serif);letter-spacing:.32em}
 .word span{color:var(--gold)}
 .meta{color:var(--muted);font-size:13px;letter-spacing:.06em}
-nav{max-width:1240px;margin:8px auto 0;padding:0 20px;display:flex;gap:4px;overflow-x:auto}
+nav{max-width:1240px;margin:8px auto 0;padding:0 20px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
 nav a{font:700 13px var(--sans);letter-spacing:.04em;color:var(--muted);text-decoration:none;padding:10px 12px;border-bottom:2px solid transparent;white-space:nowrap}
 nav a[aria-current="page"]{color:var(--ink);border-color:var(--gold)}
-nav a:focus-visible,button:focus-visible,select:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
-.intro{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:28px;align-items:end;padding:36px 0 26px;border-bottom:1px solid var(--line)}
-.intro h1{font:600 clamp(30px,5vw,52px)/1.05 var(--serif);margin:0;text-wrap:balance;letter-spacing:-.01em}
+nav .n{color:var(--gold-ink);margin-left:5px;font-variant-numeric:tabular-nums}
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.intro{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:28px;align-items:end;padding:34px 0 24px;border-bottom:1px solid var(--line)}
+.intro h1{font:600 clamp(30px,5vw,50px)/1.05 var(--serif);margin:0;text-wrap:balance;letter-spacing:-.01em}
 .intro h1 em{color:var(--gold);font-weight:500}
 .intro p{color:var(--muted);margin:12px 0 0;max-width:62ch}
 .tally{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.tally div{border-top:2px solid var(--gold);padding-top:8px}
-.tally b{display:block;font:600 34px/1 var(--serif);font-variant-numeric:tabular-nums}
-.tally span{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tally div{border-top:2px solid var(--gold);padding-top:8px;min-width:0}
+.tally b{display:block;font:600 32px/1.05 var(--serif);font-variant-numeric:tabular-nums}
+.tally span{font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tally small{display:block;color:var(--muted);font-size:12px;margin-top:2px;overflow-wrap:anywhere}
 .filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:20px 0}
 .chip{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:7px 14px;font:700 13px var(--sans);cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-select{font:600 13px var(--sans);color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:7px 12px;max-width:100%}
+.chip .n{opacity:.7;margin-left:4px;font-variant-numeric:tabular-nums}
+select,input,textarea{font:600 13px var(--sans);color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:7px 10px;max-width:100%;min-width:0}
+select{border-radius:999px;padding:7px 12px}
+textarea{width:100%;resize:vertical;font-weight:500;line-height:1.5}
 .count{margin-left:auto;color:var(--muted);font-size:13px}
+.btn{all:unset;cursor:pointer;font:800 12px var(--sans);letter-spacing:.05em;padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--ink);white-space:nowrap}
+.btn:hover{border-color:var(--gold)}
+.btn.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.btn.gold{background:var(--gold);color:var(--on-gold);border-color:var(--gold)}
+.btn.danger{color:var(--bad)}
+.btn[disabled]{opacity:.5;cursor:default}
+.banner{border:1px solid var(--warn);background:color-mix(in srgb,var(--warn) 10%,var(--panel));border-radius:12px;padding:12px 16px;margin:18px 0 0;font-size:14px}
+.empty{color:var(--muted);text-align:center;padding:36px 0}
+/* status badges */
+.st{display:inline-block;font:800 10px var(--sans);letter-spacing:.12em;text-transform:uppercase;padding:3px 8px;border-radius:999px;background:var(--chip);color:var(--muted);white-space:nowrap}
+.st-approved{background:color-mix(in srgb,var(--ok) 18%,transparent);color:var(--ok)}
+.st-posted{background:color-mix(in srgb,var(--gold) 24%,transparent);color:var(--gold-ink)}
+.st-failed,.st-rejected{background:color-mix(in srgb,var(--bad) 16%,transparent);color:var(--bad)}
+.st-posting,.st-idea{background:color-mix(in srgb,var(--warn) 18%,transparent);color:var(--warn)}
+.st-draft{background:var(--gold);color:var(--on-gold)}
+/* approvals */
+.queue{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:4px 20px}
+.post{display:grid;grid-template-columns:112px minmax(0,1fr);gap:18px;padding:18px 0;border-top:1px solid var(--line)}
+.post:first-child{border-top:0}
+.thumb{all:unset;cursor:pointer;display:block;aspect-ratio:4/5;width:112px;max-width:100%;border-radius:8px;overflow:hidden;background:var(--soft);border:1px solid var(--line);position:relative}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb.none{cursor:default;display:grid;place-items:center;font:800 10px var(--sans);letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+.post .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.when{font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px;font-weight:700}
+.post h4{margin:6px 0 2px;font:600 18px/1.25 var(--serif);text-wrap:balance}
+.capx{white-space:pre-wrap;color:var(--muted);margin:6px 0 8px;max-width:72ch;overflow-wrap:anywhere;font-size:14px}
+.capx.clamp{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.links a{font-weight:700;font-size:12.5px;text-decoration:none;margin-right:12px}
+.err{color:var(--bad);font-size:13px;margin:6px 0}
+.small{color:var(--muted);font-size:12.5px}
+.acts{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:10px}
+.acts .grow{flex:1}
+.acts input{height:34px;padding-block:0}
+.acts input[type=datetime-local]{width:auto}
+.acts input.note{width:170px}
+.warn{color:var(--warn);font-size:12.5px;margin:6px 0 0}
+form.postform{display:grid;gap:8px;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:14px;margin:10px 0}
+form.postform h3{font:800 11px var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0}
+/* library grid */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:22px 18px}
 .card{all:unset;cursor:pointer;display:flex;flex-direction:column;gap:8px;min-width:0}
 .card .ph{position:relative;aspect-ratio:4/5;max-width:100%;border-radius:10px;overflow:hidden;background:var(--soft);border:1px solid var(--line)}
@@ -47,14 +96,15 @@ select{font:600 13px var(--sans);color:var(--ink);background:var(--panel);border
 .card:hover img{transform:scale(1.03)}
 .card:focus-visible .ph{outline:2px solid var(--gold);outline-offset:3px}
 .badge{position:absolute;left:8px;top:8px;background:var(--shade);color:#F5F2ED;backdrop-filter:blur(4px);font:700 11px var(--sans);letter-spacing:.08em;padding:4px 8px;border-radius:6px;text-transform:uppercase}
-.draft{position:absolute;right:8px;top:8px;background:var(--gold);color:var(--on-gold);font:800 10px var(--sans);letter-spacing:.14em;padding:4px 7px;border-radius:6px}
+.card .st{position:absolute;right:8px;top:8px;border-radius:6px}
+.card .st:not(.st-draft){background:var(--panel)}
 .card .id{font:600 12px var(--sans);letter-spacing:.12em;color:var(--gold-ink)}
 .card h3{font:600 17px/1.22 var(--serif);margin:0;text-wrap:balance}
 .card .sub{font-size:12.5px;color:var(--muted)}
 /* detail sheet */
 dialog{border:0;padding:0;background:var(--panel);color:var(--ink);width:min(1080px,calc(100% - 24px));max-height:calc(100% - 24px);border-radius:16px;box-shadow:0 30px 90px rgba(0,0,0,.35)}
 dialog::backdrop{background:var(--shade)}
-.sheet{display:grid;grid-template-columns:minmax(0,400px) minmax(0,1fr);gap:0;max-height:calc(100vh - 24px)}
+.sheet{display:grid;grid-template-columns:minmax(0,400px) minmax(0,1fr);max-height:calc(100vh - 24px)}
 .media{background:#0F0E0D;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:18px;gap:12px}
 .media video,.media img{width:100%;max-width:360px;border-radius:10px;display:block;background:#000}
 .media img{aspect-ratio:4/5;object-fit:cover}
@@ -62,21 +112,20 @@ dialog::backdrop{background:var(--shade)}
 .pager button{all:unset;cursor:pointer;width:34px;height:34px;border-radius:50%;border:1px solid #4a453d;color:#F5F2ED;display:grid;place-items:center;font-size:16px}
 .info{padding:26px 28px 28px;overflow-y:auto;min-width:0}
 .info .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
+.info > .row:first-child{padding-right:96px}
 .pill{font:800 10.5px var(--sans);letter-spacing:.14em;text-transform:uppercase;padding:4px 9px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
-.pill.gold{background:var(--gold);color:var(--on-gold);border-color:var(--gold)}
 .info h2{font:600 28px/1.12 var(--serif);margin:4px 0 6px;text-wrap:balance}
 .info h4{font:800 11px var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--gold-ink);margin:22px 0 8px}
+.approve{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-top:14px}
+.approve .acts{margin-top:8px}
 .hook{font:500 italic 19px/1.4 var(--serif)}
 .cap{white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:14px;max-height:320px;overflow-y:auto}
 .tags{color:var(--gold-ink);font-weight:700;font-size:13.5px;margin-top:8px}
 .vo{color:var(--muted);font-size:14.5px;max-width:65ch}
-.btn{all:unset;cursor:pointer;font:800 12px var(--sans);letter-spacing:.06em;padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel)}
-.btn.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .close{position:absolute;right:12px;top:12px;z-index:2}
-.info > .row:first-child{padding-right:96px}
 .navp{display:flex;gap:8px;margin-top:22px;flex-wrap:wrap}
 .path{font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted);overflow-wrap:anywhere}
-/* calendar */
+/* schedule */
 .weeks{display:grid;gap:26px;padding-top:24px}
 .week h3{font:600 22px var(--serif);margin:0 0 8px}
 .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
@@ -91,39 +140,51 @@ td a{color:var(--ink);font-weight:700;text-decoration:none;border-bottom:1px sol
 .note h3{font:600 19px var(--serif);margin:0 0 6px}
 .note p,.note li{color:var(--muted);font-size:14px}
 .note ul{padding-left:18px;margin:6px 0 0}
+#toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 18px;border-radius:999px;font-weight:700;font-size:13px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:9}
+#toast.show{opacity:1}
 @media (max-width:820px){
   .intro{grid-template-columns:1fr}
   .sheet{grid-template-columns:1fr;max-height:none}
   dialog{max-height:calc(100% - 16px);overflow-y:auto}
   .media video,.media img{max-width:300px}
 }
+@media (max-width:560px){
+  .post{grid-template-columns:72px minmax(0,1fr);gap:12px}
+  .thumb{width:72px}
+  .queue{padding:2px 14px}
+  .acts input.note{width:100%}
+  .tally b{font-size:26px}
+}
 @media (max-width:480px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 12px}.card h3{font-size:15px}}
-@media (prefers-reduced-motion:reduce){.card img{transition:none}}
+@media (prefers-reduced-motion:reduce){.card img,#toast{transition:none}}
 </style>
 
 <header class="top">
   <div class="bar">
     <div class="word">VANTIER <span>·</span> CONTENT</div>
-    <div class="meta">@official.vantier · Instagram library · All pieces in Draft</div>
+    <div class="meta">@official.vantier · <span id="sync">Connecting…</span></div>
   </div>
-  <nav aria-label="Sections">
-    <a href="#library" data-tab="library" aria-current="page">Library</a>
-    <a href="#calendar" data-tab="calendar">8-week calendar</a>
-    <a href="#notes" data-tab="notes">Production notes</a>
+  <nav aria-label="Sections" id="tabs">
+    <a href="#approvals" data-tab="approvals" aria-current="page">Approvals<span class="n" id="n-review"></span></a>
+    <a href="#library" data-tab="library">Library</a>
+    <a href="#schedule" data-tab="schedule">Schedule</a>
+    <a href="#notes" data-tab="notes">Notes</a>
   </nav>
 </header>
 
 <main class="wrap">
-  <section id="v-library">
+  <section id="v-approvals"></section>
+
+  <section id="v-library" hidden>
     <div class="intro">
       <div>
         <h1>Teach first. <em>Sell second.</em></h1>
-        <p>52 finished pieces built to turn service-business owners into inbound conversations: Reels with voice-over, synced captions, music and motion graphics, plus save-worthy carousels. Tap any piece to play it, read the script and copy the caption.</p>
+        <p>52 finished pieces built to turn service-business owners into inbound conversations: Reels with voice-over, synced captions, music and motion graphics, plus save-worthy carousels. Tap a piece to play it, approve it for posting, or copy the caption.</p>
       </div>
       <div class="tally">
-        <div><b id="t-all">52</b><span>Pieces</span></div>
-        <div><b id="t-reel">34</b><span>Reels</span></div>
-        <div><b id="t-car">18</b><span>Carousels</span></div>
+        <div><b>52</b><span>Pieces</span></div>
+        <div><b>34</b><span>Reels</span></div>
+        <div><b>18</b><span>Carousels</span></div>
       </div>
     </div>
     <div class="filters">
@@ -136,24 +197,16 @@ td a{color:var(--ink);font-weight:700;text-decoration:none;border-bottom:1px sol
     <div class="grid" id="grid"></div>
   </section>
 
-  <section id="v-calendar" hidden>
-    <div class="intro">
-      <div>
-        <h1>Eight weeks, <em>one post a day.</em></h1>
-        <p>Starts Monday, October 5. Reels go out at 6:50 PM ET and carousels at 10:50 AM ET, the Vantier OS publisher slots. Strong share and save hooks lead; authority and DM asks arrive once trust is built. No two posts in a row repeat the same call to action.</p>
-      </div>
-    </div>
-    <div class="weeks" id="weeks"></div>
-  </section>
+  <section id="v-schedule" hidden></section>
 
   <section id="v-notes" hidden>
     <div class="notes">
-      <div class="note"><h3>Status</h3><p>Every piece is a <b>Draft</b>. Approve in Vantier OS (Content) or your own checklist before scheduling. Files, captions and scripts live in the repository under <span class="path">vantier-instagram-library/</span>.</p></div>
-      <div class="note"><h3>Visuals</h3><p>Stock libraries were unreachable from the production environment, so the Reels use a custom motion system instead: line-art illustrations for each trade, phone and ad mockups, kinetic type and animated data, all timed to the narration. <span class="path">STOCK_SHOTLIST.md</span> names an optional licensed clip for every scene, by timecode.</p></div>
-      <div class="note"><h3>Check before posting</h3><ul><li>R01, R09, R20 and R25 include AI photo stills made on the ElevenLabs free plan. Confirm commercial rights or swap them for stock.</li><li>All numbers and the review in R21 are labeled examples. No client results are claimed.</li></ul></div>
-      <div class="note"><h3>Voice</h3><p>Narration uses Kokoro TTS (Apache-2.0, commercially safe) in one consistent voice, because the ElevenLabs account had too few credits left for 34 Reels. The biggest upgrade is re-voicing in Juan's own voice; the studio re-times captions and re-renders automatically.</p></div>
-      <div class="note"><h3>Audio</h3><p>Original Vantier music beds (Pulse, Glass, Drive), fully owned. Subtle sound design. Every Reel is mastered to -14 LUFS. Each Reel also ships a voice + SFX stem without music, for adding a trending sound in the app.</p></div>
-      <div class="note"><h3>Never targeted</h3><p>Restaurants, med spas, dentists, chiropractors, law firms, accounting firms and insurance agencies. An automated scan of every script, caption and slide confirms none appear. No piece depends on one city.</p></div>
+      <div class="note"><h3>How posting works</h3><p>Approve a post and the Instagram publisher sends it to <b>@official.vantier</b> at its scheduled time. It runs at 10:50 AM, 1:50 PM and 6:50 PM Eastern and posts one approved post per run. Back to draft holds a post; Reject parks it; Delete removes it from the queue. The publisher's on/off switch and run log stay in Vantier OS → Automations.</p></div>
+      <div class="note"><h3>Timing rules</h3><ul><li>A post goes out on the first run after its scheduled time.</li><li>Two posts in the same window go out one run apart.</li><li>A post that misses its time by more than 6 hours is marked failed instead of posting late. Reschedule and re-approve it.</li></ul></div>
+      <div class="note"><h3>Visuals</h3><p>Stock libraries were unreachable from the production environment, so the library Reels use a custom motion system: line-art illustrations for each trade, phone and ad mockups, kinetic type and animated data, all timed to the narration. <span class="path">STOCK_SHOTLIST.md</span> names an optional licensed clip for every scene, by timecode.</p></div>
+      <div class="note"><h3>Check before approving</h3><ul><li>R01, R09, R20 and R25 include AI photo stills made on the ElevenLabs free plan. Confirm commercial rights or swap them for stock.</li><li>All numbers and the review in R21 are labeled examples. No client results are claimed.</li></ul></div>
+      <div class="note"><h3>Voice and audio</h3><p>Narration uses Kokoro TTS (Apache-2.0, commercially safe) in one consistent voice. Re-voicing in Juan's own voice is the biggest upgrade; the studio re-times captions and re-renders automatically. Music beds are original and fully owned, mastered to -14 LUFS.</p></div>
+      <div class="note"><h3>Never targeted</h3><p>Restaurants, med spas, dentists, chiropractors, law firms, accounting firms and insurance agencies. An automated scan of every library script, caption and slide confirms none appear. No piece depends on one city.</p></div>
     </div>
   </section>
 </main>
@@ -165,48 +218,178 @@ td a{color:var(--ink);font-weight:700;text-decoration:none;border-bottom:1px sol
     <div class="info" id="info"></div>
   </div>
 </dialog>
+<div id="toast" role="status" aria-live="polite"></div>
 
 <script>
 const DATA = /*__DATA__*/null;
 const $ = (s) => document.querySelector(s);
 const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const byId = Object.fromEntries(DATA.items.map((x) => [x.id, x]));
-const state = {type: 'all', pillar: '', list: [], cur: null, slide: 0};
-const fmt = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+const fmtDur = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+const fmtDay = (iso) => iso ? new Date(iso).toLocaleDateString(undefined, {weekday: 'short', month: 'short', day: 'numeric'}) : 'Unscheduled';
+const fmtTime = (iso) => iso ? new Date(iso).toLocaleTimeString(undefined, {hour: 'numeric', minute: '2-digit'}) : '';
+const fmtStamp = (iso) => iso ? new Date(iso).toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'}) : '—';
+const toLocalInput = (iso) => { if (!iso) return ''; const d = new Date(iso); const p = (n) => String(n).padStart(2, '0'); return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}T${p(d.getHours())}:${p(d.getMinutes())}`; };
+const nowIso = () => new Date().toISOString();
+function toast(m) { const t = $('#toast'); t.textContent = m; t.classList.add('show'); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('show'), 2000); }
 
+// The Instagram publisher still reads Vantier OS until the move is finished; flip to true once it reads this page's posts.
+const PUBLISHER_CONNECTED = false;
+const NOT_CONNECTED = `<div class="banner"><b>Setup in progress.</b> The Instagram publisher still posts from Vantier OS → Content. Keep approving there for now; approvals made here won't post until the move is finished.</div>`;
+const S = {posts: [], db: undefined, ready: false, err: false};
+const UI = {tab: 'approvals', pf: 'review', type: 'all', pillar: '', editPost: null, newPost: false, confirmDel: null, expand: {}, cur: null, slide: 0, list: []};
+
+/* ---------- post helpers ---------- */
+const postFor = (pid) => S.posts.find((p) => p.piece_id === pid);
+const thumbOf = (p) => { const x = p.piece_id && byId[p.piece_id]; return x ? x.thumb : null; };
+const STATUS_LABEL = {draft: 'Draft', idea: 'Idea', approved: 'Approved', posting: 'Posting', posted: 'Posted', failed: 'Failed', rejected: 'Rejected'};
+const PF = [
+  ['review', 'Needs review', (p) => p.status === 'draft'],
+  ['ideas', 'Ideas', (p) => p.status === 'idea'],
+  ['queue', 'Approved queue', (p) => p.status === 'approved'],
+  ['posted', 'Posted', (p) => p.status === 'posted'],
+  ['problems', 'Failed / rejected', (p) => ['failed', 'rejected', 'posting'].includes(p.status)],
+  ['all', 'All', () => true],
+];
+function windowClash(p) {
+  if (p.status !== 'approved' || !p.scheduled_at) return null;
+  const t = Date.parse(p.scheduled_at);
+  return S.posts.find((q) => q._id !== p._id && q.status === 'approved' && q.scheduled_at && Math.abs(Date.parse(q.scheduled_at) - t) < 3 * 3600e3) || null;
+}
+
+async function write(fn, okMsg) {
+  if (!S.db) { toast('Sign in to claude.ai to make changes'); return false; }
+  try { await fn(); if (okMsg) toast(okMsg); return true; }
+  catch (e) { console.error(e); toast(e && e.code === 'invalid_argument' ? 'That change was refused. Reload and try again.' : e && e.code === 'quota_exceeded' ? 'Storage is full' : "Couldn't save. Try again."); return false; }
+}
+
+/* ---------- approvals ---------- */
+function postActions(p, compact) {
+  const a = [];
+  if (['draft', 'rejected', 'failed'].includes(p.status)) a.push(`<button class="btn gold" data-ps="${p._id}:approved">Approve</button>`);
+  if (['approved', 'failed', 'rejected'].includes(p.status)) a.push(`<button class="btn" data-ps="${p._id}:draft">Back to draft</button>`);
+  if (p.status === 'draft') a.push(`<button class="btn danger" data-ps="${p._id}:rejected">Reject</button>`);
+  if (p.status === 'idea') a.push(`<button class="btn gold" data-ps="${p._id}:draft">Move to drafts</button>`);
+  if (p.status !== 'posting') a.push(`<button class="btn danger" data-delpost="${p._id}">${UI.confirmDel === p._id ? 'Click again to delete' : 'Delete'}</button>`);
+  if (!compact && p.status !== 'posting') a.push(`<button class="btn" data-editpost="${p._id}">${UI.editPost === p._id ? 'Close editor' : 'Edit'}</button>`);
+  return `<div class="acts">${a.join('')}<span class="grow"></span>
+    <input type="datetime-local" value="${toLocalInput(p.scheduled_at)}" data-when="${p._id}" aria-label="Scheduled time">
+    <input class="note" placeholder="Note…" data-note="${p._id}" value="${esc(p.approval_note || '')}" aria-label="Note"></div>`;
+}
+
+function postRow(p) {
+  const th = thumbOf(p), open = UI.expand[p._id], clash = windowClash(p);
+  const media = p.piece_id ? '' : (p.media_urls || []).map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${p.post_type === 'reel' ? 'Watch reel' : p.post_type === 'image' ? 'View image' : 'Slide ' + (i + 1)} ↗</a>`).join('');
+  return `<div class="post">
+    ${th ? `<button class="thumb" data-openpiece="${p.piece_id}" aria-label="Preview ${esc(p.title)}"><img src="${th}" alt="" loading="lazy"></button>` : `<div class="thumb none">${esc(p.post_type || 'post')}</div>`}
+    <div style="min-width:0">
+      <div class="row"><span class="st st-${esc(p.status)}">${esc(STATUS_LABEL[p.status] || p.status)}</span><span class="pill">${esc(p.post_type || '')}</span>
+        <span class="when">${esc(fmtDay(p.scheduled_at))}${p.scheduled_at ? ' · ' + esc(fmtTime(p.scheduled_at)) : ''}</span>
+        ${p.permalink ? `<a class="small" href="${esc(p.permalink)}" target="_blank" rel="noopener">View on Instagram ↗</a>` : ''}</div>
+      <h4>${esc(p.title || 'Untitled')}</h4>
+      <div class="capx ${open ? '' : 'clamp'}">${esc(p.caption || '')}</div>
+      ${(p.caption || '').length > 200 ? `<button class="btn" data-cap="${p._id}">${open ? 'Less' : 'Full caption'}</button>` : ''}
+      ${media ? `<div class="links" style="margin-top:6px">${media}</div>` : ''}
+      ${p.error_message ? `<p class="err">${esc(p.error_message)}</p>` : ''}
+      ${clash ? `<p class="warn">Shares a posting window with “${esc(clash.title)}”. One goes out at the next run.</p>` : ''}
+      ${p.status === 'posted' ? `<p class="small">Posted ${esc(fmtStamp(p.posted_at))}</p>` : ''}
+      ${UI.editPost === p._id ? postForm(p) : ''}
+      ${p.status !== 'posted' ? postActions(p) : ''}
+    </div></div>`;
+}
+
+function postForm(p) {
+  const v = p || {post_type: 'reel', media_urls: []};
+  const types = ['reel', 'carousel', 'image'].map((t) => `<option value="${t}" ${v.post_type === t ? 'selected' : ''}>${t}</option>`).join('');
+  return `<form class="postform" data-pid="${p ? p._id : ''}">
+    <h3>${p ? 'Edit post' : 'New post'}</h3>
+    <input name="title" placeholder="Title (internal)" value="${esc(v.title || '')}" required>
+    <div class="acts" style="margin:0"><select name="post_type">${types}</select><input type="datetime-local" name="scheduled_at" value="${toLocalInput(v.scheduled_at)}" required>${p ? '' : `<select name="status"><option value="draft">Save as draft</option><option value="approved">Approve now</option></select>`}</div>
+    <textarea name="caption" rows="7" placeholder="Caption, with hashtags at the end">${esc(v.caption || '')}</textarea>
+    <textarea name="media_urls" rows="3" placeholder="Media links, one per line: a public .mp4 for a Reel, 2–10 .jpg images for a carousel">${esc((v.media_urls || []).join('\n'))}</textarea>
+    <p class="small" style="margin:0">Instagram has to be able to download each link (for example a GitHub raw link). Images must be JPEG.</p>
+    <div class="acts" style="margin:0"><button class="btn gold">${p ? 'Save changes' : 'Create post'}</button><button type="button" class="btn" data-cancelpost>Cancel</button></div></form>`;
+}
+
+function vApprovals() {
+  if (S.db === null) return `<div class="intro"><div><h1>Approvals</h1><p>Sign in to claude.ai and open this page there to approve, schedule and delete posts. The Library and Notes tabs work without signing in.</p></div></div>`;
+  if (!S.ready) return `<div class="intro"><div><h1>Approvals</h1><p>${S.err ? 'Couldn’t load your posts. Reload the page to try again.' : 'Loading your posts…'}</p></div></div>`;
+  const now = nowIso(), m = now.slice(0, 7);
+  const queue = S.posts.filter((p) => p.status === 'approved' && p.scheduled_at && p.scheduled_at >= now).sort((a, b) => a.scheduled_at.localeCompare(b.scheduled_at));
+  const drafts = S.posts.filter((p) => p.status === 'draft').length;
+  const postedM = S.posts.filter((p) => p.status === 'posted' && String(p.posted_at || '').slice(0, 7) === m).length;
+  const problems = S.posts.filter((p) => ['failed', 'posting'].includes(p.status)).length;
+  const f = PF.find((x) => x[0] === UI.pf) || PF[0];
+  const list = S.posts.filter(f[2]).sort((a, b) => UI.pf === 'posted' ? String(b.posted_at || b.scheduled_at || '').localeCompare(String(a.posted_at || a.scheduled_at || '')) : String(a.scheduled_at || '9').localeCompare(String(b.scheduled_at || '9')));
+  const next = queue[0];
+  return `<div class="intro">
+      <div><h1>Approve it. <em>It posts itself.</em></h1>
+        <p>Every Instagram post for @official.vantier lives here. Approve a post and the publisher sends it out at its scheduled time. Back to draft holds it.</p></div>
+      <div class="tally">
+        <div><b>${queue.length}</b><span>Queued</span><small>${next ? 'Next ' + esc(fmtDay(next.scheduled_at)) + ', ' + esc(fmtTime(next.scheduled_at)) : 'Queue is empty'}</small></div>
+        <div><b>${drafts}</b><span>To review</span><small>${problems ? `<span style="color:var(--bad)">${problems} need${problems === 1 ? 's' : ''} attention</span>` : 'No failed posts'}</small></div>
+        <div><b>${postedM}</b><span>Posted</span><small>This month</small></div>
+      </div>
+    </div>
+    ${PUBLISHER_CONNECTED ? '' : NOT_CONNECTED}
+    <div class="filters">${PF.map(([k, n, fn]) => `<button class="chip" data-pf="${k}" aria-pressed="${UI.pf === k}">${n}<span class="n">${S.posts.filter(fn).length}</span></button>`).join('')}
+      <span class="count"><button class="btn primary" data-newpost>+ New post</button></span></div>
+    ${UI.newPost ? postForm(null) : ''}
+    <div class="queue">${list.length ? list.map(postRow).join('') : `<p class="empty">${UI.pf === 'review' ? 'Nothing waiting for review.' : 'Nothing here.'}</p>`}</div>`;
+}
+
+/* ---------- library ---------- */
 const pillars = [...new Set(DATA.items.map((x) => x.pillar))].sort();
 $('#pillar').innerHTML += pillars.map((p) => `<option>${esc(p)}</option>`).join('');
-
+function pieceStatus(x) {
+  if (!S.ready) return null;
+  const p = postFor(x.id);
+  return p ? p.status : 'none';
+}
 function renderGrid() {
-  state.list = DATA.items.filter((x) => (state.type === 'all' || x.type === state.type) && (!state.pillar || x.pillar === state.pillar));
-  $('#grid').innerHTML = state.list.map((x) => `
-    <button class="card" data-id="${x.id}" aria-label="${esc(x.id + ' ' + x.title)}">
+  UI.list = DATA.items.filter((x) => (UI.type === 'all' || x.type === UI.type) && (!UI.pillar || x.pillar === UI.pillar));
+  $('#grid').innerHTML = UI.list.map((x) => {
+    const st = pieceStatus(x);
+    const chip = st === null ? '' : st === 'none' ? `<span class="st">Not queued</span>` : `<span class="st st-${st}">${esc(STATUS_LABEL[st] || st)}</span>`;
+    return `<button class="card" data-id="${x.id}" aria-label="${esc(x.id + ' ' + x.title)}">
       <div class="ph"><img src="${x.thumb}" alt="" loading="lazy">
-        <span class="badge">${x.type === 'reel' ? 'Reel · ' + fmt(x.dur) : 'Carousel · ' + x.n}</span>
-        <span class="draft">DRAFT</span></div>
+        <span class="badge">${x.type === 'reel' ? 'Reel · ' + fmtDur(x.dur) : 'Carousel · ' + x.n}</span>${chip}</div>
       <span class="id">${x.id}</span>
       <h3>${esc(x.title)}</h3>
       <span class="sub">${esc(x.pillar)} · ${esc(x.industry)}</span>
-    </button>`).join('');
-  $('#count').textContent = `${state.list.length} shown`;
+    </button>`;
+  }).join('');
+  $('#count').textContent = `${UI.list.length} shown`;
 }
 
-function media(x) {
-  if (x.type === 'reel') {
-    return x.video
-      ? `<video src="${x.video}" poster="${x.thumb}" controls playsinline preload="metadata"></video><div class="pager">9:16 PREVIEW · ${fmt(x.dur)}</div>`
-      : `<img src="${x.thumb}" alt=""><div class="pager">PREVIEW RENDERING</div>`;
-  }
-  return `<img src="${x.slides[state.slide]}" alt="Slide ${state.slide + 1}">
-    <div class="pager"><button id="sp" aria-label="Previous slide">‹</button><span>SLIDE ${state.slide + 1} / ${x.n}</span><button id="sn" aria-label="Next slide">›</button></div>`;
+/* ---------- detail sheet ---------- */
+function mediaHtml(x) {
+  if (x.type === 'reel') return `<video src="${x.video}" poster="${x.thumb}" controls playsinline preload="metadata"></video><div class="pager">9:16 PREVIEW · ${fmtDur(x.dur)}</div>`;
+  return `<img src="${x.slides[UI.slide]}" alt="Slide ${UI.slide + 1}">
+    <div class="pager"><button id="sp" aria-label="Previous slide">‹</button><span>SLIDE ${UI.slide + 1} / ${x.n}</span><button id="sn" aria-label="Next slide">›</button></div>`;
 }
-
-function open(id) {
-  const x = byId[id]; state.cur = id; state.slide = 0;
-  $('#media').innerHTML = media(x);
+function approveBox(x) {
+  if (S.db === null) return `<div class="approve"><span class="small">Open this page signed in to claude.ai to approve or schedule it.</span></div>`;
+  if (!S.ready) return `<div class="approve"><span class="small">Loading status…</span></div>`;
+  const p = postFor(x.id);
+  const pre = PUBLISHER_CONNECTED ? '' : `<p class="warn" style="margin:0 0 8px">Approvals here won't post until the move from Vantier OS is finished.</p>`;
+  if (!p) return pre +  `<div class="approve"><div class="row" style="margin:0"><span class="st">Not queued</span><span class="small">This piece isn't in Approvals.</span></div><div class="acts"><button class="btn gold" data-addpiece="${x.id}">Add to drafts</button></div></div>`;
+  const clash = windowClash(p);
+  return pre + `<div class="approve"><div class="row" style="margin:0"><span class="st st-${esc(p.status)}">${esc(STATUS_LABEL[p.status] || p.status)}</span>
+      <span class="when">${esc(fmtDay(p.scheduled_at))}${p.scheduled_at ? ' · ' + esc(fmtTime(p.scheduled_at)) : ''}</span>
+      ${p.permalink ? `<a class="small" href="${esc(p.permalink)}" target="_blank" rel="noopener">View on Instagram ↗</a>` : ''}</div>
+    ${p.error_message ? `<p class="err">${esc(p.error_message)}</p>` : ''}
+    ${clash ? `<p class="warn">Shares a posting window with “${esc(clash.title)}”.</p>` : ''}
+    ${p.status === 'posted' ? `<p class="small" style="margin:6px 0 0">Posted ${esc(fmtStamp(p.posted_at))}</p>` : postActions(p, true)}</div>`;
+}
+function openPiece(id) {
+  const x = byId[id]; if (!x) return;
+  UI.cur = id; UI.slide = 0;
+  $('#media').innerHTML = mediaHtml(x);
   $('#info').innerHTML = `
-    <div class="row"><span class="pill gold">Status: Draft</span><span class="pill">${x.type === 'reel' ? 'Reel' : 'Carousel'}</span><span class="pill">${esc(x.pillar)}</span><span class="pill">${esc(x.industry)}</span><span class="pill">CTA · ${esc(x.cta)}</span></div>
+    <div class="row"><span class="pill">${x.type === 'reel' ? 'Reel' : 'Carousel'}</span><span class="pill">${esc(x.pillar)}</span><span class="pill">${esc(x.industry)}</span><span class="pill">CTA · ${esc(x.cta)}</span></div>
     <h2>${x.id} · ${esc(x.title)}</h2>
+    <div id="approvebox">${approveBox(x)}</div>
     <h4>Hook</h4><div class="hook">“${esc(x.hook)}”</div>
     ${x.vo ? `<h4>Voice-over script</h4><div class="vo">${esc(x.vo)}</div>` : ''}
     <h4>Instagram caption</h4>
@@ -217,61 +400,130 @@ function open(id) {
   bindSheet();
   const d = $('#sheet'); if (!d.open) d.showModal();
 }
-
 function bindSheet() {
-  const x = byId[state.cur];
+  const x = byId[UI.cur];
   const sp = $('#sp'), sn = $('#sn');
-  if (sp) sp.onclick = () => { state.slide = (state.slide - 1 + x.n) % x.n; $('#media').innerHTML = media(x); bindSheet(); };
-  if (sn) sn.onclick = () => { state.slide = (state.slide + 1) % x.n; $('#media').innerHTML = media(x); bindSheet(); };
+  if (sp) sp.onclick = () => { UI.slide = (UI.slide - 1 + x.n) % x.n; $('#media').innerHTML = mediaHtml(x); bindSheet(); };
+  if (sn) sn.onclick = () => { UI.slide = (UI.slide + 1) % x.n; $('#media').innerHTML = mediaHtml(x); bindSheet(); };
   $('#copy').onclick = async (e) => {
     const text = x.caption + '\n\n' + x.tags.map((t) => '#' + t).join(' ');
     try { await navigator.clipboard.writeText(text); e.target.textContent = 'Copied'; }
     catch { const r = document.createRange(); r.selectNodeContents($('#captext')); const s = getSelection(); s.removeAllRanges(); s.addRange(r); e.target.textContent = 'Selected, press copy'; }
   };
-  const ids = (state.list.length ? state.list : DATA.items).map((i) => i.id);
-  const i = ids.indexOf(state.cur);
-  $('#prev').onclick = () => open(ids[(i - 1 + ids.length) % ids.length]);
-  $('#next').onclick = () => open(ids[(i + 1) % ids.length]);
+  const ids = (UI.tab === 'library' && UI.list.length ? UI.list : DATA.items).map((i) => i.id);
+  const i = ids.indexOf(UI.cur);
+  $('#prev').onclick = () => openPiece(ids[(i - 1 + ids.length) % ids.length]);
+  $('#next').onclick = () => openPiece(ids[(i + 1) % ids.length]);
 }
-
-$('#grid').addEventListener('click', (e) => { const c = e.target.closest('.card'); if (c) open(c.dataset.id); });
 $('#close').onclick = () => { const v = $('#media video'); if (v) v.pause(); $('#sheet').close(); };
-$('#sheet').addEventListener('close', () => { const v = $('#media video'); if (v) v.pause(); });
+$('#sheet').addEventListener('close', () => { const v = $('#media video'); if (v) v.pause(); UI.cur = null; });
 $('#sheet').addEventListener('keydown', (e) => {
-  const x = byId[state.cur]; if (!x || x.type !== 'carousel') return;
+  const x = byId[UI.cur]; if (!x || x.type !== 'carousel' || /^(INPUT|TEXTAREA)$/.test(e.target.tagName)) return;
   if (e.key === 'ArrowRight') $('#sn')?.click(); if (e.key === 'ArrowLeft') $('#sp')?.click();
 });
-document.querySelectorAll('.chip').forEach((b) => b.onclick = () => {
-  state.type = b.dataset.type;
-  document.querySelectorAll('.chip').forEach((c) => c.setAttribute('aria-pressed', String(c === b)));
-  renderGrid();
+
+/* ---------- schedule ---------- */
+function vSchedule() {
+  const head = `<div class="intro"><div><h1>What goes out, <em>and when.</em></h1><p>Approved posts and drafts with a date, week by week, in your local time. The publisher runs at 10:50 AM, 1:50 PM and 6:50 PM Eastern and posts one approved post per run.</p></div></div>` + (PUBLISHER_CONNECTED ? '' : NOT_CONNECTED);
+  if (S.db === null) return head + `<p class="empty">Sign in to claude.ai to see the live schedule.</p>`;
+  if (!S.ready) return head + `<p class="empty">Loading…</p>`;
+  const start = new Date(); start.setHours(0, 0, 0, 0);
+  const rows = S.posts.filter((p) => ['approved', 'draft', 'posting', 'failed'].includes(p.status) && p.scheduled_at && new Date(p.scheduled_at) >= start)
+    .sort((a, b) => a.scheduled_at.localeCompare(b.scheduled_at));
+  if (!rows.length) return head + `<p class="empty">Nothing scheduled yet. Approve a post to start the queue.</p>`;
+  const weekKey = (iso) => { const d = new Date(iso); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return d.toISOString(); };
+  const weeks = {}; rows.forEach((p) => { (weeks[weekKey(p.scheduled_at)] = weeks[weekKey(p.scheduled_at)] || []).push(p); });
+  return head + `<div class="weeks">${Object.entries(weeks).map(([k, ps]) => `<div class="week"><h3>Week of ${esc(new Date(k).toLocaleDateString(undefined, {month: 'long', day: 'numeric'}))}</h3>
+    <div class="tablewrap"><table><thead><tr><th>Date</th><th>Time</th><th>Post</th><th>Type</th><th>Status</th></tr></thead><tbody>
+    ${ps.map((p) => `<tr><td class="d">${esc(fmtDay(p.scheduled_at))}</td><td class="d">${esc(fmtTime(p.scheduled_at))}</td>
+      <td>${p.piece_id ? `<a href="#schedule" data-openpiece="${p.piece_id}">${esc(p.title)}</a>` : esc(p.title)}</td><td>${esc(p.post_type || '')}</td>
+      <td><span class="st st-${esc(p.status)}">${esc(STATUS_LABEL[p.status] || p.status)}</span></td></tr>`).join('')}
+    </tbody></table></div></div>`).join('')}</div>`;
+}
+
+/* ---------- render ---------- */
+let pendingRender = false;
+function render(force) {
+  const ae = document.activeElement;
+  if (!force && ae && ae !== document.body && /^(INPUT|TEXTAREA|SELECT)$/.test(ae.tagName) && ae.id !== 'pillar' && !['checkbox', 'radio'].includes(ae.type)) { pendingRender = true; return; }
+  pendingRender = false;
+  const drafts = S.ready ? S.posts.filter((p) => p.status === 'draft').length : 0;
+  $('#n-review').textContent = drafts ? drafts : '';
+  $('#sync').textContent = S.db === null ? 'Read-only' : S.ready ? 'Live · synced' : S.err ? 'Sync error' : 'Connecting…';
+  ['approvals', 'library', 'schedule', 'notes'].forEach((k) => { $('#v-' + k).hidden = k !== UI.tab; });
+  document.querySelectorAll('#tabs a').forEach((a) => a.setAttribute('aria-current', a.dataset.tab === UI.tab ? 'page' : 'false'));
+  if (UI.tab === 'approvals') $('#v-approvals').innerHTML = vApprovals();
+  if (UI.tab === 'schedule') $('#v-schedule').innerHTML = vSchedule();
+  if (UI.tab === 'library') renderGrid();
+  if (UI.cur && $('#sheet').open) { const b = $('#approvebox'); if (b) b.innerHTML = approveBox(byId[UI.cur]); }
+}
+document.addEventListener('focusout', () => setTimeout(() => { if (pendingRender) render(); }, 60));
+
+/* ---------- actions ---------- */
+function pieceDoc(x) {
+  return {status: 'draft', post_type: x.type, title: x.id + ' · ' + x.title, caption: x.caption + '\n\n' + x.tags.map((t) => '#' + t).join(' '),
+    media_urls: x.media_urls, cover_url: x.cover_url || null, scheduled_at: x.sched, piece_id: x.id, source: 'content-library', created_at: nowIso(), updated_at: nowIso()};
+}
+document.addEventListener('click', async (e) => {
+  const t = e.target.closest('[data-tab],[data-type],[data-pf],[data-ps],[data-delpost],[data-editpost],[data-newpost],[data-cancelpost],[data-cap],[data-openpiece],[data-addpiece],.card');
+  if (!t) return; const d = t.dataset;
+  if (d.tab) { e.preventDefault(); UI.tab = d.tab; try { localStorage.setItem('vcl.tab', UI.tab); } catch {} render(true); window.scrollTo(0, 0); return; }
+  if (d.type) { UI.type = d.type; document.querySelectorAll('[data-type]').forEach((c) => c.setAttribute('aria-pressed', String(c === t))); renderGrid(); return; }
+  if (t.classList.contains('card')) { openPiece(d.id); return; }
+  if (d.openpiece) { e.preventDefault(); openPiece(d.openpiece); return; }
+  if (d.pf) { UI.pf = d.pf; render(true); return; }
+  if ('newpost' in d) { UI.newPost = !UI.newPost; UI.editPost = null; render(true); return; }
+  if (d.editpost) { UI.editPost = UI.editPost === d.editpost ? null : d.editpost; UI.newPost = false; render(true); return; }
+  if ('cancelpost' in d) { UI.newPost = false; UI.editPost = null; render(true); return; }
+  if (d.cap) { UI.expand[d.cap] = !UI.expand[d.cap]; render(true); return; }
+  if (d.addpiece) { const x = byId[d.addpiece]; t.disabled = true; await write(() => S.db.doc('posts/lib-' + x.id).set(pieceDoc(x)), 'Added to drafts'); return; }
+  if (d.delpost) {
+    if (UI.confirmDel !== d.delpost) { UI.confirmDel = d.delpost; render(true); return; }
+    UI.confirmDel = null; await write(() => S.db.doc('posts/' + d.delpost).delete(), 'Deleted'); return;
+  }
+  if (d.ps) {
+    const [id, st] = d.ps.split(':'); const p = S.posts.find((x) => x._id === id); if (!p) return;
+    if (st === 'approved') {
+      if (!p.scheduled_at || Date.parse(p.scheduled_at) < Date.now() - 5 * 60e3) { toast('Pick a future date and time first'); return; }
+      if (!(p.media_urls || []).length) { toast('Add a media link before approving'); return; }
+    }
+    const patch = {status: st, updated_at: nowIso()}; if (st === 'approved') patch.error_message = null;
+    t.disabled = true;
+    await write(() => S.db.doc('posts/' + id).update(patch), st === 'approved' ? 'Approved · posts ' + fmtDay(p.scheduled_at) + ', ' + fmtTime(p.scheduled_at) : st === 'draft' ? 'Moved to drafts' : 'Rejected');
+  }
 });
-$('#pillar').onchange = (e) => { state.pillar = e.target.value; renderGrid(); };
+document.addEventListener('change', async (e) => {
+  const t = e.target, d = t.dataset;
+  if (t.id === 'pillar') { UI.pillar = t.value; renderGrid(); return; }
+  if (d.when) { if (!t.value) return; const iso = new Date(t.value).toISOString(); await write(() => S.db.doc('posts/' + d.when).update({scheduled_at: iso, updated_at: nowIso()}), 'Rescheduled to ' + fmtDay(iso) + ', ' + fmtTime(iso)); return; }
+  if (d.note !== undefined && d.note) { await write(() => S.db.doc('posts/' + d.note).update({approval_note: t.value, updated_at: nowIso()}), 'Note saved'); }
+});
+document.addEventListener('submit', async (e) => {
+  if (!e.target.classList.contains('postform')) return; e.preventDefault();
+  const fd = Object.fromEntries(new FormData(e.target));
+  const media = String(fd.media_urls || '').split(/\s+/).map((x) => x.trim()).filter(Boolean);
+  if (fd.post_type === 'carousel' && (media.length < 2 || media.length > 10)) { toast('Carousels need 2–10 images'); return; }
+  if (fd.post_type !== 'carousel' && media.length < 1) { toast('Add a media link'); return; }
+  const when = fd.scheduled_at ? new Date(fd.scheduled_at).toISOString() : null;
+  if (fd.status === 'approved' && (!when || Date.parse(when) < Date.now())) { toast('Pick a future date and time to approve'); return; }
+  const data = {title: String(fd.title || '').trim(), post_type: fd.post_type, caption: fd.caption || '', media_urls: media, scheduled_at: when, updated_at: nowIso()};
+  const pid = e.target.dataset.pid;
+  if (pid) { if (await write(() => S.db.doc('posts/' + pid).update(data), 'Post saved')) UI.editPost = null; }
+  else if (await write(() => S.db.collection('posts').add({...data, status: fd.status || 'draft', source: 'content-library', created_at: nowIso()}), fd.status === 'approved' ? 'Post created and approved' : 'Draft created')) UI.newPost = false;
+  render(true);
+});
 
-function renderCalendar() {
-  const start = new Date(DATA.start + 'T12:00:00');
-  let day = 0;
-  $('#weeks').innerHTML = DATA.order.map((week, wi) => `
-    <div class="week"><h3>Week ${wi + 1}</h3><div class="tablewrap"><table>
-      <thead><tr><th>Date</th><th>Slot (ET)</th><th>Piece</th><th>Pillar</th><th>CTA</th></tr></thead><tbody>
-      ${week.map((id) => {
-        const x = byId[id]; const d = new Date(start); d.setDate(start.getDate() + day++);
-        return `<tr><td class="d">${d.toLocaleDateString('en-US', {weekday: 'short', month: 'short', day: 'numeric'})}</td>
-          <td class="d">${x.type === 'reel' ? '6:50 PM' : '10:50 AM'}</td>
-          <td><a href="#calendar" data-open="${id}">${id} · ${esc(x.title)}</a><div class="sub" style="color:var(--muted);font-size:12.5px">${x.type === 'reel' ? 'Reel · ' + fmt(x.dur) : 'Carousel · ' + x.n + ' slides'}</div></td>
-          <td>${esc(x.pillar)}</td><td>${esc(x.cta)}</td></tr>`;
-      }).join('')}</tbody></table></div></div>`).join('');
-}
-$('#weeks').addEventListener('click', (e) => { const a = e.target.closest('[data-open]'); if (a) { e.preventDefault(); open(a.dataset.open); } });
-
-function showTab(t) {
-  ['library', 'calendar', 'notes'].forEach((k) => { $('#v-' + k).hidden = k !== t; });
-  document.querySelectorAll('nav a').forEach((a) => a.setAttribute('aria-current', a.dataset.tab === t ? 'page' : 'false'));
-}
-document.querySelectorAll('nav a').forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); showTab(a.dataset.tab); try { localStorage.setItem('vcl.tab', a.dataset.tab); } catch {} }));
-
-renderGrid(); renderCalendar();
+/* ---------- boot ---------- */
 let t0 = (location.hash || '').slice(1);
-if (!['library', 'calendar', 'notes'].includes(t0)) { try { t0 = localStorage.getItem('vcl.tab') || 'library'; } catch { t0 = 'library'; } }
-showTab(['library', 'calendar', 'notes'].includes(t0) ? t0 : 'library');
+if (!['approvals', 'library', 'schedule', 'notes'].includes(t0)) { try { t0 = localStorage.getItem('vcl.tab') || 'approvals'; } catch { t0 = 'approvals'; } }
+UI.tab = ['approvals', 'library', 'schedule', 'notes'].includes(t0) ? t0 : 'approvals';
+render(true);
+(async () => {
+  let db = null;
+  try { db = window.claude && window.claude.use ? await window.claude.use('db') : null; } catch { db = null; }
+  S.db = db || null;
+  if (!S.db) { render(true); return; }
+  S.db.collection('posts').onSnapshot((snap) => { S.posts = snap.docs.map((x) => ({...x.data(), _id: x.id})); S.ready = true; S.err = false; render(); },
+    (err) => { console.error('posts', err); S.err = true; render(true); });
+})();
 </script>

@@ -4,6 +4,7 @@ Usage: python3 pipeline/review_page.py <out_dir>
 Reads ../vantier-instagram-library (final media) and public/data/plan.json.
 """
 import json, os, subprocess, sys, html
+from datetime import date, timedelta
 from PIL import Image
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -14,6 +15,15 @@ src = open(os.path.join(ROOT, "pipeline/build_library.py")).read()
 ns = {}
 exec(src[src.index("ORDER = ["):src.index("\n\n\ndef calendar")], ns)
 ORDER = ns["ORDER"]
+# Public copies Instagram downloads from (pushed to the repo's reels-media branch under library/).
+RAW = "https://raw.githubusercontent.com/soto81588/cllauxd/reels-media/library/"
+# Proposed slots for the library drafts: one a day from Nov 1, 2026 (after the queue already approved in Vantier OS),
+# in calendar order. Reels 6:00 PM ET (6:50 run), carousels 1:00 PM ET (1:50 run). Nov 1 onward is EST (UTC-5).
+SLOT_START = date(2026, 11, 1)
+SLOT_ORDER = [i for week in ORDER for i in week]
+def slot(pid, kind):
+    d = SLOT_START + timedelta(days=SLOT_ORDER.index(pid))
+    return f"{d.isoformat()}T{'23' if kind == 'reel' else '18'}:00:00.000Z"
 for d in ("thumbs", "slides", "video"):
     os.makedirs(os.path.join(OUT, d), exist_ok=True)
 
@@ -41,7 +51,9 @@ for r in plan["reels"]:
                       dur=round(timing["duration"]), hook=r["beats"][0]["vo"], vo=" ".join(b["vo"] for b in r["beats"]),
                       caption=r["caption"].strip(), tags=r["tags"], music=r["music"],
                       thumb=f"thumbs/{rid}.jpg", video=f"video/{rid}.mp4" if os.path.exists(prev) else None,
-                      folder=f"reels/{rid}-{r['slug']}"))
+                      folder=f"reels/{rid}-{r['slug']}",
+                      media_urls=[f"{RAW}reels/{rid}-{r['slug']}.mp4"], cover_url=f"{RAW}reels/{rid}-{r['slug']}.cover.jpg",
+                      sched=slot(rid, "reel")))
 for c in plan["carousels"]:
     cid = c["id"]
     folder = os.path.join(LIB, "carousels", f"{cid}-{c['slug']}")
@@ -53,7 +65,9 @@ for c in plan["carousels"]:
         slides.append(f"slides/{cid}-{i + 1:02d}.jpg")
     items.append(dict(id=cid, type="carousel", title=c["title"], pillar=c["pillar"], industry=c["industry"], cta=c["cta"],
                       n=len(slides), hook=c["slides"][0].get("title", ""), caption=c["caption"].strip(), tags=c["tags"],
-                      thumb=slides[0], slides=slides, folder=f"carousels/{cid}-{c['slug']}"))
+                      thumb=slides[0], slides=slides, folder=f"carousels/{cid}-{c['slug']}",
+                      media_urls=[f"{RAW}carousels/{cid}-{c['slug']}/slide-{i + 1:02d}.jpg" for i in range(len(slides))],
+                      sched=slot(cid, "carousel")))
 
 data = dict(items=items, order=ORDER, start="2026-10-05")
 tpl = open(os.path.join(ROOT, "pipeline/review_template.html")).read()

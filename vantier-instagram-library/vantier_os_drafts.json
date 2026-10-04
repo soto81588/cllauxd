@@ -1,0 +1,914 @@
+{
+ "note": "All posts are drafts. Replace media_paths with public URLs before approving; Instagram must be able to download them.",
+ "posts": [
+  {
+   "doc_id": "lib-r01",
+   "title": "R01 · You Don't Have a Lead Problem",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-05T18:50:00-04:00",
+   "caption": "Most service businesses don't need more leads. They need fewer leads leaking out of the bucket.\n\nBefore you spend another dollar on Facebook or Instagram ads, look at what happens after the phone rings:\n\n→ How many calls go to voicemail while you're on a job?\n→ How fast does someone call back?\n→ Does anyone follow up after the first try?\n\nIf any of those answers make you wince, that's where your growth is hiding. Fix it and every dollar you spend on lead generation works harder.\n\nSave this for your next team meeting, and follow @official.vantier for marketing that books jobs, not just calls.\n\n#servicebusiness #leadgeneration #plumbingbusiness #hvacbusiness #smallbusinessmarketing",
+   "media_paths": [
+    "reels/R01-not-a-lead-problem/R01-not-a-lead-problem.mp4"
+   ],
+   "cover_path": "reels/R01-not-a-lead-problem/cover.jpg",
+   "pillar": "Conversion",
+   "industry": "Plumbing / HVAC",
+   "cta": "Follow"
+  },
+  {
+   "doc_id": "lib-c01",
+   "title": "C01 · 5 Meta Ad Mistakes Quietly Draining Your Budget",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-10-06T10:50:00-04:00",
+   "caption": "Most service business ad accounts we look at have at least one of these five mistakes. None of them are about creativity. They're setup:\n\n1. Wrong objective. Engagement and traffic campaigns find clickers, not customers.\n2. No tracking. Without the pixel and Conversions API, Meta can't learn who books.\n3. Too many ad sets on a small budget. Nothing gets enough data to learn.\n4. Judging after two days. Give new ads 5–7 days and enough spend.\n5. Paying for clicks outside your service area. Tighten the radius and exclude zip codes you don't serve.\n\nFix these and results often improve without spending a dollar more.\n\nSave this before your next campaign and follow @official.vantier for more Facebook and Instagram ads strategy.\n\n#metaads #facebookads #admistakes #paidadvertising #servicebusinessmarketing",
+   "media_paths": [
+    "carousels/C01-meta-ad-setup-mistakes/slide-01.jpg",
+    "carousels/C01-meta-ad-setup-mistakes/slide-02.jpg",
+    "carousels/C01-meta-ad-setup-mistakes/slide-03.jpg",
+    "carousels/C01-meta-ad-setup-mistakes/slide-04.jpg",
+    "carousels/C01-meta-ad-setup-mistakes/slide-05.jpg",
+    "carousels/C01-meta-ad-setup-mistakes/slide-06.jpg",
+    "carousels/C01-meta-ad-setup-mistakes/slide-07.jpg",
+    "carousels/C01-meta-ad-setup-mistakes/slide-08.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Advertising Mistakes",
+   "industry": "Service businesses",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-r13",
+   "title": "R13 · The Cheapest Leads Are the Most Expensive",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-07T18:50:00-04:00",
+   "caption": "The cheapest leads are often the most expensive ones. Here's the math (example numbers):\n\nCampaign A: $15 per lead. 1 in 20 books a move.\n→ 20 × $15 = $300 per booked move\n\nCampaign B: $45 per lead. 1 in 4 books a move.\n→ 4 × $45 = $180 per booked move\n\nCampaign A \"wins\" on cost per lead and loses where it actually matters.\n\nIf you only look at cost per lead, you'll keep scaling the campaign that brings in tire-kickers and cutting the one that brings in real customers. Track every lead through to booked jobs and judge your ads on cost per booked job.\n\nShare this with whoever runs your ads.\n\n#movingcompany #costperlead #customeracquisition #facebookads #marketingmath",
+   "media_paths": [
+    "reels/R13-cheapest-leads-most-expensive/R13-cheapest-leads-most-expensive.mp4"
+   ],
+   "cover_path": "reels/R13-cheapest-leads-most-expensive/cover.jpg",
+   "pillar": "Customer Acquisition",
+   "industry": "Moving",
+   "cta": "Share"
+  },
+  {
+   "doc_id": "lib-r07",
+   "title": "R07 · The Five-Minute Rule",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-08T18:50:00-04:00",
+   "caption": "Speed to lead is the most underrated lever in a service business.\n\nWhen someone fills out a form for AC repair, a leak or a quote, they're rarely filling out just one. They're usually contacting two or three companies at once. And the job often goes to whoever responds first, not the cheapest and not the one with the most reviews.\n\nSet a five-minute rule:\n→ An automatic text the second a lead comes in\n→ A real phone call within five minutes\n→ If nobody can do that during jobs, that's your next hire, before more ad spend\n\nFaster response alone can turn the same ad budget into more booked jobs.\n\nFollow @official.vantier for more lead generation systems for service businesses.\n\n#leadgeneration #speedtolead #hvacmarketing #plumbingmarketing #servicebusiness",
+   "media_paths": [
+    "reels/R07-five-minute-rule/R07-five-minute-rule.mp4"
+   ],
+   "cover_path": "reels/R07-five-minute-rule/cover.jpg",
+   "pillar": "Lead Generation",
+   "industry": "HVAC / Plumbing",
+   "cta": "Follow"
+  },
+  {
+   "doc_id": "lib-c03",
+   "title": "C03 · How Much Can You Afford to Pay for a Lead?",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-10-09T10:50:00-04:00",
+   "caption": "How much can you afford to pay for a lead? Most owners guess. Here's the math (example numbers for a roofing or remodeling company):\n\nStep 1: Profit per job\n$8,000 average job × 35% gross margin = $2,800\n\nStep 2: What you're willing to invest to win that job\n20% of $2,800 = $560 max cost per booked job\n\nStep 3: Your max cost per lead\nIf 1 in 4 leads books, $560 × 0.25 = $140 per lead\n\nSo a $90 lead that feels expensive is actually well under your ceiling.\n\nWhen you know these three numbers, you stop panicking over cost per lead and start making confident decisions about your ad budget.\n\nSave this and plug in your own numbers.\n\n#knowyournumbers #costperlead #roofingbusiness #remodelingbusiness #businessgrowth",
+   "media_paths": [
+    "carousels/C03-max-you-can-pay-for-a-lead/slide-01.jpg",
+    "carousels/C03-max-you-can-pay-for-a-lead/slide-02.jpg",
+    "carousels/C03-max-you-can-pay-for-a-lead/slide-03.jpg",
+    "carousels/C03-max-you-can-pay-for-a-lead/slide-04.jpg",
+    "carousels/C03-max-you-can-pay-for-a-lead/slide-05.jpg",
+    "carousels/C03-max-you-can-pay-for-a-lead/slide-06.jpg",
+    "carousels/C03-max-you-can-pay-for-a-lead/slide-07.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Business Growth",
+   "industry": "Roofing / Remodeling",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-r02",
+   "title": "R02 · Stop Boosting Posts",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-10T18:50:00-04:00",
+   "caption": "The boost button is the most expensive \"easy\" button in marketing.\n\nWhen you boost a post, you're telling Meta to find people likely to like, comment and share. That's great for engagement. It's terrible for getting a cleaning, a quote request or a booked job.\n\nIf your goal is customers, build a real campaign in Ads Manager:\n1. Choose the Leads objective\n2. Set a tight radius around the areas you actually serve\n3. Lead with one clear offer\n4. Use a form that asks one or two qualifying questions\n\nSame budget. Very different results.\n\nKnow someone who's still boosting? Send this to them.\n\n#facebookads #instagramads #paidadvertising #cleaningbusiness #servicebusinessmarketing",
+   "media_paths": [
+    "reels/R02-stop-boosting-posts/R02-stop-boosting-posts.mp4"
+   ],
+   "cover_path": "reels/R02-stop-boosting-posts/cover.jpg",
+   "pillar": "Paid Advertising",
+   "industry": "Cleaning",
+   "cta": "Share"
+  },
+  {
+   "doc_id": "lib-r04",
+   "title": "R04 · Why Your Competitor Gets Customers You Should Be Getting",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-11T18:50:00-04:00",
+   "caption": "It's one of the most frustrating things in a service business: watching a competitor who does worse work stay busier than you.\n\nHere's the uncomfortable truth. Homeowners can't judge your quality until after the job is done. So they decide based on what they CAN see:\n\n• Who shows up when they're scrolling\n• Who answers or texts back first\n• Who looks the most established\n\nYour competitor isn't beating you on skill. They're beating you on visibility and speed. And unlike skill, those are fast to fix.\n\nFollow @official.vantier for the playbook on winning the jobs you should already be getting.\n\n#competitoranalysis #localbusinessmarketing #homeservices #contractormarketing #customeracquisition",
+   "media_paths": [
+    "reels/R04-worse-work-busier/R04-worse-work-busier.mp4"
+   ],
+   "cover_path": "reels/R04-worse-work-busier/cover.jpg",
+   "pillar": "Competitor / Market Analysis",
+   "industry": "Home services",
+   "cta": "Follow"
+  },
+  {
+   "doc_id": "lib-r03",
+   "title": "R03 · If I Had $1,000 to Market a Local Service Business",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-12T18:50:00-04:00",
+   "caption": "If I had $1,000 to market a local service business, here's exactly where it would go:\n\n$0 → new logo, website redesign, \"branding\"\n$600 → one Meta lead campaign. One service, one offer, three different video hooks.\n$200 → retargeting everyone who watched those videos but didn't reach out\n$200 → reserve. After two weeks, it goes to whichever hook booked the most jobs.\n\nNo guessing. No spreading a small budget across ten ideas. Just money following results.\n\nThis works for roofers, HVAC, cleaners, detailers, landscapers and almost any local service business.\n\nSave this so the plan is ready when you are.\n\n#smallbusinessmarketing #metaads #advertisingstrategy #localbusiness #businessgrowth",
+   "media_paths": [
+    "reels/R03-1000-dollar-plan/R03-1000-dollar-plan.mp4"
+   ],
+   "cover_path": "reels/R03-1000-dollar-plan/cover.jpg",
+   "pillar": "Business Growth",
+   "industry": "Local service (any)",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-r09",
+   "title": "R09 · Your Service Is Great. Your Marketing Isn't Saying It.",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-13T18:50:00-04:00",
+   "caption": "Your service might be excellent. But if your ad says \"Quality service. Family owned. Call today!\", you sound exactly like every other company in your city.\n\nVague claims don't build trust. Specifics do.\n\n❌ \"Quality service you can trust\"\n✅ \"Same-day AC repair. Upfront price before we touch anything. If it breaks again in 90 days, the visit's on us.\"\n\nThe second one isn't better writing. It's a clearer promise. It tells people what happens, when, and what they're protected from.\n\nLook at your own ads and website headline. Could a competitor swap in their name and use it as-is? If so, it's not specific enough.\n\nComment your trade below and we'll show you how to make your message specific.\n\n#hvacmarketing #marketingtips #copywriting #servicebusinessmarketing #hvaccontractor",
+   "media_paths": [
+    "reels/R09-specifics-sell/R09-specifics-sell.mp4"
+   ],
+   "cover_path": "reels/R09-specifics-sell/cover.jpg",
+   "pillar": "Marketing Mistakes",
+   "industry": "HVAC",
+   "cta": "Comment"
+  },
+  {
+   "doc_id": "lib-c04",
+   "title": "C04 · 8 Offers That Beat 'Free Estimate'",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-10-14T10:50:00-04:00",
+   "caption": "\"Free estimate\" isn't an offer anymore. Everyone has one. Here are 8 offers that give people a real reason to pick you:\n\n🏠 Roofing: Free 20-minute inspection with a photo report of every issue\n❄️ HVAC: Tune-up + priority scheduling all summer, or your next visit is free\n🧽 Cleaning: First clean with a re-clean guarantee within 24 hours\n🌿 Landscaping: Book spring cleanup now and lock in this year's price\n🚗 Detailing: Interior reset while you wait, or free pickup and drop-off\n🏋️ Gyms: 14-day starter program, one price, no contract\n🐜 Pest control: Pests come back between visits? So do we, free\n🔨 Remodeling: See your new kitchen in 3D before you sign\n\nNotice the pattern: specific, low-risk, and easy to say yes to.\n\nSave this, and make yours more specific than your competitor's.\n\n#offercreation #marketingideas #servicebusiness #smallbusinessmarketing #leadgeneration",
+   "media_paths": [
+    "carousels/C04-offers-that-beat-free-estimate/slide-01.jpg",
+    "carousels/C04-offers-that-beat-free-estimate/slide-02.jpg",
+    "carousels/C04-offers-that-beat-free-estimate/slide-03.jpg",
+    "carousels/C04-offers-that-beat-free-estimate/slide-04.jpg",
+    "carousels/C04-offers-that-beat-free-estimate/slide-05.jpg",
+    "carousels/C04-offers-that-beat-free-estimate/slide-06.jpg",
+    "carousels/C04-offers-that-beat-free-estimate/slide-07.jpg",
+    "carousels/C04-offers-that-beat-free-estimate/slide-08.jpg",
+    "carousels/C04-offers-that-beat-free-estimate/slide-09.jpg",
+    "carousels/C04-offers-that-beat-free-estimate/slide-10.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Offer Creation",
+   "industry": "Multiple trades",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-r17",
+   "title": "R17 · Nobody Wants to Buy a Water Heater",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-15T18:50:00-04:00",
+   "caption": "Nobody wants to buy a water heater. They want a hot shower before work tomorrow.\n\nMost plumbing ads lead with the company: years in business, certifications, \"quality you can trust.\" That's all important, but it's not what the customer is thinking about at 6 a.m. with a cold shower.\n\nThey're thinking: when can I shower again?\n\nSo say that:\n\"No hot water? New heater installed tomorrow, old one hauled away.\"\n\nLead with their problem and the moment it's solved. Use your credentials as the proof underneath, not as the headline.\n\nThis works for every trade: sell the outcome, back it up with the credentials.\n\nFollow @official.vantier for ads that talk like your customers think.\n\n#plumbingbusiness #marketingpsychology #adcopy #plumbingmarketing #servicebusinessmarketing",
+   "media_paths": [
+    "reels/R17-sell-the-outcome/R17-sell-the-outcome.mp4"
+   ],
+   "cover_path": "reels/R17-sell-the-outcome/cover.jpg",
+   "pillar": "Marketing Psychology",
+   "industry": "Plumbing",
+   "cta": "Follow"
+  },
+  {
+   "doc_id": "lib-c08",
+   "title": "C08 · 4 Follow-Up Texts That Turn Leads Into Booked Jobs",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-10-16T10:50:00-04:00",
+   "caption": "Most leads don't book because nobody followed up. Here are four texts you can copy, paste and set up as templates today:\n\n1️⃣ Instantly: \"Hi Sarah, this is Mike with [Company]. Got your request for a quote. Calling you in 2 minutes from this number.\"\n\n2️⃣ No answer, 1 hour later: \"Tried you just now! When's a good time today for a 3-minute call? Or text me a photo and I'll ballpark it.\"\n\n3️⃣ Next morning: \"Morning Sarah! I have Thursday 10am or Friday 2pm open for the estimate. Want one?\"\n\n4️⃣ Day 4: \"Should I close out your request, or do you still want help with the [project]? Either is totally fine.\"\n\nWhy #4 works: giving people an easy way to say no makes them far more likely to reply at all.\n\nSave this and set them up today.\n\n#followup #leadconversion #smsmarketing #homeservices #salestips",
+   "media_paths": [
+    "carousels/C08-follow-up-texts/slide-01.jpg",
+    "carousels/C08-follow-up-texts/slide-02.jpg",
+    "carousels/C08-follow-up-texts/slide-03.jpg",
+    "carousels/C08-follow-up-texts/slide-04.jpg",
+    "carousels/C08-follow-up-texts/slide-05.jpg",
+    "carousels/C08-follow-up-texts/slide-06.jpg",
+    "carousels/C08-follow-up-texts/slide-07.jpg",
+    "carousels/C08-follow-up-texts/slide-08.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Lead Generation",
+   "industry": "Home services",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-r10",
+   "title": "R10 · 10% Off Is Not an Offer",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-17T18:50:00-04:00",
+   "caption": "10% off doesn't move people. Removing their risk does.\n\nWhen someone hesitates to book a lawn care company (or any home service), it's rarely about saving $20. It's about doubt:\n\n→ What if they don't show up?\n→ What if it doesn't work?\n→ What if the price changes?\n\nSo answer those fears in the offer itself:\n• \"Weeds back between visits? We come back free.\"\n• \"Your price, locked in writing.\"\n• \"Not happy after the first visit? You don't pay for it.\"\n\nA discount lowers your price. A guarantee lowers their fear. Only one of those builds a business with healthy margins.\n\nSend this to an owner who's still running discounts.\n\n#offercreation #lawncare #landscapingbusiness #marketingpsychology #smallbusinessowner",
+   "media_paths": [
+    "reels/R10-discounts-arent-offers/R10-discounts-arent-offers.mp4"
+   ],
+   "cover_path": "reels/R10-discounts-arent-offers/cover.jpg",
+   "pillar": "Offer Creation",
+   "industry": "Lawn care / Landscaping",
+   "cta": "Share"
+  },
+  {
+   "doc_id": "lib-r25",
+   "title": "R25 · What We Check First When We Audit Your Marketing",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-18T18:50:00-04:00",
+   "caption": "When a service business asks us to look at their marketing, the ad account isn't where we start.\n\n1. We call the business like a customer would. Does anyone pick up? How long does it ring? Does anyone call back?\n2. We read the offer. Would we book from it? Is it specific? Is there a reason to act now?\n3. We map what happens after a lead comes in. Is there an instant text? A follow-up sequence? A booking link?\n4. Only then do we open the ad account.\n\nMost of the time, the ads aren't the real problem. Everything around them is. Fix that, and the same ad budget books more jobs.\n\nWant us to run this check on your business? DM us \"AUDIT\".\n\n#marketingagency #marketingaudit #servicebusiness #leadgeneration #vantier",
+   "media_paths": [
+    "reels/R25-what-we-check-first/R25-what-we-check-first.mp4"
+   ],
+   "cover_path": "reels/R25-what-we-check-first/cover.jpg",
+   "pillar": "Vantier Authority",
+   "industry": "Service businesses",
+   "cta": "DM"
+  },
+  {
+   "doc_id": "lib-r06",
+   "title": "R06 · How We'd Market a Roofing Company From Zero",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-19T18:50:00-04:00",
+   "caption": "If we were marketing a roofing company starting from zero, this is the order we'd do it in:\n\n1️⃣ Sell the inspection, not the roof. Nobody buys a $15,000 roof from an ad. A free inspection with a photo report of every issue is an easy yes.\n2️⃣ Show real roofs in their neighborhood. Drone shots, before and afters, your crew on site. Local proof beats stock photos.\n3️⃣ Call every lead within five minutes. Roofing leads shop around fast.\n4️⃣ Retarget everyone who watched but didn't book, with reviews and proof.\n\nRoofing is a trust purchase. Your marketing has to earn that trust before the inspection, not during it.\n\nSave this if you're in roofing, or send it to a roofer who needs it.\n\n#roofingmarketing #roofingcompany #roofingbusiness #leadgeneration #contractormarketing",
+   "media_paths": [
+    "reels/R06-roofing-from-zero/R06-roofing-from-zero.mp4"
+   ],
+   "cover_path": "reels/R06-roofing-from-zero/cover.jpg",
+   "pillar": "Customer Acquisition",
+   "industry": "Roofing",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-c02",
+   "title": "C02 · Anatomy of an Ad That Books Jobs",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-10-20T10:50:00-04:00",
+   "caption": "Every high-converting service ad has the same five parts. Here's the anatomy, using a roofing example (the numbers are illustrative):\n\n1. HOOK: \"Homeowners with a roof over 15 years old:\" calls out the exact customer\n2. PROBLEM: names what they're worried about, in their words\n3. OFFER: \"Free 20-minute inspection with a photo report.\" A specific, low-risk next step\n4. PROOF: \"4.9★ from 212 homeowners in your area.\" A number beats \"trusted and reliable\"\n5. CTA: \"Tap to pick a time. We'll text to confirm within 10 minutes.\" One action, and what happens next\n\nSwap in your trade and your real numbers and this works for HVAC, plumbing, remodeling, cleaning and more.\n\nWant us to tear down your current ad? Send it to us in a DM.\n\n#adcopy #facebookads #roofingmarketing #advertisingstrategy #copywriting",
+   "media_paths": [
+    "carousels/C02-anatomy-of-an-ad-that-books-jobs/slide-01.jpg",
+    "carousels/C02-anatomy-of-an-ad-that-books-jobs/slide-02.jpg",
+    "carousels/C02-anatomy-of-an-ad-that-books-jobs/slide-03.jpg",
+    "carousels/C02-anatomy-of-an-ad-that-books-jobs/slide-04.jpg",
+    "carousels/C02-anatomy-of-an-ad-that-books-jobs/slide-05.jpg",
+    "carousels/C02-anatomy-of-an-ad-that-books-jobs/slide-06.jpg",
+    "carousels/C02-anatomy-of-an-ad-that-books-jobs/slide-07.jpg",
+    "carousels/C02-anatomy-of-an-ad-that-books-jobs/slide-08.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Paid Advertising",
+   "industry": "Roofing (example)",
+   "cta": "DM"
+  },
+  {
+   "doc_id": "lib-r05",
+   "title": "R05 · Fifty Thousand Views. Zero Bookings.",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-21T18:50:00-04:00",
+   "caption": "A video can go viral and your calendar can stay exactly the same.\n\nViews measure attention. Bookings come from intent. For a local service business like auto detailing, the numbers worth tracking are a lot less exciting:\n\n✔ DMs asking for a price\n✔ Clicks to your booking page\n✔ Slots filled this week\n\nA 2,000-view video that brings in six booking requests beats a 50,000-view video that brings in none. Every time.\n\nMake content for the people near you who need your service this month, not for the algorithm.\n\nSave this and check your real numbers this week.\n\n#socialmediamarketing #autodetailing #detailingbusiness #instagrammarketing #smallbusinesstips",
+   "media_paths": [
+    "reels/R05-views-dont-pay-bills/R05-views-dont-pay-bills.mp4"
+   ],
+   "cover_path": "reels/R05-views-dont-pay-bills/cover.jpg",
+   "pillar": "Social Media Marketing",
+   "industry": "Auto detailing",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-r16",
+   "title": "R16 · Your Website Might Be Losing You Calls",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-22T18:50:00-04:00",
+   "caption": "Pull up your website on your phone right now and be honest:\n\n☐ Can someone tap to call in one second, without scrolling?\n☐ Does the top of the page say what you fix and where?\n☐ Does it load in a couple of seconds, not five?\n☐ Are there real photos of your shop and your team?\n☐ Are your reviews visible without hunting for them?\n\nSomeone with a check engine light isn't browsing. They want to know you can fix it and how to reach you, fast. That's the entire job of your homepage.\n\nMost service business websites don't need a redesign. They need these five fixes.\n\nSend this to whoever built your website.\n\n#autorepair #autorepairshop #websitetips #conversionrate #localbusinessmarketing",
+   "media_paths": [
+    "reels/R16-website-losing-calls/R16-website-losing-calls.mp4"
+   ],
+   "cover_path": "reels/R16-website-losing-calls/cover.jpg",
+   "pillar": "Conversion",
+   "industry": "Auto repair",
+   "cta": "Share"
+  },
+  {
+   "doc_id": "lib-c12",
+   "title": "C12 · 10 Hooks That Stop the Scroll",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-10-23T10:50:00-04:00",
+   "caption": "The first line of your video decides whether anyone hears the rest. Here are 10 hooks for service business ads and content:\n\n1. \"If your AC is older than 10 years, watch this before summer.\"\n2. \"3 signs your roof won't make it through another winter.\"\n3. \"We get asked this every week: how much does a bathroom remodel really cost?\"\n4. \"Don't hire a mover until you ask these 3 questions.\"\n5. \"Here's what we found inside this 'clean' car.\"\n6. \"POV: you finally fixed the thing you've ignored for two years.\"\n7. \"The cheapest quote cost this homeowner $4,000.\"\n8. \"Your electrical panel might be the oldest thing in your house.\"\n9. \"What skipping gutter cleaning actually costs you.\"\n10. \"If you've been putting off the gym since January, this is for you.\"\n\nEach one names a specific person, problem or curiosity gap. Save this and film one tomorrow.\n\n#hooks #videomarketing #adcreative #contentcreation #servicebusiness",
+   "media_paths": [
+    "carousels/C12-hooks-that-stop-the-scroll/slide-01.jpg",
+    "carousels/C12-hooks-that-stop-the-scroll/slide-02.jpg",
+    "carousels/C12-hooks-that-stop-the-scroll/slide-03.jpg",
+    "carousels/C12-hooks-that-stop-the-scroll/slide-04.jpg",
+    "carousels/C12-hooks-that-stop-the-scroll/slide-05.jpg",
+    "carousels/C12-hooks-that-stop-the-scroll/slide-06.jpg",
+    "carousels/C12-hooks-that-stop-the-scroll/slide-07.jpg",
+    "carousels/C12-hooks-that-stop-the-scroll/slide-08.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Marketing Psychology",
+   "industry": "Multiple trades",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-r14",
+   "title": "R14 · You Do Not Need to Go Viral",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-24T18:50:00-04:00",
+   "caption": "Local service businesses don't need to go viral. They need to be known by the right few hundred people.\n\nThink about an electrician. Your service area might have tens of thousands of homes, but only a small slice need an electrician in any given month. That slice is your entire market right now.\n\nA million views from across the country won't fill your schedule. Being the name those local homeowners see again and again, in their feed, in reviews, in their neighbor's recommendation, will.\n\nStop chasing reach. Own your zip codes:\n• Tight geographic targeting\n• Consistent, repeated presence\n• Proof from local jobs\n\nFollow @official.vantier for local marketing that actually pays.\n\n#electricianbusiness #localmarketing #marketingmyths #instagramforbusiness #smallbusinessmarketing",
+   "media_paths": [
+    "reels/R14-you-dont-need-viral/R14-you-dont-need-viral.mp4"
+   ],
+   "cover_path": "reels/R14-you-dont-need-viral/cover.jpg",
+   "pillar": "Marketing Myths",
+   "industry": "Electrical",
+   "cta": "Follow"
+  },
+  {
+   "doc_id": "lib-r27",
+   "title": "R27 · You Sent the Quote and Never Heard Back",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-25T18:50:00-04:00",
+   "caption": "You sent the quote. Then nothing. Most contractors take silence as a \"no.\" It usually isn't.\n\nOn a big project like a kitchen remodel, silence usually means busy, overwhelmed or comparing options. The contractor who follows up well often wins, even against a lower price.\n\nA simple follow-up rhythm:\nDay 2 → Call (don't email): \"Any questions on the numbers?\"\nDay 5 → Send a photo of a similar project you just finished\nDay 10 → \"We're planning next month's schedule. Want me to hold a spot for you?\"\n\nPolite, persistent, helpful. Never pushy.\n\nSome of your best jobs are sitting in quotes you already sent. Save this and follow up on one today.\n\n#remodelingcontractor #constructionbusiness #salesfollowup #contractortips #closingdeals",
+   "media_paths": [
+    "reels/R27-quote-limbo/R27-quote-limbo.mp4"
+   ],
+   "cover_path": "reels/R27-quote-limbo/cover.jpg",
+   "pillar": "Conversion",
+   "industry": "Remodeling / Construction",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-r11",
+   "title": "R11 · Why Your Ads Die After Two Weeks",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-26T18:50:00-04:00",
+   "caption": "Your ad worked great for two weeks and then results fell off a cliff. Sound familiar?\n\nIn a local market, you're showing ads to the same few thousand people. After they've seen the same video four or five times, they stop noticing it. That's creative fatigue, and it's the most common reason local service ads \"stop working.\"\n\nThe fix usually isn't a new campaign or new targeting. It's new creative:\n\n→ Keep the offer that works\n→ Change the hook (the opening line and the first shot)\n→ Put a different crew member on camera\n\nPlan on fresh creative every 2–3 weeks and your cost per lead stays steady instead of creeping up.\n\nFollow @official.vantier for more on running Meta ads that last.\n\n#metaads #facebookadstips #landscapingmarketing #adcreative #paidsocial",
+   "media_paths": [
+    "reels/R11-ads-die-after-two-weeks/R11-ads-die-after-two-weeks.mp4"
+   ],
+   "cover_path": "reels/R11-ads-die-after-two-weeks/cover.jpg",
+   "pillar": "Paid Advertising",
+   "industry": "Landscaping",
+   "cta": "Follow"
+  },
+  {
+   "doc_id": "lib-c07",
+   "title": "C07 · Read Your Ads Dashboard Like an Owner",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-10-27T10:50:00-04:00",
+   "caption": "You don't need to be a media buyer to read your Meta ads dashboard. You need five numbers, in order:\n\n1. CPM: what it costs to show your ad 1,000 times. High CPM can mean a competitive market, a narrow audience or tired creative.\n2. CTR (link): how many people click. Low CTR usually means your hook or first frame isn't stopping the right person.\n3. CPL: cost per lead. Useful, but never the final word.\n4. Frequency: how often the same person sees your ad. Rising frequency plus rising costs means it's time for new creative.\n5. Cost per booked job: ad spend ÷ booked jobs. The only number that pays the bills.\n\nAre people seeing it? Stopping? Raising a hand? Booking? Read it in that order.\n\nSave this for your next ad review.\n\n#metaads #facebookadstips #admetrics #digitalmarketing #smallbusinessowner",
+   "media_paths": [
+    "carousels/C07-read-your-ads-dashboard/slide-01.jpg",
+    "carousels/C07-read-your-ads-dashboard/slide-02.jpg",
+    "carousels/C07-read-your-ads-dashboard/slide-03.jpg",
+    "carousels/C07-read-your-ads-dashboard/slide-04.jpg",
+    "carousels/C07-read-your-ads-dashboard/slide-05.jpg",
+    "carousels/C07-read-your-ads-dashboard/slide-06.jpg",
+    "carousels/C07-read-your-ads-dashboard/slide-07.jpg",
+    "carousels/C07-read-your-ads-dashboard/slide-08.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Paid Advertising",
+   "industry": "Service businesses",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-r18",
+   "title": "R18 · 'Call Us Today' Is the Weakest Line in Your Ad",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-28T18:50:00-04:00",
+   "caption": "\"Call us today!\" asks a stranger to do the hardest thing first: pick up the phone, explain what they need and ask about price, all before they trust you.\n\nMake the first step smaller:\n→ \"Text a photo of your space, get a price in 10 minutes.\"\n→ \"Pick a time online in 30 seconds.\"\n→ \"Answer 3 quick questions for an instant quote.\"\n\nEach of these lowers the effort it takes to raise a hand. And once someone has started, they're much more likely to finish.\n\nThis works for cleaning companies, detailers, landscapers, movers, almost any service business.\n\nComment your current call to action and we'll make it stronger.\n\n#cleaningbusiness #calltoaction #conversionoptimization #marketingtips #servicebusiness",
+   "media_paths": [
+    "reels/R18-call-us-today-weak-cta/R18-call-us-today-weak-cta.mp4"
+   ],
+   "cover_path": "reels/R18-call-us-today-weak-cta/cover.jpg",
+   "pillar": "Conversion",
+   "industry": "Cleaning",
+   "cta": "Comment"
+  },
+  {
+   "doc_id": "lib-r20",
+   "title": "R20 · Your Cheapest New Job Is in Your Phone",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-29T18:50:00-04:00",
+   "caption": "Before you spend another dollar on ads, text the people who already paid you.\n\nEvery past customer already knows your work and trusts you. Most businesses never contact them again.\n\nTry this:\n1. Pull your customer list from the last two years\n2. Send a short, personal text (not a blast with a graphic):\n\"Hey Mark, it's Danny from the AC company. We're opening a few tune-up spots next week for past customers. Want one?\"\n3. Reply to every response personally\n\nSome will book. Some will refer a friend. Some will leave the review you forgot to ask for. It costs nothing but an hour.\n\nShare this with an owner who's sitting on a list.\n\n#customerretention #hvaccontractor #smsmarketing #repeatcustomers #smallbusinesstips",
+   "media_paths": [
+    "reels/R20-past-customers-cheapest-ads/R20-past-customers-cheapest-ads.mp4"
+   ],
+   "cover_path": "reels/R20-past-customers-cheapest-ads/cover.jpg",
+   "pillar": "Customer Acquisition",
+   "industry": "HVAC",
+   "cta": "Share"
+  },
+  {
+   "doc_id": "lib-r22",
+   "title": "R22 · Instant Form or Landing Page?",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-10-30T18:50:00-04:00",
+   "caption": "Instant form or landing page for your Facebook and Instagram lead ads? Here's the honest answer for local service businesses.\n\nInstant forms: fast, people never leave the app, more leads at a lower cost. But also more people who barely remember filling them out.\n\nLanding pages: more effort, so fewer people finish. The ones who do are usually more serious.\n\nFor most local service businesses, start with an instant form and build it right:\n→ Choose the \"Higher intent\" form type so people review their info before submitting\n→ Add one qualifying question (timeline, zip code, project type)\n→ Call within five minutes, while they still remember you\n\nSave this before you build your next campaign.\n\n#leadgeneration #facebookleadads #instagramads #leadforms #servicebusinessmarketing",
+   "media_paths": [
+    "reels/R22-instant-form-vs-landing-page/R22-instant-form-vs-landing-page.mp4"
+   ],
+   "cover_path": "reels/R22-instant-form-vs-landing-page/cover.jpg",
+   "pillar": "Lead Generation",
+   "industry": "Local service (any)",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-c06",
+   "title": "C06 · 6 Marketing Myths Costing You Jobs",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-10-31T10:50:00-04:00",
+   "caption": "Six marketing myths we hear from service business owners all the time, and what's actually true:\n\n1. \"Word of mouth is enough.\" It's great, but you can't turn it up when you're slow.\n2. \"Ads don't work in my industry.\" Bad ads don't work in any industry.\n3. \"I need a new website first.\" A fast page with a big call button beats a pretty site that takes six months.\n4. \"Marketing is a cost.\" Measurable marketing is an investment with a return.\n5. \"We need to be on every platform.\" Be great on one or two where your customers actually are.\n6. \"SEO will take care of it.\" SEO is a long game. Ads reach buyers this month. Use both.\n\nWhich one did you believe? Comment the number 👇\n\n#marketingmyths #smallbusinessmarketing #businessowner #marketingtips #localbusiness",
+   "media_paths": [
+    "carousels/C06-marketing-myths/slide-01.jpg",
+    "carousels/C06-marketing-myths/slide-02.jpg",
+    "carousels/C06-marketing-myths/slide-03.jpg",
+    "carousels/C06-marketing-myths/slide-04.jpg",
+    "carousels/C06-marketing-myths/slide-05.jpg",
+    "carousels/C06-marketing-myths/slide-06.jpg",
+    "carousels/C06-marketing-myths/slide-07.jpg",
+    "carousels/C06-marketing-myths/slide-08.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Marketing Myths",
+   "industry": "Service businesses",
+   "cta": "Comment"
+  },
+  {
+   "doc_id": "lib-r31",
+   "title": "R31 · Before You Hire Any Marketing Agency, Ask This",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-01T18:50:00-05:00",
+   "caption": "Before you hire any marketing agency (including us), ask one question:\n\n\"How will we know if this is working?\"\n\nIf the answer is impressions, reach or engagement, keep walking. You can't deposit impressions.\n\nThe right answer sounds like:\n\"We'll track your leads, how many you actually reach, how many book, and what each booked job costs you.\"\n\nThen ask two more:\n1. Who owns the ad account? (Answer: you.)\n2. Can I see the numbers whenever I want? (Answer: yes.)\n\nThat standard goes for us too. Save this for the next time an agency calls you.\n\n#marketingagency #hiringanagency #smallbusinessowner #facebookadsagency #businesstips",
+   "media_paths": [
+    "reels/R31-ask-any-agency-this/R31-ask-any-agency-this.mp4"
+   ],
+   "cover_path": "reels/R31-ask-any-agency-this/cover.jpg",
+   "pillar": "Vantier Authority",
+   "industry": "Service businesses",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-c11",
+   "title": "C11 · Google Ads or Meta Ads: Which First?",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-11-02T10:50:00-05:00",
+   "caption": "Google Ads or Meta Ads (Facebook + Instagram): which should a service business start with?\n\nGoogle captures demand. People are already searching: \"emergency plumber near me.\"\nMeta creates demand. It reaches people who need you but aren't searching yet: the homeowner with a dated kitchen, the overdue AC tune-up.\n\nStart with Google if urgent, search-driven jobs drive your business (plumbing emergencies, HVAC repair, electrical problems).\nStart with Meta if you sell planned or visual services (remodeling, landscaping, detailing, gyms, salons, cleaning).\n\nLong term, the answer is both. Meta builds the want. Google catches the search.\n\nComment your industry and we'll tell you where we'd start 👇\n\n#googleads #metaads #paidadvertising #localbusinessmarketing #advertisingstrategy",
+   "media_paths": [
+    "carousels/C11-google-vs-meta-ads/slide-01.jpg",
+    "carousels/C11-google-vs-meta-ads/slide-02.jpg",
+    "carousels/C11-google-vs-meta-ads/slide-03.jpg",
+    "carousels/C11-google-vs-meta-ads/slide-04.jpg",
+    "carousels/C11-google-vs-meta-ads/slide-05.jpg",
+    "carousels/C11-google-vs-meta-ads/slide-06.jpg",
+    "carousels/C11-google-vs-meta-ads/slide-07.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Paid Advertising",
+   "industry": "Service businesses",
+   "cta": "Comment"
+  },
+  {
+   "doc_id": "lib-r15",
+   "title": "R15 · That $150 Customer Isn't Worth $150",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-03T18:50:00-05:00",
+   "caption": "If you sell recurring service, your customers are worth far more than their first invoice.\n\nExample: pest control at $150 per quarterly visit.\n$150 × 4 visits = $600 a year\n$600 × 3 years = $1,800\nPlus the neighbors they refer.\n\nSo \"can I afford $60 in ad spend to get a customer?\" is the wrong question. The real question is: what is a customer worth to you over time, and how much of that are you willing to invest to win one?\n\nOwners who know their customer lifetime value outspend competitors who don't, and still make more money.\n\nSave this and run the numbers for your own business.\n\n#pestcontrol #pestcontrolbusiness #customerlifetimevalue #businessgrowth #knowyournumbers",
+   "media_paths": [
+    "reels/R15-what-a-customer-is-worth/R15-what-a-customer-is-worth.mp4"
+   ],
+   "cover_path": "reels/R15-what-a-customer-is-worth/cover.jpg",
+   "pillar": "Business Growth",
+   "industry": "Pest control",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-r23",
+   "title": "R23 · Before and After Videos, Done Right",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-04T18:50:00-05:00",
+   "caption": "Before-and-after videos are some of the best-performing ads for visual services like pressure washing, detailing, cleaning and landscaping. Most people just film them in the wrong order.\n\nThey lead with the shiny finished result. But the \"after\" is the payoff, not the hook.\n\nThe structure that works:\n1. PROBLEM: Open on the worst of it. The black-streaked driveway. The dog hair in the back seat. Hold it just long enough to make people wince.\n2. TRANSFORMATION: The reveal, in one satisfying pass.\n3. PROOF: End with the customer's reaction, the price, or how fast you did it.\n\nAll in under 15 seconds.\n\nSend this to someone who films their own content.\n\n#pressurewashing #autodetailing #beforeandafter #videomarketing #adcreative",
+   "media_paths": [
+    "reels/R23-before-after-done-right/R23-before-after-done-right.mp4"
+   ],
+   "cover_path": "reels/R23-before-after-done-right/cover.jpg",
+   "pillar": "Paid Advertising",
+   "industry": "Pressure washing / Detailing",
+   "cta": "Share"
+  },
+  {
+   "doc_id": "lib-r28",
+   "title": "R28 · Gyms: Stop Selling Memberships in Your Ads",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-05T18:50:00-05:00",
+   "caption": "Gym owners: stop selling memberships in your ads.\n\nTo someone who hasn't worked out in a year, \"membership\" sounds like a long commitment to something they're afraid they'll fail at. That's a hard yes.\n\nSell the first step instead:\n\"14-day starter program. 3 coached sessions a week. One price, no contract.\"\n\nNow it's not \"join a gym.\" It's \"try something for two weeks.\" That's an easy yes.\n\nAnd once someone sees real results with your coaches, the membership conversation takes care of itself.\n\nSell the start. Keep them with the experience.\n\nTag a gym owner who needs to hear this.\n\n#gymmarketing #gymowner #fitnessbusiness #offercreation #personaltrainerbusiness",
+   "media_paths": [
+    "reels/R28-gyms-sell-the-start/R28-gyms-sell-the-start.mp4"
+   ],
+   "cover_path": "reels/R28-gyms-sell-the-start/cover.jpg",
+   "pillar": "Offer Creation",
+   "industry": "Gyms / Fitness",
+   "cta": "Tag"
+  },
+  {
+   "doc_id": "lib-c13",
+   "title": "C13 · 6 Ad Formats That Work for Local Service Businesses",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-11-06T10:50:00-05:00",
+   "caption": "Not every ad format works for local service businesses. These six consistently do:\n\n1. Owner to camera: 30 seconds, you talking to one customer. Trust builds faster with a face.\n2. Before & after: problem first, transformation second, proof last.\n3. Review read: a real review on screen over footage of that job.\n4. POV job footage: first-person clips of the work. Raw beats polished.\n5. Myth-buster: teach something useful and earn trust.\n6. Day in the life: crew, trucks, jobs. Shows you're real and established.\n\nTest 2–3 formats at once, and let booked jobs (not likes) pick the winner.\n\nWhich format are you trying first? Comment below 👇\n\n#adcreative #videoads #facebookads #instagramads #localbusinessmarketing",
+   "media_paths": [
+    "carousels/C13-ad-formats-that-work/slide-01.jpg",
+    "carousels/C13-ad-formats-that-work/slide-02.jpg",
+    "carousels/C13-ad-formats-that-work/slide-03.jpg",
+    "carousels/C13-ad-formats-that-work/slide-04.jpg",
+    "carousels/C13-ad-formats-that-work/slide-05.jpg",
+    "carousels/C13-ad-formats-that-work/slide-06.jpg",
+    "carousels/C13-ad-formats-that-work/slide-07.jpg",
+    "carousels/C13-ad-formats-that-work/slide-08.jpg",
+    "carousels/C13-ad-formats-that-work/slide-09.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Paid Advertising",
+   "industry": "Service businesses",
+   "cta": "Comment"
+  },
+  {
+   "doc_id": "lib-r12",
+   "title": "R12 · Retargeting, Explained in 30 Seconds",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-07T18:50:00-05:00",
+   "caption": "Most people won't book the first time they see your ad. Especially for a bigger decision like a bathroom remodel. That's normal, and it's exactly what retargeting is for.\n\nRetargeting means showing follow-up ads to people who already engaged: they watched your video, visited your profile or clicked through to your site.\n\nA simple sequence:\nDay 1 → your crew at work (who you are)\nDay 4 → a review from someone nearby (proof)\nDay 10 → a reason to book this month (the offer)\n\nSame people, different message, each step closer to booking. Your competitors show up once. You show up five times.\n\nSave this for when you set up retargeting.\n\n#retargeting #remodelingcontractor #facebookads #digitalmarketing #customeracquisition",
+   "media_paths": [
+    "reels/R12-retargeting-explained/R12-retargeting-explained.mp4"
+   ],
+   "cover_path": "reels/R12-retargeting-explained/cover.jpg",
+   "pillar": "Retargeting",
+   "industry": "Remodeling",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-r34",
+   "title": "R34 · How We'd Build a Lead-Gen System for a Local Service Business",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-08T18:50:00-05:00",
+   "caption": "A lead generation system for a local service business isn't one ad. It's six parts working together:\n\n1. An offer people actually want (specific, low-risk, easy to say yes to)\n2. Ads that open on the customer's problem, not your logo\n3. A short form with one qualifying question\n4. An instant text, then a real call within five minutes\n5. Follow-up for everyone who doesn't book right away\n6. A review request after every job, which becomes your next ad\n\nMost businesses have one or two of these. It starts working when all six connect.\n\nThat's what we build at Vantier for service businesses nationwide. DM us \"SYSTEM\" if you want yours mapped out.\n\n#leadgenerationsystem #marketingagency #servicebusinessmarketing #metaads #vantier",
+   "media_paths": [
+    "reels/R34-lead-gen-system/R34-lead-gen-system.mp4"
+   ],
+   "cover_path": "reels/R34-lead-gen-system/cover.jpg",
+   "pillar": "Vantier Authority",
+   "industry": "Service businesses",
+   "cta": "DM"
+  },
+  {
+   "doc_id": "lib-r08",
+   "title": "R08 · 3 Reasons Your Ads Aren't Converting",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-09T18:50:00-05:00",
+   "caption": "Before you blame the algorithm, check these three things. They're behind most service business ads that get clicks but no customers:\n\n1. Your first three seconds don't say who it's for. If the video opens on your logo, the scroll already won. Open on the problem: the dated kitchen, the cracked tile, the leak.\n\n2. Your offer sounds like everyone else's. \"Free estimates\" isn't an offer anymore. Everyone has one.\n\n3. You're asking for too much, too soon. A 12-field form loses people. Name, number and one good qualifying question is plenty.\n\nFix these before you touch targeting. Save this and check your ads tonight.\n\n#facebookads #advertisingtips #remodelingbusiness #homeimprovement #admistakes",
+   "media_paths": [
+    "reels/R08-three-reasons-ads-dont-convert/R08-three-reasons-ads-dont-convert.mp4"
+   ],
+   "cover_path": "reels/R08-three-reasons-ads-dont-convert/cover.jpg",
+   "pillar": "Advertising Mistakes",
+   "industry": "Remodeling / Home improvement",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-c17",
+   "title": "C17 · How to See Every Ad Your Competitors Are Running",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-11-10T10:50:00-05:00",
+   "caption": "You can see every Facebook and Instagram ad your competitors are running right now, for free.\n\n1. Open the Meta Ad Library (facebook.com/ads/library)\n2. Set the category to \"All ads,\" choose your country and search a competitor's business name\n3. Look for ads that have been running for months. Long-running ads are usually the profitable ones.\n4. Note their offer, hook and format. Not to copy them, but to find the gap.\n\nIf every competitor says \"free estimate,\" you say something specific. That's how you stand out in a crowded local market.\n\nIt takes 10 minutes, and most of your competitors have never done it.\n\nShare this with a business partner.\n\n#competitoranalysis #metaadlibrary #facebookads #marketresearch #smallbusinesstips",
+   "media_paths": [
+    "carousels/C17-see-competitors-ads/slide-01.jpg",
+    "carousels/C17-see-competitors-ads/slide-02.jpg",
+    "carousels/C17-see-competitors-ads/slide-03.jpg",
+    "carousels/C17-see-competitors-ads/slide-04.jpg",
+    "carousels/C17-see-competitors-ads/slide-05.jpg",
+    "carousels/C17-see-competitors-ads/slide-06.jpg",
+    "carousels/C17-see-competitors-ads/slide-07.jpg",
+    "carousels/C17-see-competitors-ads/slide-08.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Competitor / Market Analysis",
+   "industry": "Service businesses",
+   "cta": "Share"
+  },
+  {
+   "doc_id": "lib-r21",
+   "title": "R21 · Your Best Ad Is Already Written",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-11T18:50:00-05:00",
+   "caption": "Your best-performing ad might already be sitting in your Google reviews.\n\nPeople don't believe businesses talking about themselves. They believe other customers. So instead of writing \"We're the best in town!\", try this:\n\n1. Pick a real five-star review that describes a specific experience\n2. Put it on screen word for word\n3. Play it over footage of that exact type of job\n4. Add the customer's first name and neighborhood (with permission)\n\nThat one ad does more than any slogan you'll ever pay for. It works for movers, roofers, barbers, cleaners, anyone with happy customers.\n\nFollow @official.vantier for ad ideas you can use this week.\n\n#socialproof #customerreviews #movingcompany #adcreative #marketingpsychology",
+   "media_paths": [
+    "reels/R21-reviews-are-your-best-ad/R21-reviews-are-your-best-ad.mp4"
+   ],
+   "cover_path": "reels/R21-reviews-are-your-best-ad/cover.jpg",
+   "pillar": "Marketing Psychology",
+   "industry": "Moving / Home services",
+   "cta": "Follow"
+  },
+  {
+   "doc_id": "lib-c14",
+   "title": "C14 · Empty Chairs on Tuesday? Try This.",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-11-12T10:50:00-05:00",
+   "caption": "Saturdays fill themselves. Tuesdays are where salons and barbershops win or lose.\n\nFive ways to fill your chairs on slow weekdays:\n1. Rebook before they leave: \"Same time in 3 weeks?\"\n2. Create a weekday-only service: express cuts, gloss treatments, beard tune-ups\n3. Start a last-minute list and text it whenever someone cancels\n4. Run a small local ad only on slow days, only within a few miles\n5. Reward weekday regulars: every 5th weekday visit, an add-on on the house\n\nYour busy days take care of themselves. Your slow days are where the extra profit is.\n\nSend this to your favorite barber or stylist.\n\n#barbershop #salonowner #salonmarketing #barberlife #smallbusinessideas",
+   "media_paths": [
+    "carousels/C14-fill-slow-weekdays/slide-01.jpg",
+    "carousels/C14-fill-slow-weekdays/slide-02.jpg",
+    "carousels/C14-fill-slow-weekdays/slide-03.jpg",
+    "carousels/C14-fill-slow-weekdays/slide-04.jpg",
+    "carousels/C14-fill-slow-weekdays/slide-05.jpg",
+    "carousels/C14-fill-slow-weekdays/slide-06.jpg",
+    "carousels/C14-fill-slow-weekdays/slide-07.jpg",
+    "carousels/C14-fill-slow-weekdays/slide-08.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Customer Acquisition",
+   "industry": "Salons / Barbershops",
+   "cta": "Share"
+  },
+  {
+   "doc_id": "lib-r30",
+   "title": "R30 · Being the Cheapest Is Costing You",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-13T18:50:00-05:00",
+   "caption": "Being the cheapest option is one of the most expensive positions in a service business.\n\nLow prices attract customers who only care about price. They haggle, they cancel, they leave a one-star review over a missed corner, and they leave the second someone else is $10 cheaper.\n\nThe customers you actually want are shopping for something else:\n✔ Reliability\n✔ Communication\n✔ Not having to think about it\n\nSo price for that customer, and market to them. Show your process, your guarantee and your crew. Make your price feel obvious instead of defending it.\n\nYou don't need more cheap customers. You need better ones.\n\nComment \"agree\" if you've had a price-shopper nightmare.\n\n#cleaningbusiness #pricingstrategy #marketingpsychology #smallbusinessowner #servicebusiness",
+   "media_paths": [
+    "reels/R30-cheapest-costs-most/R30-cheapest-costs-most.mp4"
+   ],
+   "cover_path": "reels/R30-cheapest-costs-most/cover.jpg",
+   "pillar": "Marketing Psychology",
+   "industry": "Cleaning",
+   "cta": "Comment"
+  },
+  {
+   "doc_id": "lib-r29",
+   "title": "R29 · Barbers & Stylists: Turn Instagram Into a Booking Engine",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-14T18:50:00-05:00",
+   "caption": "Barbers, stylists, salon owners: your Instagram is probably a great portfolio. But a portfolio doesn't book appointments. A booking engine does.\n\nFour changes:\n1. Put your booking link first in your bio, not a link page with nine buttons\n2. End your reels with an open slot: \"2 chairs open Thursday. Link in bio.\"\n3. Post today's openings in your stories every morning\n4. Answer every \"how much?\" DM with a price and your booking link\n\nGreat work gets attention. A clear next step gets bookings.\n\nFollow @official.vantier for more ways to fill your chair.\n\n#barbershop #salonmarketing #barbermarketing #instagrammarketing #hairstylist",
+   "media_paths": [
+    "reels/R29-instagram-booking-engine/R29-instagram-booking-engine.mp4"
+   ],
+   "cover_path": "reels/R29-instagram-booking-engine/cover.jpg",
+   "pillar": "Social Media Marketing",
+   "industry": "Salons / Barbershops",
+   "cta": "Follow"
+  },
+  {
+   "doc_id": "lib-r24",
+   "title": "R24 · The Three-Second Test for Your Instagram",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-15T18:50:00-05:00",
+   "caption": "Try the 3-second test on your Instagram profile.\n\nHand your phone to someone who's never heard of you. Open your profile. Count to three. Can they tell:\n\n1. What you do?\n2. Where you do it?\n3. Why they should pick you?\n\n❌ \"Living the dream ✨ Est. 2009\"\n✅ \"Residential electricians · Serving the whole metro · Same-week panel upgrades · Tap below to book\"\n\nPeople check your Instagram before they call you. Your profile isn't a scrapbook. It's a storefront.\n\nDo the test and comment your score out of 3 👇\n\n#instagramtips #instagramforbusiness #electrician #socialmediatips #localbusiness",
+   "media_paths": [
+    "reels/R24-three-second-test/R24-three-second-test.mp4"
+   ],
+   "cover_path": "reels/R24-three-second-test/cover.jpg",
+   "pillar": "Marketing Mistakes",
+   "industry": "Electrical / Home services",
+   "cta": "Comment"
+  },
+  {
+   "doc_id": "lib-r19",
+   "title": "R19 · Your Slow Season Is a Head Start",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-16T18:50:00-05:00",
+   "caption": "Every seasonal business has a slow stretch. Landscapers in winter. HVAC in the mild months between heating and cooling.\n\nMost owners go quiet and wait for the phone to ring again. That's the mistake.\n\nUse the slow months to fill next season before it starts:\n1. Sell maintenance plans to every customer you served this year\n2. Offer early-booking slots at this year's price\n3. Run retargeting ads to people who almost booked last season\n\nWhen the rush hits, your competitors start from zero. You start half booked, with cash flow already locked in.\n\nSave this for your slow season.\n\n#landscapingbusiness #hvacbusiness #seasonalbusiness #businessgrowth #maintenanceplans",
+   "media_paths": [
+    "reels/R19-slow-season-head-start/R19-slow-season-head-start.mp4"
+   ],
+   "cover_path": "reels/R19-slow-season-head-start/cover.jpg",
+   "pillar": "Business Growth",
+   "industry": "Landscaping / HVAC",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-r26",
+   "title": "R26 · Your Creative Is Your Targeting",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-17T18:50:00-05:00",
+   "caption": "On Meta, your creative is your targeting.\n\nInterest targeting matters a lot less than it used to. The algorithm is better at finding buyers than any combination of checkboxes you'll pick. Your job is to tell it who to look for, and you do that with the ad itself.\n\nOpen with a callout that makes the right person stop:\n→ \"Homeowners with a roof older than 15 years…\"\n→ \"If you've been meaning to get back in the gym since January…\"\n→ \"If your AC is over 10 years old, watch this before summer.\"\n\nThe right people stop. Everyone else scrolls. And the algorithm learns from who stopped.\n\nBroad audience. Specific creative. Follow @official.vantier for more Meta ads strategy.\n\n#metaads #facebookadvertising #adtargeting #roofingmarketing #gymmarketing",
+   "media_paths": [
+    "reels/R26-creative-is-targeting/R26-creative-is-targeting.mp4"
+   ],
+   "cover_path": "reels/R26-creative-is-targeting/cover.jpg",
+   "pillar": "Paid Advertising",
+   "industry": "Roofing / Gyms",
+   "cta": "Follow"
+  },
+  {
+   "doc_id": "lib-c05",
+   "title": "C05 · What to Post This Week (Service Business Edition)",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-11-18T10:50:00-05:00",
+   "caption": "Not sure what to post? Here's a simple weekly content plan for any service business, whether you're a roofer, cleaner, detailer, barber or HVAC company:\n\nMON: Job of the week (before/after + price range)\nTUE: Answer the question every customer asks\nWED: Meet the crew (15 seconds, one person)\nTHU: Review spotlight (read a real review on camera)\nFRI: Behind the scenes (the part customers never see)\nSAT: Open slots next week + booking link\n\n6 posts. About an hour of filming. All from your phone.\n\nConsistency beats perfection on social media. This plan builds trust with locals who will hire you, not just people who double-tap.\n\nSave this as your weekly checklist.\n\n#contentplan #socialmediamarketing #instagramtips #servicebusiness #contentstrategy",
+   "media_paths": [
+    "carousels/C05-weekly-content-plan/slide-01.jpg",
+    "carousels/C05-weekly-content-plan/slide-02.jpg",
+    "carousels/C05-weekly-content-plan/slide-03.jpg",
+    "carousels/C05-weekly-content-plan/slide-04.jpg",
+    "carousels/C05-weekly-content-plan/slide-05.jpg",
+    "carousels/C05-weekly-content-plan/slide-06.jpg",
+    "carousels/C05-weekly-content-plan/slide-07.jpg",
+    "carousels/C05-weekly-content-plan/slide-08.jpg",
+    "carousels/C05-weekly-content-plan/slide-09.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Social Media Marketing",
+   "industry": "Service businesses",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-r33",
+   "title": "R33 · Should You Put Prices in Your Ads?",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-19T18:50:00-05:00",
+   "caption": "Should you put prices in your ads? Most service business owners say no. They're afraid of scaring people off.\n\nBut that's kind of the point.\n\nA \"starting at\" price filters out people who were never going to pay it. The people who still reach out already know your range, so you get fewer leads, but better ones, and far fewer awkward phone calls.\n\nYou don't need a full price list:\n→ \"Weekly lawn care from $45 a visit\"\n→ \"Most bathroom remodels land between $18K and $28K\"\n\nTransparency reads as confidence. Confidence reads as quality.\n\nDo you show prices? Comment yes or no 👇\n\n#pricing #lawncarebusiness #landscaping #marketingpsychology #leadquality",
+   "media_paths": [
+    "reels/R33-prices-in-ads/R33-prices-in-ads.mp4"
+   ],
+   "cover_path": "reels/R33-prices-in-ads/cover.jpg",
+   "pillar": "Marketing Psychology",
+   "industry": "Landscaping / Lawn care",
+   "cta": "Comment"
+  },
+  {
+   "doc_id": "lib-c10",
+   "title": "C10 · Why Your Remodeling Ads Get Clicks but Not Contracts",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-11-20T10:50:00-05:00",
+   "caption": "If your remodeling or construction ads get clicks but not contracts, the problem might be the runway, not the ads.\n\nA $60K renovation isn't an impulse buy. Most homeowners take weeks or months to decide. If your marketing stops at the first ad, you disappear right when they're deciding.\n\nBuild a runway:\nWeek 1 → Show the dream: finished projects and reveals\nWeeks 2–4 → Show the process: timelines, permits, how you protect their home\nWeeks 4–8 → Show the numbers: real budgets, financing, what it actually costs\nAlways → Retarget everyone who engaged\n\nBe there when they're ready, not just when they first click.\n\nFollow @official.vantier for more on marketing high-ticket services.\n\n#remodelingcontractor #constructionmarketing #homeremodeling #contractormarketing #highticketsales",
+   "media_paths": [
+    "carousels/C10-big-ticket-runway/slide-01.jpg",
+    "carousels/C10-big-ticket-runway/slide-02.jpg",
+    "carousels/C10-big-ticket-runway/slide-03.jpg",
+    "carousels/C10-big-ticket-runway/slide-04.jpg",
+    "carousels/C10-big-ticket-runway/slide-05.jpg",
+    "carousels/C10-big-ticket-runway/slide-06.jpg",
+    "carousels/C10-big-ticket-runway/slide-07.jpg",
+    "carousels/C10-big-ticket-runway/slide-08.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Customer Acquisition",
+   "industry": "Remodeling / Construction",
+   "cta": "Follow"
+  },
+  {
+   "doc_id": "lib-r32",
+   "title": "R32 · It's 10 PM and You're Supposed to Post on Instagram",
+   "post_type": "reel",
+   "status": "draft",
+   "scheduled_at": "2026-11-21T18:50:00-05:00",
+   "caption": "It's 10 p.m. You just finished invoices. And now you're supposed to post on Instagram?\n\nYou didn't start a roofing company (or a plumbing, HVAC or cleaning company) to become a content creator. Here's how to get your nights back:\n\n1. Film everything on the job for a week. Raw clips, no editing, no talking required.\n2. Batch it. One hour on Sunday turns those clips into a week of posts.\n3. Automate the follow-up, so new leads get a text even when you're on a roof.\n\nOr hand it to someone whose full-time job is this. Your time is worth more working on the business than writing captions at midnight.\n\nSend this to an owner who's still posting at midnight.\n\n#smallbusinessowner #entrepreneurlife #roofingcompany #contentmarketing #contractorlife",
+   "media_paths": [
+    "reels/R32-owner-at-10pm/R32-owner-at-10pm.mp4"
+   ],
+   "cover_path": "reels/R32-owner-at-10pm/cover.jpg",
+   "pillar": "Business Owner Pain Points",
+   "industry": "Roofing / Contractors",
+   "cta": "Share"
+  },
+  {
+   "doc_id": "lib-c15",
+   "title": "C15 · Why People Don't Trust Auto Shops (and How to Flip It)",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-11-22T10:50:00-05:00",
+   "caption": "Most people walk into an auto repair shop expecting to be upsold. That's not a problem. It's an opportunity.\n\nIn a low-trust industry, transparency is the marketing:\n1. Show the old part. Text customers a photo or short video of what you found.\n2. Explain the price before the work, in plain English, line by line.\n3. Separate \"needs it now\" from \"can wait.\" Customers remember who didn't push.\n4. Turn it into content. A 30-second video of a tech explaining a worn brake pad is a better ad than any coupon.\n\nDo this consistently and your reviews start saying the one thing every shop wants: \"honest.\"\n\nFollow @official.vantier for more marketing that builds trust.\n\n#autorepair #autoshop #mechaniclife #customertrust #automotivemarketing",
+   "media_paths": [
+    "carousels/C15-auto-repair-trust/slide-01.jpg",
+    "carousels/C15-auto-repair-trust/slide-02.jpg",
+    "carousels/C15-auto-repair-trust/slide-03.jpg",
+    "carousels/C15-auto-repair-trust/slide-04.jpg",
+    "carousels/C15-auto-repair-trust/slide-05.jpg",
+    "carousels/C15-auto-repair-trust/slide-06.jpg",
+    "carousels/C15-auto-repair-trust/slide-07.jpg",
+    "carousels/C15-auto-repair-trust/slide-08.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Marketing Psychology",
+   "industry": "Auto repair",
+   "cta": "Follow"
+  },
+  {
+   "doc_id": "lib-c09",
+   "title": "C09 · Agents: Your Listing Ads Should Win Listings",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-11-23T10:50:00-05:00",
+   "caption": "Real estate agents: most listing ads are only aimed at buyers. That leaves the most valuable audience on the table: the neighbors.\n\nEveryone who lives near your listing is a future seller. Use every listing to win the next one:\n\n1. Run \"Just Listed\" and \"Just Sold\" content to the surrounding zip codes\n2. Use the hook sellers care about: \"Homes on your street are going under contract fast. Curious what yours is worth?\"\n3. Offer a free home value report instead of \"call me\"\n4. Follow up with hyper-local updates for that street, not a generic newsletter\n\nOne listing, marketed right, can become your next three.\n\nShare this with an agent who wants more listings.\n\n#realestatemarketing #realtor #listingagent #realestateagent #facebookadsforrealestate",
+   "media_paths": [
+    "carousels/C09-real-estate-win-listings/slide-01.jpg",
+    "carousels/C09-real-estate-win-listings/slide-02.jpg",
+    "carousels/C09-real-estate-win-listings/slide-03.jpg",
+    "carousels/C09-real-estate-win-listings/slide-04.jpg",
+    "carousels/C09-real-estate-win-listings/slide-05.jpg",
+    "carousels/C09-real-estate-win-listings/slide-06.jpg",
+    "carousels/C09-real-estate-win-listings/slide-07.jpg",
+    "carousels/C09-real-estate-win-listings/slide-08.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Customer Acquisition",
+   "industry": "Real estate",
+   "cta": "Share"
+  },
+  {
+   "doc_id": "lib-c16",
+   "title": "C16 · Your Phone Is All You Need to Make Great Ads",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-11-24T10:50:00-05:00",
+   "caption": "You don't need a film crew to make ads that work. For most service businesses, real job site footage beats polished commercials. Your phone is enough:\n\n1. Shoot vertical (9:16). Always.\n2. Face the light. Window or sun in front of you, never behind.\n3. Open on action, not a greeting. Skip \"Hey guys, it's Mike from…\"\n4. Get close to the mic. Bad audio kills more ads than bad video.\n5. Film 10 short clips per job: before, during, after, the crew, the reaction.\n6. Keep it real. Real job sites get watched.\n\nSave this for your next job.\n\n#contentcreation #videomarketing #smartphonevideo #socialmediatips #smallbusiness",
+   "media_paths": [
+    "carousels/C16-shoot-ads-on-your-phone/slide-01.jpg",
+    "carousels/C16-shoot-ads-on-your-phone/slide-02.jpg",
+    "carousels/C16-shoot-ads-on-your-phone/slide-03.jpg",
+    "carousels/C16-shoot-ads-on-your-phone/slide-04.jpg",
+    "carousels/C16-shoot-ads-on-your-phone/slide-05.jpg",
+    "carousels/C16-shoot-ads-on-your-phone/slide-06.jpg",
+    "carousels/C16-shoot-ads-on-your-phone/slide-07.jpg",
+    "carousels/C16-shoot-ads-on-your-phone/slide-08.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Social Media Marketing",
+   "industry": "Service businesses",
+   "cta": "Save"
+  },
+  {
+   "doc_id": "lib-c18",
+   "title": "C18 · What Happens When You Work With Vantier",
+   "post_type": "carousel",
+   "status": "draft",
+   "scheduled_at": "2026-11-25T10:50:00-05:00",
+   "caption": "Here's exactly what happens when a service business works with Vantier:\n\n01 Audit: we call your business like a customer, review your offer and map what happens after a lead comes in\n02 Offer: we build an offer your market actually wants\n03 Creative: hooks and videos built around your customers' problems, not your logo\n04 Launch: Meta campaigns aimed at your service area, tracked to booked jobs\n05 Follow-up: systems so every lead gets a fast, human response\n06 Report: a plain-English report every Friday covering what we spent, what it booked and what's next\n\nWe only work with service businesses: roofers, HVAC, plumbers, electricians, cleaners, detailers, landscapers, gyms, salons and more, nationwide.\n\nWant to see what this looks like for your business? DM us \"VANTIER\" or tap the link in our bio.\n\n#vantier #marketingagency #servicebusinessmarketing #metaadsagency #leadgeneration",
+   "media_paths": [
+    "carousels/C18-how-vantier-works/slide-01.jpg",
+    "carousels/C18-how-vantier-works/slide-02.jpg",
+    "carousels/C18-how-vantier-works/slide-03.jpg",
+    "carousels/C18-how-vantier-works/slide-04.jpg",
+    "carousels/C18-how-vantier-works/slide-05.jpg",
+    "carousels/C18-how-vantier-works/slide-06.jpg",
+    "carousels/C18-how-vantier-works/slide-07.jpg",
+    "carousels/C18-how-vantier-works/slide-08.jpg",
+    "carousels/C18-how-vantier-works/slide-09.jpg"
+   ],
+   "cover_path": null,
+   "pillar": "Vantier Authority",
+   "industry": "Service businesses",
+   "cta": "DM"
+  }
+ ]
+}

@@ -4,7 +4,7 @@
   ducked a further 6 dB while the narrator speaks (VO stays crystal clear).
 - SFX cues come from the scene plan (cut whooshes, UI pops/dings, ticks on
   data reveals, a low impact on big numbers) and are kept quiet.
-- Master normalized to -14 LUFS (Instagram) with a soft peak ceiling.
+- Master normalized to -14 LUFS (Instagram) with a -1.5 dBTP true-peak ceiling.
 Outputs out/<ID>_mix.wav and out/<ID>_vo-sfx.wav (no music, for swapping in
 trending audio inside the Instagram app).
 
@@ -62,10 +62,12 @@ def envelope(mono, att=0.03, rel=0.35):
 
 
 def limit(x, ceiling=0.84, look=0.005, rel=0.08):
-    """Look-ahead peak limiter (instant attack inside the look-ahead window, smooth release)."""
+    """Look-ahead true-peak limiter (instant attack inside the look-ahead window, smooth release).
+    Peaks are detected on a 4x oversampled copy so inter-sample overs don't survive the AAC encode."""
     from scipy.ndimage import minimum_filter1d
     from scipy.signal import lfilter
-    peak = np.abs(x).max(axis=1)
+    up = np.abs(resample_poly(x, 4, 1, axis=0)).max(axis=1)
+    peak = np.maximum(np.abs(x).max(axis=1), up[: 4 * len(x)].reshape(-1, 4).max(axis=1))
     need = np.minimum(1.0, ceiling / np.maximum(peak, 1e-9))
     w = int(look * SR) * 2 + 1
     g = minimum_filter1d(need, size=w, origin=0)

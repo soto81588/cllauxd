@@ -235,9 +235,9 @@ function toast(m) { const t = $('#toast'); t.textContent = m; t.classList.add('s
 
 // The Instagram publisher still reads Vantier OS until the move is finished; flip to true once it reads this page's posts.
 const PUBLISHER_CONNECTED = false;
-const NOT_CONNECTED = `<div class="banner"><b>Setup in progress.</b> The Instagram publisher still posts from Vantier OS → Content. Keep approving there for now; approvals made here won't post until the move is finished.</div>`;
+const NOT_CONNECTED = `<div class="banner"><b>Almost connected.</b> Your October queue still posts from Vantier OS until the Instagram publisher is switched over. Approvals you make here are saved and go out at their scheduled times once it is.</div>`;
 const S = {posts: [], db: undefined, ready: false, err: false};
-const UI = {tab: 'approvals', pf: 'review', type: 'all', pillar: '', editPost: null, newPost: false, confirmDel: null, expand: {}, cur: null, slide: 0, list: []};
+const UI = {bulk: false, bulkBusy: false, tab: 'approvals', pf: 'review', type: 'all', pillar: '', editPost: null, newPost: false, confirmDel: null, expand: {}, cur: null, slide: 0, list: []};
 
 /* ---------- post helpers ---------- */
 const postFor = (pid) => S.posts.find((p) => p.piece_id === pid);
@@ -333,7 +333,7 @@ function vApprovals() {
     </div>
     ${PUBLISHER_CONNECTED ? '' : NOT_CONNECTED}
     <div class="filters">${PF.map(([k, n, fn]) => `<button class="chip" data-pf="${k}" aria-pressed="${UI.pf === k}">${n}<span class="n">${S.posts.filter(fn).length}</span></button>`).join('')}
-      <span class="count"><button class="btn primary" data-newpost>+ New post</button></span></div>
+      <span class="count">${UI.pf === 'review' && drafts ? `<button class="btn gold" data-bulk ${UI.bulkBusy ? 'disabled' : ''}>${UI.bulkBusy ? 'Approving…' : UI.bulk ? `Confirm: approve all ${drafts}` : `Approve all ${drafts}`}</button> ${UI.bulk && !UI.bulkBusy ? '<button class="btn" data-bulkcancel>Cancel</button> ' : ''}` : ''}<button class="btn primary" data-newpost>+ New post</button></span></div>
     ${UI.newPost ? postForm(null) : ''}
     <div class="queue">${list.length ? list.map(postRow).join('') : `<p class="empty">${UI.pf === 'review' ? 'Nothing waiting for review.' : 'Nothing here.'}</p>`}</div>`;
 }
@@ -372,7 +372,7 @@ function approveBox(x) {
   if (S.db === null) return `<div class="approve"><span class="small">Open this page signed in to claude.ai to approve or schedule it.</span></div>`;
   if (!S.ready) return `<div class="approve"><span class="small">Loading status…</span></div>`;
   const p = postFor(x.id);
-  const pre = PUBLISHER_CONNECTED ? '' : `<p class="warn" style="margin:0 0 8px">Approvals here won't post until the move from Vantier OS is finished.</p>`;
+  const pre = PUBLISHER_CONNECTED ? '' : `<p class="warn" style="margin:0 0 8px">Approvals are saved and post once the publisher is switched over from Vantier OS.</p>`;
   if (!p) return pre +  `<div class="approve"><div class="row" style="margin:0"><span class="st">Not queued</span><span class="small">This piece isn't in Approvals.</span></div><div class="acts"><button class="btn gold" data-addpiece="${x.id}">Add to drafts</button></div></div>`;
   const clash = windowClash(p);
   return pre + `<div class="approve"><div class="row" style="margin:0"><span class="st st-${esc(p.status)}">${esc(STATUS_LABEL[p.status] || p.status)}</span>
@@ -465,13 +465,30 @@ function pieceDoc(x) {
     media_urls: x.media_urls, cover_url: x.cover_url || null, scheduled_at: x.sched, piece_id: x.id, source: 'content-library', created_at: nowIso(), updated_at: nowIso()};
 }
 document.addEventListener('click', async (e) => {
-  const t = e.target.closest('[data-tab],[data-type],[data-pf],[data-ps],[data-delpost],[data-editpost],[data-newpost],[data-cancelpost],[data-cap],[data-openpiece],[data-addpiece],.card');
+  const t = e.target.closest('[data-bulk],[data-bulkcancel],[data-tab],[data-type],[data-pf],[data-ps],[data-delpost],[data-editpost],[data-newpost],[data-cancelpost],[data-cap],[data-openpiece],[data-addpiece],.card');
   if (!t) return; const d = t.dataset;
   if (d.tab) { e.preventDefault(); UI.tab = d.tab; try { localStorage.setItem('vcl.tab', UI.tab); } catch {} render(true); window.scrollTo(0, 0); return; }
   if (d.type) { UI.type = d.type; document.querySelectorAll('[data-type]').forEach((c) => c.setAttribute('aria-pressed', String(c === t))); renderGrid(); return; }
   if (t.classList.contains('card')) { openPiece(d.id); return; }
   if (d.openpiece) { e.preventDefault(); openPiece(d.openpiece); return; }
-  if (d.pf) { UI.pf = d.pf; render(true); return; }
+  if (d.pf) { UI.pf = d.pf; UI.bulk = false; render(true); return; }
+  if ('bulkcancel' in d) { UI.bulk = false; render(true); return; }
+  if ('bulk' in d) {
+    if (!UI.bulk) { UI.bulk = true; render(true); return; }
+    if (!S.db) { toast('Sign in to claude.ai to make changes'); return; }
+    UI.bulk = false; UI.bulkBusy = true; render(true);
+    const soon = Date.now() + 5 * 60e3;
+    const list = S.posts.filter((p) => p.status === 'draft');
+    let ok = 0, skipped = 0, failed = 0;
+    for (const p of list) {
+      if (!p.scheduled_at || Date.parse(p.scheduled_at) < soon || !(p.media_urls || []).length) { skipped++; continue; }
+      try { await S.db.doc('posts/' + p._id).update({status: 'approved', error_message: null, updated_at: nowIso()}); ok++; }
+      catch (err) { console.error(err); failed++; }
+    }
+    UI.bulkBusy = false; render(true);
+    toast(`Approved ${ok}` + (skipped ? ` · ${skipped} skipped (past date or no media)` : '') + (failed ? ` · ${failed} failed, try again` : ''));
+    return;
+  }
   if ('newpost' in d) { UI.newPost = !UI.newPost; UI.editPost = null; render(true); return; }
   if (d.editpost) { UI.editPost = UI.editPost === d.editpost ? null : d.editpost; UI.newPost = false; render(true); return; }
   if ('cancelpost' in d) { UI.newPost = false; UI.editPost = null; render(true); return; }

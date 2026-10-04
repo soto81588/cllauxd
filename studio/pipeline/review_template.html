@@ -233,8 +233,8 @@ const toLocalInput = (iso) => { if (!iso) return ''; const d = new Date(iso); co
 const nowIso = () => new Date().toISOString();
 function toast(m) { const t = $('#toast'); t.textContent = m; t.classList.add('show'); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('show'), 2000); }
 
-// The Instagram publisher still reads Vantier OS until the move is finished; flip to true once it reads this page's posts.
-const PUBLISHER_CONNECTED = false;
+// The Instagram publisher routine reads this page's posts (switched from Vantier OS on Oct 4, 2026).
+const PUBLISHER_CONNECTED = true;
 const NOT_CONNECTED = `<div class="banner"><b>Almost connected.</b> Your October queue still posts from Vantier OS until the Instagram publisher is switched over. Approvals you make here are saved and go out at their scheduled times once it is.</div>`;
 const S = {posts: [], db: undefined, ready: false, err: false};
 const UI = {bulk: false, bulkBusy: false, tab: 'approvals', pf: 'review', type: 'all', pillar: '', editPost: null, newPost: false, confirmDel: null, expand: {}, cur: null, slide: 0, list: []};

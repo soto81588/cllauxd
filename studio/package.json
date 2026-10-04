@@ -1,0 +1,20 @@
+{
+  "name": "vantier-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vantier Instagram content studio: Remotion compositions for Reels and carousels",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.532",
+    "@remotion/cli": "^4.0.532",
+    "@remotion/renderer": "^4.0.532",
+    "@types/react": "^18.3.31",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.532",
+    "typescript": "^5.9.3"
+  }
+}

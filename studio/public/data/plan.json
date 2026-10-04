@@ -1,0 +1,5688 @@
+{
+ "reels": [
+  {
+   "id": "R01",
+   "slug": "not-a-lead-problem",
+   "title": "You Don't Have a Lead Problem",
+   "pillar": "Conversion",
+   "industry": "Plumbing / HVAC",
+   "music": "pulse",
+   "beats": [
+    {
+     "vo": "Your business doesn't have a lead problem.",
+     "scene": {
+      "t": "title",
+      "text": "You don't have a lead problem.",
+      "accent": "lead problem",
+      "kicker": "CONVERSION",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "It has a what-happens-next problem.",
+     "scene": {
+      "t": "title",
+      "text": "You have a what-happens-next problem.",
+      "accent": "what-happens-next",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Think about the last ten people who called you.",
+     "scene": {
+      "t": "photo",
+      "img": "missed_call_jobsite",
+      "move": "in",
+      "text": null,
+      "label": null,
+      "stock": "Phone ringing face-up on a toolbox while a plumber works under a sink in the background"
+     }
+    },
+    {
+     "vo": "How many hit voicemail while you were under a sink?",
+     "scene": {
+      "t": "phone",
+      "ui": "missed",
+      "data": {
+       "calls": [
+        "Mobile · 9:14 AM",
+        "Mobile · 10:02 AM",
+        "Mobile · 11:47 AM",
+        "Mobile · 1:20 PM"
+       ]
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "How many got a callback the next morning?",
+     "scene": {
+      "t": "phone",
+      "ui": "sms",
+      "data": {
+       "msgs": [
+        [
+         "me",
+         "Hey, sorry, just seeing this. Still need help?"
+        ],
+        [
+         "them",
+         "All set. Found someone last night."
+        ]
+       ],
+       "header": "Yesterday's caller"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "By then, they'd already booked someone else.",
+     "scene": {
+      "t": "illus",
+      "icon": "house_tech",
+      "text": null,
+      "label": "SOMEONE ELSE GOT THE JOB",
+      "stock": "Homeowner opening the door to a competitor's technician",
+      "accent": null
+     }
+    },
+    {
+     "vo": "More ads won't fix that. They just pour water into a leaky bucket.",
+     "scene": {
+      "t": "bars",
+      "title": "Where the leads go",
+      "bars": [
+       {
+        "l": "Leads",
+        "v": 40,
+        "d": "40"
+       },
+       {
+        "l": "Reached",
+        "v": 22,
+        "d": "22"
+       },
+       {
+        "l": "Booked",
+        "v": 9,
+        "d": "9"
+       }
+      ],
+      "win": 2
+     }
+    },
+    {
+     "vo": "Fix the bucket first. Answer fast, text back in minutes, and follow up.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Answer every call",
+       "Text back in under 5 minutes",
+       "Follow up 4+ times"
+      ],
+      "title": "Fix the bucket",
+      "hl": null,
+      "mode": "check"
+     }
+    },
+    {
+     "vo": "Then turn the ads up.",
+     "scene": {
+      "t": "title",
+      "text": "Then turn the ads up.",
+      "accent": "ads up",
+      "kicker": null,
+      "bg": "gold",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Follow Vantier for marketing that books jobs, not just calls.",
+     "scene": {
+      "t": "cta",
+      "line": "Marketing that books jobs.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Most service businesses don't need more leads. They need fewer leads leaking out of the bucket.\n\nBefore you spend another dollar on Facebook or Instagram ads, look at what happens after the phone rings:\n\n→ How many calls go to voicemail while you're on a job?\n→ How fast does someone call back?\n→ Does anyone follow up after the first try?\n\nIf any of those answers make you wince, that's where your growth is hiding. Fix it and every dollar you spend on lead generation works harder.\n\nSave this for your next team meeting, and follow @official.vantier for marketing that books jobs, not just calls.",
+   "tags": [
+    "servicebusiness",
+    "leadgeneration",
+    "plumbingbusiness",
+    "hvacbusiness",
+    "smallbusinessmarketing"
+   ],
+   "cta": "Follow"
+  },
+  {
+   "id": "R02",
+   "slug": "stop-boosting-posts",
+   "title": "Stop Boosting Posts",
+   "pillar": "Paid Advertising",
+   "industry": "Cleaning",
+   "music": "drive",
+   "beats": [
+    {
+     "vo": "Stop hitting the boost button.",
+     "scene": {
+      "t": "phone",
+      "ui": "boost",
+      "data": {},
+      "stock": null
+     }
+    },
+    {
+     "vo": "Boost tells Meta to find people who like and comment.",
+     "scene": {
+      "t": "phone",
+      "ui": "notif",
+      "data": {
+       "items": [
+        "liked your post",
+        "liked your post",
+        "commented: 🔥",
+        "liked your post",
+        "liked your post"
+       ]
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Not people who need their house cleaned.",
+     "scene": {
+      "t": "illus",
+      "icon": "spray",
+      "text": null,
+      "label": "WHO YOU ACTUALLY WANT",
+      "stock": "House cleaner wiping a kitchen island in a bright modern home",
+      "accent": null
+     }
+    },
+    {
+     "vo": "So you get likes from your cousin, and zero booked cleanings.",
+     "scene": {
+      "t": "stat",
+      "value": "0",
+      "label": "booked cleanings",
+      "sub": "142 likes",
+      "strike": false,
+      "tone": "gold",
+      "count": true
+     }
+    },
+    {
+     "vo": "If you want customers, run an actual campaign with a leads objective.",
+     "scene": {
+      "t": "split",
+      "left": {
+       "h": "Boosted post",
+       "l": [
+        "Optimizes for likes",
+        "Random reach",
+        "No lead form"
+       ]
+      },
+      "right": {
+       "h": "Leads campaign",
+       "l": [
+        "Optimizes for inquiries",
+        "Your service area",
+        "Qualifying form"
+       ]
+      },
+      "win": "right",
+      "title": null
+     }
+    },
+    {
+     "vo": "Tight service area. One clear offer. A form that asks the right questions.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Tight service area",
+       "One clear offer",
+       "A form that qualifies"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "check"
+     }
+    },
+    {
+     "vo": "Same budget. Completely different result.",
+     "scene": {
+      "t": "title",
+      "text": "Same budget. Different result.",
+      "accent": "Different result.",
+      "kicker": null,
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Send this to a business owner who's still boosting.",
+     "scene": {
+      "t": "cta",
+      "line": "Send this to an owner who still boosts.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "The boost button is the most expensive \"easy\" button in marketing.\n\nWhen you boost a post, you're telling Meta to find people likely to like, comment and share. That's great for engagement. It's terrible for getting a cleaning, a quote request or a booked job.\n\nIf your goal is customers, build a real campaign in Ads Manager:\n1. Choose the Leads objective\n2. Set a tight radius around the areas you actually serve\n3. Lead with one clear offer\n4. Use a form that asks one or two qualifying questions\n\nSame budget. Very different results.\n\nKnow someone who's still boosting? Send this to them.",
+   "tags": [
+    "facebookads",
+    "instagramads",
+    "paidadvertising",
+    "cleaningbusiness",
+    "servicebusinessmarketing"
+   ],
+   "cta": "Share"
+  },
+  {
+   "id": "R03",
+   "slug": "1000-dollar-plan",
+   "title": "If I Had $1,000 to Market a Local Service Business",
+   "pillar": "Business Growth",
+   "industry": "Local service (any)",
+   "music": "drive",
+   "beats": [
+    {
+     "vo": "If I had a thousand dollars to market a local service business, here's where it goes.",
+     "scene": {
+      "t": "title",
+      "text": "$1,000. Here's where it goes.",
+      "accent": "where it goes.",
+      "kicker": "THE PLAYBOOK",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Zero on a new logo. Zero on a website redesign.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "New logo — $0",
+       "Website redesign — $0"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "strike"
+     }
+    },
+    {
+     "vo": "Six hundred goes into one Meta lead campaign.",
+     "scene": {
+      "t": "budget",
+      "total": 1000,
+      "parts": [
+       {
+        "l": "Lead campaign",
+        "v": 600
+       },
+       {
+        "l": "Retargeting",
+        "v": 200
+       },
+       {
+        "l": "Reserve",
+        "v": 200
+       }
+      ],
+      "hl": 0
+     }
+    },
+    {
+     "vo": "One service, one offer, three different video hooks.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "1 service",
+       "1 offer",
+       "3 video hooks"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "num"
+     }
+    },
+    {
+     "vo": "Two hundred goes to retargeting the people who watched those videos.",
+     "scene": {
+      "t": "budget",
+      "total": 1000,
+      "parts": [
+       {
+        "l": "Lead campaign",
+        "v": 600
+       },
+       {
+        "l": "Retargeting",
+        "v": 200
+       },
+       {
+        "l": "Reserve",
+        "v": 200
+       }
+      ],
+      "hl": 1
+     }
+    },
+    {
+     "vo": "They know you. They just need a reason.",
+     "scene": {
+      "t": "phone",
+      "ui": "feed",
+      "data": {
+       "sponsored": true,
+       "headline": "Still thinking about it?"
+      },
+      "stock": "Person scrolling Instagram on the couch in the evening"
+     }
+    },
+    {
+     "vo": "The last two hundred stays in reserve.",
+     "scene": {
+      "t": "budget",
+      "total": 1000,
+      "parts": [
+       {
+        "l": "Lead campaign",
+        "v": 600
+       },
+       {
+        "l": "Retargeting",
+        "v": 200
+       },
+       {
+        "l": "Reserve",
+        "v": 200
+       }
+      ],
+      "hl": 2
+     }
+    },
+    {
+     "vo": "After two weeks, whichever ad booked the most jobs gets it.",
+     "scene": {
+      "t": "bars",
+      "title": "Booked jobs after 14 days",
+      "bars": [
+       {
+        "l": "Hook A",
+        "v": 3,
+        "d": "3"
+       },
+       {
+        "l": "Hook B",
+        "v": 9,
+        "d": "9"
+       },
+       {
+        "l": "Hook C",
+        "v": 4,
+        "d": "4"
+       }
+      ],
+      "win": 1
+     }
+    },
+    {
+     "vo": "No guessing. Just money following results.",
+     "scene": {
+      "t": "title",
+      "text": "Money follows results.",
+      "accent": "results.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Save this so the plan's ready when you are.",
+     "scene": {
+      "t": "cta",
+      "line": "Save the plan.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "If I had $1,000 to market a local service business, here's exactly where it would go:\n\n$0 → new logo, website redesign, \"branding\"\n$600 → one Meta lead campaign. One service, one offer, three different video hooks.\n$200 → retargeting everyone who watched those videos but didn't reach out\n$200 → reserve. After two weeks, it goes to whichever hook booked the most jobs.\n\nNo guessing. No spreading a small budget across ten ideas. Just money following results.\n\nThis works for roofers, HVAC, cleaners, detailers, landscapers and almost any local service business.\n\nSave this so the plan is ready when you are.",
+   "tags": [
+    "smallbusinessmarketing",
+    "metaads",
+    "advertisingstrategy",
+    "localbusiness",
+    "businessgrowth"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "R04",
+   "slug": "worse-work-busier",
+   "title": "Why Your Competitor Gets Customers You Should Be Getting",
+   "pillar": "Competitor / Market Analysis",
+   "industry": "Home services",
+   "music": "pulse",
+   "beats": [
+    {
+     "vo": "Your competitor does worse work than you, and they're still busier.",
+     "scene": {
+      "t": "title",
+      "text": "They do worse work. They're still busier.",
+      "accent": "still busier.",
+      "kicker": "COMPETITOR ANALYSIS",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Here's why. Homeowners can't judge quality until after the job.",
+     "scene": {
+      "t": "illus",
+      "icon": "house",
+      "text": null,
+      "label": "QUALITY IS INVISIBLE UP FRONT",
+      "stock": "Homeowner looking out the window at a contractor's truck in the driveway",
+      "accent": null
+     }
+    },
+    {
+     "vo": "So they choose based on what they can see.",
+     "scene": {
+      "t": "title",
+      "text": "They choose what they can see.",
+      "accent": "see.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Who shows up when they scroll.",
+     "scene": {
+      "t": "phone",
+      "ui": "feed",
+      "data": {
+       "sponsored": true,
+       "headline": "Same-day service. Book in 60 seconds."
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Who answers first.",
+     "scene": {
+      "t": "phone",
+      "ui": "sms",
+      "data": {
+       "msgs": [
+        [
+         "them",
+         "Hi, do you have anything today?"
+        ],
+        [
+         "me",
+         "Yes! We can be there at 3. Want it?"
+        ]
+       ],
+       "header": "Replied in 2 min"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Who looks the most established.",
+     "scene": {
+      "t": "illus",
+      "icon": "van_fleet",
+      "text": null,
+      "label": "LOOKS ESTABLISHED",
+      "stock": "Owner standing in front of a clean fleet of service vans",
+      "accent": null
+     }
+    },
+    {
+     "vo": "They're not winning on skill. They're winning on visibility.",
+     "scene": {
+      "t": "split",
+      "left": {
+       "h": "You",
+       "l": [
+        "Better work",
+        "Hard to find",
+        "Slow to reply"
+       ]
+      },
+      "right": {
+       "h": "Them",
+       "l": [
+        "Average work",
+        "Everywhere",
+        "Answers fast"
+       ]
+      },
+      "win": "right",
+      "title": null
+     }
+    },
+    {
+     "vo": "The good news? That's the easiest part to fix.",
+     "scene": {
+      "t": "title",
+      "text": "That's the easy part to fix.",
+      "accent": "easy part",
+      "kicker": null,
+      "bg": "gold",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Follow for the playbook.",
+     "scene": {
+      "t": "cta",
+      "line": "Follow for the playbook.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "It's one of the most frustrating things in a service business: watching a competitor who does worse work stay busier than you.\n\nHere's the uncomfortable truth. Homeowners can't judge your quality until after the job is done. So they decide based on what they CAN see:\n\n• Who shows up when they're scrolling\n• Who answers or texts back first\n• Who looks the most established\n\nYour competitor isn't beating you on skill. They're beating you on visibility and speed. And unlike skill, those are fast to fix.\n\nFollow @official.vantier for the playbook on winning the jobs you should already be getting.",
+   "tags": [
+    "competitoranalysis",
+    "localbusinessmarketing",
+    "homeservices",
+    "contractormarketing",
+    "customeracquisition"
+   ],
+   "cta": "Follow"
+  },
+  {
+   "id": "R05",
+   "slug": "views-dont-pay-bills",
+   "title": "Fifty Thousand Views. Zero Bookings.",
+   "pillar": "Social Media Marketing",
+   "industry": "Auto detailing",
+   "music": "glass",
+   "beats": [
+    {
+     "vo": "Fifty thousand views. Zero bookings.",
+     "scene": {
+      "t": "stat",
+      "value": "50,000",
+      "label": "views",
+      "sub": "0 bookings",
+      "strike": false,
+      "tone": "gold",
+      "count": true
+     }
+    },
+    {
+     "vo": "A detailing video blows up, and the calendar doesn't move.",
+     "scene": {
+      "t": "illus",
+      "icon": "car_shine",
+      "text": null,
+      "label": "AUTO DETAILING",
+      "stock": "Detailer polishing a black SUV under LED light panels",
+      "accent": null
+     }
+    },
+    {
+     "vo": "Because views measure attention, not intent.",
+     "scene": {
+      "t": "split",
+      "left": {
+       "h": "Views",
+       "l": [
+        "Attention",
+        "Entertainment"
+       ]
+      },
+      "right": {
+       "h": "Bookings",
+       "l": [
+        "Intent",
+        "Revenue"
+       ]
+      },
+      "win": "right",
+      "title": null
+     }
+    },
+    {
+     "vo": "Attention is watching a car get polished. Intent is asking how much for yours.",
+     "scene": {
+      "t": "phone",
+      "ui": "dm",
+      "data": {
+       "msgs": [
+        [
+         "them",
+         "How much for a full interior on a 2021 Tahoe?"
+        ]
+       ],
+       "header": "New message"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "So track the numbers that show intent.",
+     "scene": {
+      "t": "title",
+      "text": "Track intent.",
+      "accent": "intent.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Price DMs. Clicks to your booking page. Slots filled this week.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Price DMs",
+       "Booking-page clicks",
+       "Slots filled this week"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "check"
+     }
+    },
+    {
+     "vo": "Two thousand views with six booking requests beats fifty thousand with none. Every time.",
+     "scene": {
+      "t": "bars",
+      "title": "Booking requests",
+      "bars": [
+       {
+        "l": "50K-view video",
+        "v": 0,
+        "d": "0"
+       },
+       {
+        "l": "2K-view video",
+        "v": 6,
+        "d": "6"
+       }
+      ],
+      "win": 1
+     }
+    },
+    {
+     "vo": "Save this, and check your numbers this week.",
+     "scene": {
+      "t": "cta",
+      "line": "Save this. Check your numbers.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "A video can go viral and your calendar can stay exactly the same.\n\nViews measure attention. Bookings come from intent. For a local service business like auto detailing, the numbers worth tracking are a lot less exciting:\n\n✔ DMs asking for a price\n✔ Clicks to your booking page\n✔ Slots filled this week\n\nA 2,000-view video that brings in six booking requests beats a 50,000-view video that brings in none. Every time.\n\nMake content for the people near you who need your service this month, not for the algorithm.\n\nSave this and check your real numbers this week.",
+   "tags": [
+    "socialmediamarketing",
+    "autodetailing",
+    "detailingbusiness",
+    "instagrammarketing",
+    "smallbusinesstips"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "R06",
+   "slug": "roofing-from-zero",
+   "title": "How We'd Market a Roofing Company From Zero",
+   "pillar": "Customer Acquisition",
+   "industry": "Roofing",
+   "music": "drive",
+   "beats": [
+    {
+     "vo": "Here's how we'd market a roofing company starting from zero.",
+     "scene": {
+      "t": "illus",
+      "icon": "roof",
+      "text": "Roofing company. Zero to booked.",
+      "label": "ROOFING PLAYBOOK",
+      "stock": "Roofer nailing shingles at golden hour, drone pull-back",
+      "accent": "booked."
+     }
+    },
+    {
+     "vo": "Step one. Sell an inspection, not a roof.",
+     "scene": {
+      "t": "title",
+      "text": "1 — Sell the inspection, not the roof.",
+      "accent": "inspection,",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Nobody buys a fifteen thousand dollar roof from an ad. A free inspection with a photo report? Easy yes.",
+     "scene": {
+      "t": "split",
+      "left": {
+       "h": "The ask",
+       "l": [
+        "$15,000 roof",
+        "Big, scary decision"
+       ]
+      },
+      "right": {
+       "h": "The offer",
+       "l": [
+        "Free inspection",
+        "Photo report of every issue"
+       ]
+      },
+      "win": "right",
+      "title": null
+     }
+    },
+    {
+     "vo": "Step two. Show real roofs in their neighborhood.",
+     "scene": {
+      "t": "illus",
+      "icon": "map",
+      "text": null,
+      "label": "2 — LOCAL PROOF",
+      "stock": "Aerial drone shot over a suburban neighborhood's rooftops",
+      "accent": null
+     }
+    },
+    {
+     "vo": "Drone shots, before and afters, your crew on site.",
+     "scene": {
+      "t": "illus",
+      "icon": "storm_roof",
+      "text": null,
+      "label": "BEFORE → AFTER",
+      "stock": "Close-up of storm-damaged shingles, then the finished roof",
+      "accent": null
+     }
+    },
+    {
+     "vo": "Step three. Call every lead inside five minutes.",
+     "scene": {
+      "t": "timer",
+      "to": 300,
+      "label": "3 — Call within 5 minutes",
+      "tone": "gold",
+      "unit": "min"
+     }
+    },
+    {
+     "vo": "Step four. Retarget everyone who watched but didn't book.",
+     "scene": {
+      "t": "flow",
+      "nodes": [
+       "Watched video",
+       "Saw a review",
+       "Booked inspection"
+      ],
+      "active": null,
+      "loop": false,
+      "title": "4 — Retarget"
+     }
+    },
+    {
+     "vo": "Roofing is a trust purchase. Earn it before the inspection, not during it.",
+     "scene": {
+      "t": "title",
+      "text": "Earn trust before the inspection.",
+      "accent": "before",
+      "kicker": null,
+      "bg": "gold",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Save this if you're in roofing.",
+     "scene": {
+      "t": "cta",
+      "line": "Save this if you're in roofing.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "If we were marketing a roofing company starting from zero, this is the order we'd do it in:\n\n1️⃣ Sell the inspection, not the roof. Nobody buys a $15,000 roof from an ad. A free inspection with a photo report of every issue is an easy yes.\n2️⃣ Show real roofs in their neighborhood. Drone shots, before and afters, your crew on site. Local proof beats stock photos.\n3️⃣ Call every lead within five minutes. Roofing leads shop around fast.\n4️⃣ Retarget everyone who watched but didn't book, with reviews and proof.\n\nRoofing is a trust purchase. Your marketing has to earn that trust before the inspection, not during it.\n\nSave this if you're in roofing, or send it to a roofer who needs it.",
+   "tags": [
+    "roofingmarketing",
+    "roofingcompany",
+    "roofingbusiness",
+    "leadgeneration",
+    "contractormarketing"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "R07",
+   "slug": "five-minute-rule",
+   "title": "The Five-Minute Rule",
+   "pillar": "Lead Generation",
+   "industry": "HVAC / Plumbing",
+   "music": "pulse",
+   "beats": [
+    {
+     "vo": "A lead that waits an hour is probably a lead you've lost.",
+     "scene": {
+      "t": "timer",
+      "to": 3600,
+      "label": "Waiting on a callback",
+      "tone": "red",
+      "unit": "min"
+     }
+    },
+    {
+     "vo": "When someone fills out your form, they're not filling out one form.",
+     "scene": {
+      "t": "phone",
+      "ui": "notif",
+      "data": {
+       "items": [
+        "New lead: Sarah M. — AC not cooling"
+       ],
+       "lead": true
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "They're filling out three.",
+     "scene": {
+      "t": "grid",
+      "cards": [
+       "Company A",
+       "Company B",
+       "You"
+      ],
+      "label": "SAME LEAD, THREE COMPANIES"
+     }
+    },
+    {
+     "vo": "And whoever calls first usually gets the job.",
+     "scene": {
+      "t": "illus",
+      "icon": "house_tech",
+      "text": null,
+      "label": "FIRST CALL WINS",
+      "stock": "Technician arriving at a homeowner's front door",
+      "accent": null
+     }
+    },
+    {
+     "vo": "Not the cheapest. Not the best reviewed. The first.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Not the cheapest.",
+       "Not the best reviewed.",
+       "The first."
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "plain"
+     }
+    },
+    {
+     "vo": "So set a five-minute rule.",
+     "scene": {
+      "t": "timer",
+      "to": 300,
+      "label": "Your new rule",
+      "tone": "gold",
+      "unit": "min"
+     }
+    },
+    {
+     "vo": "An instant text the second a lead comes in, and a real call inside five minutes.",
+     "scene": {
+      "t": "phone",
+      "ui": "sms",
+      "data": {
+       "msgs": [
+        [
+         "me",
+         "Hi Sarah, it's Mike with the AC team. Got your request. Calling you in 2 minutes."
+        ]
+       ],
+       "header": "Sent automatically · 0:04"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "If you can't do that during jobs, that's your first hire. Not more ads.",
+     "scene": {
+      "t": "title",
+      "text": "That's your first hire. Not more ads.",
+      "accent": "first hire.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Follow Vantier for systems that turn leads into jobs.",
+     "scene": {
+      "t": "cta",
+      "line": "Systems that turn leads into jobs.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Speed to lead is the most underrated lever in a service business.\n\nWhen someone fills out a form for AC repair, a leak or a quote, they're rarely filling out just one. They're usually contacting two or three companies at once. And the job often goes to whoever responds first, not the cheapest and not the one with the most reviews.\n\nSet a five-minute rule:\n→ An automatic text the second a lead comes in\n→ A real phone call within five minutes\n→ If nobody can do that during jobs, that's your next hire, before more ad spend\n\nFaster response alone can turn the same ad budget into more booked jobs.\n\nFollow @official.vantier for more lead generation systems for service businesses.",
+   "tags": [
+    "leadgeneration",
+    "speedtolead",
+    "hvacmarketing",
+    "plumbingmarketing",
+    "servicebusiness"
+   ],
+   "cta": "Follow"
+  },
+  {
+   "id": "R08",
+   "slug": "three-reasons-ads-dont-convert",
+   "title": "3 Reasons Your Ads Aren't Converting",
+   "pillar": "Advertising Mistakes",
+   "industry": "Remodeling / Home improvement",
+   "music": "drive",
+   "beats": [
+    {
+     "vo": "Three reasons your ads aren't converting, and none of them are the algorithm.",
+     "scene": {
+      "t": "title",
+      "text": "3 reasons your ads don't convert.",
+      "accent": "don't convert.",
+      "kicker": "AD MISTAKES",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "One. Your first three seconds don't say who it's for.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Weak first 3 seconds",
+       "Same offer as everyone",
+       "Asking too much, too soon"
+      ],
+      "title": null,
+      "hl": 0,
+      "mode": "num"
+     }
+    },
+    {
+     "vo": "If it opens on your logo, the scroll already won.",
+     "scene": {
+      "t": "phone",
+      "ui": "feed",
+      "data": {
+       "sponsored": true,
+       "headline": "[ YOUR LOGO HERE ]",
+       "swipe": true
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Open on the problem. The dated kitchen. The cracked tile.",
+     "scene": {
+      "t": "illus",
+      "icon": "kitchen",
+      "text": null,
+      "label": "OPEN ON THE PROBLEM",
+      "stock": "Slow push-in on a dated 1990s kitchen with cracked tile counters",
+      "accent": null
+     }
+    },
+    {
+     "vo": "Two. Your offer sounds like everyone else's. Free estimates aren't an offer.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Weak first 3 seconds",
+       "Same offer as everyone",
+       "Asking too much, too soon"
+      ],
+      "title": null,
+      "hl": 1,
+      "mode": "num"
+     }
+    },
+    {
+     "vo": "Three. You're asking for too much, too soon.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Weak first 3 seconds",
+       "Same offer as everyone",
+       "Asking too much, too soon"
+      ],
+      "title": null,
+      "hl": 2,
+      "mode": "num"
+     }
+    },
+    {
+     "vo": "A twelve field form loses people. Ask for a name, a number, and one good question.",
+     "scene": {
+      "t": "phone",
+      "ui": "form",
+      "data": {
+       "fields": [
+        "Name",
+        "Phone",
+        "When do you want to start?"
+       ],
+       "cut": 12
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Fix those three before you ever touch targeting.",
+     "scene": {
+      "t": "title",
+      "text": "Fix these before targeting.",
+      "accent": "before targeting.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Save this and check your ads tonight.",
+     "scene": {
+      "t": "cta",
+      "line": "Save this. Check your ads tonight.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Before you blame the algorithm, check these three things. They're behind most service business ads that get clicks but no customers:\n\n1. Your first three seconds don't say who it's for. If the video opens on your logo, the scroll already won. Open on the problem: the dated kitchen, the cracked tile, the leak.\n\n2. Your offer sounds like everyone else's. \"Free estimates\" isn't an offer anymore. Everyone has one.\n\n3. You're asking for too much, too soon. A 12-field form loses people. Name, number and one good qualifying question is plenty.\n\nFix these before you touch targeting. Save this and check your ads tonight.",
+   "tags": [
+    "facebookads",
+    "advertisingtips",
+    "remodelingbusiness",
+    "homeimprovement",
+    "admistakes"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "R09",
+   "slug": "specifics-sell",
+   "title": "Your Service Is Great. Your Marketing Isn't Saying It.",
+   "pillar": "Marketing Mistakes",
+   "industry": "HVAC",
+   "music": "glass",
+   "beats": [
+    {
+     "vo": "Your service might be great. Your marketing isn't saying it.",
+     "scene": {
+      "t": "title",
+      "text": "Great service. Invisible marketing.",
+      "accent": "Invisible",
+      "kicker": "MESSAGING",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Here's what most HVAC ads sound like.",
+     "scene": {
+      "t": "photo",
+      "img": "hvac_condenser",
+      "move": "up",
+      "text": null,
+      "label": null,
+      "stock": "HVAC technician servicing an outdoor AC condenser behind a home"
+     }
+    },
+    {
+     "vo": "Quality service. Family owned. Call today.",
+     "scene": {
+      "t": "quote",
+      "lines": [
+       "Quality service.",
+       "Family owned.",
+       "Call today!"
+      ],
+      "kind": "bad",
+      "who": null,
+      "label": "TYPICAL HVAC AD",
+      "icon": null
+     }
+    },
+    {
+     "vo": "Every competitor in your city says the exact same thing.",
+     "scene": {
+      "t": "grid",
+      "cards": [
+       "Quality service.",
+       "Quality service.",
+       "Quality service.",
+       "Quality service.",
+       "Quality service.",
+       "Quality service."
+      ],
+      "label": "EVERY COMPETITOR"
+     }
+    },
+    {
+     "vo": "Now compare that. Same-day AC repair. Upfront price before we touch anything. Breaks again in ninety days? The visit's on us.",
+     "scene": {
+      "t": "quote",
+      "lines": [
+       "Same-day AC repair.",
+       "Upfront price before we touch anything.",
+       "Breaks again in 90 days? The visit's on us."
+      ],
+      "kind": "offer",
+      "who": null,
+      "label": "SPECIFIC",
+      "icon": null
+     }
+    },
+    {
+     "vo": "That's not better writing. It's specifics.",
+     "scene": {
+      "t": "title",
+      "text": "Specifics sell.",
+      "accent": "sell.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Specifics make you believable. Vague makes you invisible.",
+     "scene": {
+      "t": "split",
+      "left": {
+       "h": "Vague",
+       "l": [
+        "Invisible",
+        "Forgettable"
+       ]
+      },
+      "right": {
+       "h": "Specific",
+       "l": [
+        "Believable",
+        "Bookable"
+       ]
+      },
+      "win": "right",
+      "title": null
+     }
+    },
+    {
+     "vo": "Comment your trade, and we'll show you how to make yours specific.",
+     "scene": {
+      "t": "cta",
+      "line": "Comment your trade.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Your service might be excellent. But if your ad says \"Quality service. Family owned. Call today!\", you sound exactly like every other company in your city.\n\nVague claims don't build trust. Specifics do.\n\n❌ \"Quality service you can trust\"\n✅ \"Same-day AC repair. Upfront price before we touch anything. If it breaks again in 90 days, the visit's on us.\"\n\nThe second one isn't better writing. It's a clearer promise. It tells people what happens, when, and what they're protected from.\n\nLook at your own ads and website headline. Could a competitor swap in their name and use it as-is? If so, it's not specific enough.\n\nComment your trade below and we'll show you how to make your message specific.",
+   "tags": [
+    "hvacmarketing",
+    "marketingtips",
+    "copywriting",
+    "servicebusinessmarketing",
+    "hvaccontractor"
+   ],
+   "cta": "Comment"
+  },
+  {
+   "id": "R10",
+   "slug": "discounts-arent-offers",
+   "title": "10% Off Is Not an Offer",
+   "pillar": "Offer Creation",
+   "industry": "Lawn care / Landscaping",
+   "music": "glass",
+   "beats": [
+    {
+     "vo": "Ten percent off is not an offer.",
+     "scene": {
+      "t": "title",
+      "text": "10% off is not an offer.",
+      "accent": "not an offer.",
+      "kicker": "OFFER CREATION",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Nobody picks a lawn care company to save twenty bucks.",
+     "scene": {
+      "t": "illus",
+      "icon": "mower",
+      "text": null,
+      "label": "LAWN CARE",
+      "stock": "Landscaper mowing perfect stripes into a front lawn, early morning",
+      "accent": null
+     }
+    },
+    {
+     "vo": "What stops people from booking isn't price. It's risk.",
+     "scene": {
+      "t": "title",
+      "text": "It's not price. It's risk.",
+      "accent": "risk.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "What if they don't show up? What if it doesn't work?",
+     "scene": {
+      "t": "quote",
+      "lines": [
+       "What if they don't show up?",
+       "What if it doesn't work?",
+       "What if it costs more than they said?"
+      ],
+      "kind": "thought",
+      "who": null,
+      "label": null,
+      "icon": null
+     }
+    },
+    {
+     "vo": "So remove it. Weeds back between visits? We come back free. Price locked in writing. Not happy after the first visit? You don't pay.",
+     "scene": {
+      "t": "quote",
+      "lines": [
+       "Weeds back between visits? We come back free.",
+       "Price locked in writing.",
+       "Not happy after visit one? You don't pay."
+      ],
+      "kind": "offer",
+      "who": null,
+      "label": "RISK REMOVED",
+      "icon": null
+     }
+    },
+    {
+     "vo": "A discount lowers your price. A guarantee lowers their fear.",
+     "scene": {
+      "t": "split",
+      "left": {
+       "h": "Discount",
+       "l": [
+        "Lowers your price"
+       ]
+      },
+      "right": {
+       "h": "Guarantee",
+       "l": [
+        "Lowers their fear"
+       ]
+      },
+      "win": "right",
+      "title": null
+     }
+    },
+    {
+     "vo": "Only one of those builds a business.",
+     "scene": {
+      "t": "title",
+      "text": "Only one builds a business.",
+      "accent": "builds",
+      "kicker": null,
+      "bg": "gold",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Send this to an owner who's still running discounts.",
+     "scene": {
+      "t": "cta",
+      "line": "Send this to an owner running discounts.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "10% off doesn't move people. Removing their risk does.\n\nWhen someone hesitates to book a lawn care company (or any home service), it's rarely about saving $20. It's about doubt:\n\n→ What if they don't show up?\n→ What if it doesn't work?\n→ What if the price changes?\n\nSo answer those fears in the offer itself:\n• \"Weeds back between visits? We come back free.\"\n• \"Your price, locked in writing.\"\n• \"Not happy after the first visit? You don't pay for it.\"\n\nA discount lowers your price. A guarantee lowers their fear. Only one of those builds a business with healthy margins.\n\nSend this to an owner who's still running discounts.",
+   "tags": [
+    "offercreation",
+    "lawncare",
+    "landscapingbusiness",
+    "marketingpsychology",
+    "smallbusinessowner"
+   ],
+   "cta": "Share"
+  },
+  {
+   "id": "R11",
+   "slug": "ads-die-after-two-weeks",
+   "title": "Why Your Ads Die After Two Weeks",
+   "pillar": "Paid Advertising",
+   "industry": "Landscaping",
+   "music": "pulse",
+   "beats": [
+    {
+     "vo": "Your ad crushed it for two weeks. Then it died.",
+     "scene": {
+      "t": "line",
+      "title": "Cost per lead",
+      "points": [
+       22,
+       21,
+       23,
+       22,
+       24,
+       23,
+       25,
+       31,
+       38,
+       46,
+       55
+      ],
+      "mark": 6,
+      "refresh": null,
+      "good": false
+     }
+    },
+    {
+     "vo": "You didn't break anything. Your audience just got tired of it.",
+     "scene": {
+      "t": "illus",
+      "icon": "leaf",
+      "text": null,
+      "label": "SAME AD, SAME PEOPLE",
+      "stock": "Landscaping crew edging and planting in front of a home",
+      "accent": null
+     }
+    },
+    {
+     "vo": "In a local market, the same few thousand people see your ad over and over.",
+     "scene": {
+      "t": "stat",
+      "value": "4.8×",
+      "label": "times each person saw it",
+      "sub": "frequency after 3 weeks",
+      "strike": false,
+      "tone": "gold",
+      "count": false
+     }
+    },
+    {
+     "vo": "By the fifth time, it's wallpaper.",
+     "scene": {
+      "t": "phone",
+      "ui": "feed",
+      "data": {
+       "sponsored": true,
+       "headline": "Spring cleanup special",
+       "swipe": true
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "The fix isn't a new campaign. It's new creative.",
+     "scene": {
+      "t": "title",
+      "text": "Not a new campaign. New creative.",
+      "accent": "New creative.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Keep the offer. Change the hook.",
+     "scene": {
+      "t": "split",
+      "left": {
+       "h": "Keep",
+       "l": [
+        "Your offer",
+        "Your audience"
+       ]
+      },
+      "right": {
+       "h": "Change",
+       "l": [
+        "First line",
+        "First shot",
+        "Who's talking"
+       ]
+      },
+      "win": "right",
+      "title": null
+     }
+    },
+    {
+     "vo": "A new opening line. A new first shot. A different crew member on camera.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "New opening line",
+       "New first shot",
+       "New face on camera"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "num"
+     }
+    },
+    {
+     "vo": "Fresh creative every two to three weeks keeps results from falling off a cliff.",
+     "scene": {
+      "t": "line",
+      "title": "Cost per lead with refreshes",
+      "points": [
+       22,
+       21,
+       23,
+       24,
+       22,
+       23,
+       24,
+       22,
+       23,
+       22,
+       23
+      ],
+      "mark": null,
+      "refresh": [
+       3,
+       6,
+       9
+      ],
+      "good": true
+     }
+    },
+    {
+     "vo": "Follow for more on ads that actually last.",
+     "scene": {
+      "t": "cta",
+      "line": "Ads that actually last.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Your ad worked great for two weeks and then results fell off a cliff. Sound familiar?\n\nIn a local market, you're showing ads to the same few thousand people. After they've seen the same video four or five times, they stop noticing it. That's creative fatigue, and it's the most common reason local service ads \"stop working.\"\n\nThe fix usually isn't a new campaign or new targeting. It's new creative:\n\n→ Keep the offer that works\n→ Change the hook (the opening line and the first shot)\n→ Put a different crew member on camera\n\nPlan on fresh creative every 2–3 weeks and your cost per lead stays steady instead of creeping up.\n\nFollow @official.vantier for more on running Meta ads that last.",
+   "tags": [
+    "metaads",
+    "facebookadstips",
+    "landscapingmarketing",
+    "adcreative",
+    "paidsocial"
+   ],
+   "cta": "Follow"
+  },
+  {
+   "id": "R12",
+   "slug": "retargeting-explained",
+   "title": "Retargeting, Explained in 30 Seconds",
+   "pillar": "Retargeting",
+   "industry": "Remodeling",
+   "music": "glass",
+   "beats": [
+    {
+     "vo": "Most people won't book the first time they see you. That's normal.",
+     "scene": {
+      "t": "title",
+      "text": "Most people won't book the first time.",
+      "accent": "first time.",
+      "kicker": "RETARGETING",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Especially for a bathroom remodel.",
+     "scene": {
+      "t": "illus",
+      "icon": "bath",
+      "text": null,
+      "label": "BATHROOM REMODEL",
+      "stock": "Tile installer setting large-format tile in a bathroom remodel",
+      "accent": null
+     }
+    },
+    {
+     "vo": "They watch your video, check your profile, then life gets in the way.",
+     "scene": {
+      "t": "phone",
+      "ui": "profile",
+      "data": {
+       "name": "Your Company",
+       "tagline": "Bathroom & kitchen remodeling"
+      },
+      "stock": "Homeowner scrolling a contractor's Instagram profile on the couch"
+     }
+    },
+    {
+     "vo": "Retargeting keeps you in front of them while they decide.",
+     "scene": {
+      "t": "flow",
+      "nodes": [
+       "Watched your video",
+       "Saw a review",
+       "Got the offer",
+       "Booked"
+      ],
+      "active": 0,
+      "loop": false,
+      "title": null
+     }
+    },
+    {
+     "vo": "Day one, they see your crew at work.",
+     "scene": {
+      "t": "timeline",
+      "steps": [
+       {
+        "d": "Day 1",
+        "t": "Your crew at work"
+       },
+       {
+        "d": "Day 4",
+        "t": "A neighbor's review"
+       },
+       {
+        "d": "Day 10",
+        "t": "A reason to book now"
+       }
+      ],
+      "active": 0
+     }
+    },
+    {
+     "vo": "Day four, a review from someone nearby.",
+     "scene": {
+      "t": "timeline",
+      "steps": [
+       {
+        "d": "Day 1",
+        "t": "Your crew at work"
+       },
+       {
+        "d": "Day 4",
+        "t": "A neighbor's review"
+       },
+       {
+        "d": "Day 10",
+        "t": "A reason to book now"
+       }
+      ],
+      "active": 1
+     }
+    },
+    {
+     "vo": "Day ten, a reason to book this month.",
+     "scene": {
+      "t": "timeline",
+      "steps": [
+       {
+        "d": "Day 1",
+        "t": "Your crew at work"
+       },
+       {
+        "d": "Day 4",
+        "t": "A neighbor's review"
+       },
+       {
+        "d": "Day 10",
+        "t": "A reason to book now"
+       }
+      ],
+      "active": 2
+     }
+    },
+    {
+     "vo": "Your competitors show up once. You show up five times.",
+     "scene": {
+      "t": "split",
+      "left": {
+       "h": "Them",
+       "l": [
+        "1 touch"
+       ]
+      },
+      "right": {
+       "h": "You",
+       "l": [
+        "5 touches"
+       ]
+      },
+      "win": "right",
+      "title": null
+     }
+    },
+    {
+     "vo": "Save this for when you set up retargeting.",
+     "scene": {
+      "t": "cta",
+      "line": "Save this for later.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Most people won't book the first time they see your ad. Especially for a bigger decision like a bathroom remodel. That's normal, and it's exactly what retargeting is for.\n\nRetargeting means showing follow-up ads to people who already engaged: they watched your video, visited your profile or clicked through to your site.\n\nA simple sequence:\nDay 1 → your crew at work (who you are)\nDay 4 → a review from someone nearby (proof)\nDay 10 → a reason to book this month (the offer)\n\nSame people, different message, each step closer to booking. Your competitors show up once. You show up five times.\n\nSave this for when you set up retargeting.",
+   "tags": [
+    "retargeting",
+    "remodelingcontractor",
+    "facebookads",
+    "digitalmarketing",
+    "customeracquisition"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "R13",
+   "slug": "cheapest-leads-most-expensive",
+   "title": "The Cheapest Leads Are the Most Expensive",
+   "pillar": "Customer Acquisition",
+   "industry": "Moving",
+   "music": "pulse",
+   "beats": [
+    {
+     "vo": "The cheapest leads are usually the most expensive.",
+     "scene": {
+      "t": "title",
+      "text": "Cheap leads are expensive.",
+      "accent": "expensive.",
+      "kicker": "THE MATH",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Here's the math for a moving company.",
+     "scene": {
+      "t": "illus",
+      "icon": "truck",
+      "text": null,
+      "label": "MOVING COMPANY",
+      "stock": "Movers carrying a wrapped dresser up a moving truck ramp",
+      "accent": null
+     }
+    },
+    {
+     "vo": "Campaign A gets leads for fifteen dollars. Campaign B, forty-five.",
+     "scene": {
+      "t": "bars",
+      "title": "Cost per lead",
+      "bars": [
+       {
+        "l": "Campaign A",
+        "v": 15,
+        "d": "$15"
+       },
+       {
+        "l": "Campaign B",
+        "v": 45,
+        "d": "$45"
+       }
+      ],
+      "win": 0
+     }
+    },
+    {
+     "vo": "A looks like the winner. But only one in twenty of those leads books a move.",
+     "scene": {
+      "t": "math",
+      "rows": [
+       {
+        "a": "20 leads",
+        "b": "× $15",
+        "r": "$300"
+       }
+      ],
+      "note": "Campaign A · cost per booked move"
+     }
+    },
+    {
+     "vo": "That's three hundred dollars per booked job.",
+     "scene": {
+      "t": "stat",
+      "value": "$300",
+      "label": "per booked move",
+      "sub": "Campaign A",
+      "strike": false,
+      "tone": "red",
+      "count": true
+     }
+    },
+    {
+     "vo": "One in four of B's leads books. That's a hundred and eighty.",
+     "scene": {
+      "t": "math",
+      "rows": [
+       {
+        "a": "4 leads",
+        "b": "× $45",
+        "r": "$180"
+       }
+      ],
+      "note": "Campaign B · cost per booked move"
+     }
+    },
+    {
+     "vo": "Judge ads by cost per booked job, not cost per lead.",
+     "scene": {
+      "t": "bars",
+      "title": "Cost per booked move",
+      "bars": [
+       {
+        "l": "Campaign A",
+        "v": 300,
+        "d": "$300"
+       },
+       {
+        "l": "Campaign B",
+        "v": 180,
+        "d": "$180"
+       }
+      ],
+      "win": 1
+     }
+    },
+    {
+     "vo": "Share this with whoever runs your ads.",
+     "scene": {
+      "t": "cta",
+      "line": "Share this with whoever runs your ads.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "The cheapest leads are often the most expensive ones. Here's the math (example numbers):\n\nCampaign A: $15 per lead. 1 in 20 books a move.\n→ 20 × $15 = $300 per booked move\n\nCampaign B: $45 per lead. 1 in 4 books a move.\n→ 4 × $45 = $180 per booked move\n\nCampaign A \"wins\" on cost per lead and loses where it actually matters.\n\nIf you only look at cost per lead, you'll keep scaling the campaign that brings in tire-kickers and cutting the one that brings in real customers. Track every lead through to booked jobs and judge your ads on cost per booked job.\n\nShare this with whoever runs your ads.",
+   "tags": [
+    "movingcompany",
+    "costperlead",
+    "customeracquisition",
+    "facebookads",
+    "marketingmath"
+   ],
+   "cta": "Share"
+  },
+  {
+   "id": "R14",
+   "slug": "you-dont-need-viral",
+   "title": "You Do Not Need to Go Viral",
+   "pillar": "Marketing Myths",
+   "industry": "Electrical",
+   "music": "glass",
+   "beats": [
+    {
+     "vo": "You do not need to go viral.",
+     "scene": {
+      "t": "title",
+      "text": "You do not need to go viral.",
+      "accent": "viral.",
+      "kicker": "MARKETING MYTHS",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Think about a local electrician.",
+     "scene": {
+      "t": "illus",
+      "icon": "panel",
+      "text": null,
+      "label": "LOCAL ELECTRICIAN",
+      "stock": "Electrician with a headlamp working inside a residential breaker panel",
+      "accent": null
+     }
+    },
+    {
+     "vo": "Your service area might have eighty thousand homes.",
+     "scene": {
+      "t": "stat",
+      "value": "80,000",
+      "label": "homes in your service area",
+      "sub": null,
+      "strike": false,
+      "tone": "gold",
+      "count": true
+     }
+    },
+    {
+     "vo": "This month, only a small slice of them need an electrician.",
+     "scene": {
+      "t": "dots",
+      "total": 100,
+      "hl": 3,
+      "label": "need an electrician this month",
+      "sub": "illustrative"
+     }
+    },
+    {
+     "vo": "That slice is the only audience that matters.",
+     "scene": {
+      "t": "title",
+      "text": "That slice is your audience.",
+      "accent": "your audience.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "A million views from across the country won't fill your schedule.",
+     "scene": {
+      "t": "stat",
+      "value": "1,000,000",
+      "label": "views from everywhere",
+      "sub": null,
+      "strike": true,
+      "tone": "gold",
+      "count": true
+     }
+    },
+    {
+     "vo": "Being the name those few hundred locals see again and again will.",
+     "scene": {
+      "t": "calendar",
+      "fill": 0.85,
+      "label": "Booked from local repetition",
+      "cell": null,
+      "noun": null
+     }
+    },
+    {
+     "vo": "Stop chasing reach. Own your zip codes.",
+     "scene": {
+      "t": "title",
+      "text": "Own your zip codes.",
+      "accent": "zip codes.",
+      "kicker": null,
+      "bg": "gold",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Follow for local marketing that actually pays.",
+     "scene": {
+      "t": "cta",
+      "line": "Local marketing that pays.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Local service businesses don't need to go viral. They need to be known by the right few hundred people.\n\nThink about an electrician. Your service area might have tens of thousands of homes, but only a small slice need an electrician in any given month. That slice is your entire market right now.\n\nA million views from across the country won't fill your schedule. Being the name those local homeowners see again and again, in their feed, in reviews, in their neighbor's recommendation, will.\n\nStop chasing reach. Own your zip codes:\n• Tight geographic targeting\n• Consistent, repeated presence\n• Proof from local jobs\n\nFollow @official.vantier for local marketing that actually pays.",
+   "tags": [
+    "electricianbusiness",
+    "localmarketing",
+    "marketingmyths",
+    "instagramforbusiness",
+    "smallbusinessmarketing"
+   ],
+   "cta": "Follow"
+  },
+  {
+   "id": "R15",
+   "slug": "what-a-customer-is-worth",
+   "title": "That $150 Customer Isn't Worth $150",
+   "pillar": "Business Growth",
+   "industry": "Pest control",
+   "music": "glass",
+   "beats": [
+    {
+     "vo": "That hundred-fifty-dollar customer isn't worth a hundred fifty dollars.",
+     "scene": {
+      "t": "title",
+      "text": "A $150 customer isn't worth $150.",
+      "accent": "isn't worth $150.",
+      "kicker": "KNOW YOUR NUMBERS",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Say you run a pest control company.",
+     "scene": {
+      "t": "illus",
+      "icon": "shield_bug",
+      "text": null,
+      "label": "PEST CONTROL",
+      "stock": "Pest control technician spraying a home's exterior perimeter",
+      "accent": null
+     }
+    },
+    {
+     "vo": "A new customer signs up for quarterly service at a hundred fifty a visit.",
+     "scene": {
+      "t": "math",
+      "rows": [
+       {
+        "a": "$150",
+        "b": "× 4 visits",
+        "r": "$600 / yr"
+       }
+      ],
+      "note": null
+     }
+    },
+    {
+     "vo": "If they stay three years, that's eighteen hundred.",
+     "scene": {
+      "t": "math",
+      "rows": [
+       {
+        "a": "$150",
+        "b": "× 4 visits",
+        "r": "$600 / yr"
+       },
+       {
+        "a": "$600",
+        "b": "× 3 years",
+        "r": "$1,800"
+       }
+      ],
+      "note": null
+     }
+    },
+    {
+     "vo": "Plus the neighbor they refer.",
+     "scene": {
+      "t": "math",
+      "rows": [
+       {
+        "a": "$150",
+        "b": "× 4 visits",
+        "r": "$600 / yr"
+       },
+       {
+        "a": "$600",
+        "b": "× 3 years",
+        "r": "$1,800"
+       },
+       {
+        "a": "+ referrals",
+        "b": "",
+        "r": "even more"
+       }
+      ],
+      "note": null
+     }
+    },
+    {
+     "vo": "So when you ask, can I afford sixty dollars to get a customer, you're asking the wrong question.",
+     "scene": {
+      "t": "title",
+      "text": "“Can I afford $60 for a customer?”",
+      "accent": "$60",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": "Wrong question."
+     }
+    },
+    {
+     "vo": "Know what a customer is worth over time, and you'll stop being scared to invest in getting one.",
+     "scene": {
+      "t": "split",
+      "left": {
+       "h": "Cost to acquire",
+       "l": [
+        "$60"
+       ]
+      },
+      "right": {
+       "h": "Worth over 3 years",
+       "l": [
+        "$1,800+"
+       ]
+      },
+      "win": "right",
+      "title": null
+     }
+    },
+    {
+     "vo": "Save this and run your own numbers.",
+     "scene": {
+      "t": "cta",
+      "line": "Save this. Run your numbers.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "If you sell recurring service, your customers are worth far more than their first invoice.\n\nExample: pest control at $150 per quarterly visit.\n$150 × 4 visits = $600 a year\n$600 × 3 years = $1,800\nPlus the neighbors they refer.\n\nSo \"can I afford $60 in ad spend to get a customer?\" is the wrong question. The real question is: what is a customer worth to you over time, and how much of that are you willing to invest to win one?\n\nOwners who know their customer lifetime value outspend competitors who don't, and still make more money.\n\nSave this and run the numbers for your own business.",
+   "tags": [
+    "pestcontrol",
+    "pestcontrolbusiness",
+    "customerlifetimevalue",
+    "businessgrowth",
+    "knowyournumbers"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "R16",
+   "slug": "website-losing-calls",
+   "title": "Your Website Might Be Losing You Calls",
+   "pillar": "Conversion",
+   "industry": "Auto repair",
+   "music": "pulse",
+   "beats": [
+    {
+     "vo": "Your website might be losing you calls every day.",
+     "scene": {
+      "t": "title",
+      "text": "Your website is losing calls.",
+      "accent": "losing calls.",
+      "kicker": "CONVERSION",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Pull it up on your phone right now.",
+     "scene": {
+      "t": "phone",
+      "ui": "site",
+      "data": {
+       "state": "loading"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Can someone tap to call in one second, without scrolling?",
+     "scene": {
+      "t": "phone",
+      "ui": "site",
+      "data": {
+       "state": "call"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Does it say what you fix, right at the top?",
+     "scene": {
+      "t": "phone",
+      "ui": "site",
+      "data": {
+       "state": "hero"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Does it load before they lose patience?",
+     "scene": {
+      "t": "timer",
+      "to": 5,
+      "label": "Page still loading…",
+      "tone": "red",
+      "unit": "sec"
+     }
+    },
+    {
+     "vo": "Someone with a check engine light isn't browsing. They want to know you can fix it, and how to reach you.",
+     "scene": {
+      "t": "illus",
+      "icon": "car_wrench",
+      "text": null,
+      "label": "AUTO REPAIR",
+      "stock": "Mechanic under the hood of a sedan talking with the customer",
+      "accent": null
+     }
+    },
+    {
+     "vo": "One clear headline. One big call button. Real shop photos. Reviews up top.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "One clear headline",
+       "One big call button",
+       "Real shop photos",
+       "Reviews up top"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "check"
+     }
+    },
+    {
+     "vo": "That's the whole job of your homepage.",
+     "scene": {
+      "t": "title",
+      "text": "That's the whole job.",
+      "accent": "whole job.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Send this to whoever built your website.",
+     "scene": {
+      "t": "cta",
+      "line": "Send this to your web person.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Pull up your website on your phone right now and be honest:\n\n☐ Can someone tap to call in one second, without scrolling?\n☐ Does the top of the page say what you fix and where?\n☐ Does it load in a couple of seconds, not five?\n☐ Are there real photos of your shop and your team?\n☐ Are your reviews visible without hunting for them?\n\nSomeone with a check engine light isn't browsing. They want to know you can fix it and how to reach you, fast. That's the entire job of your homepage.\n\nMost service business websites don't need a redesign. They need these five fixes.\n\nSend this to whoever built your website.",
+   "tags": [
+    "autorepair",
+    "autorepairshop",
+    "websitetips",
+    "conversionrate",
+    "localbusinessmarketing"
+   ],
+   "cta": "Share"
+  },
+  {
+   "id": "R17",
+   "slug": "sell-the-outcome",
+   "title": "Nobody Wants to Buy a Water Heater",
+   "pillar": "Marketing Psychology",
+   "industry": "Plumbing",
+   "music": "glass",
+   "beats": [
+    {
+     "vo": "Nobody wants to buy a water heater.",
+     "scene": {
+      "t": "title",
+      "text": "Nobody wants a water heater.",
+      "accent": "water heater.",
+      "kicker": "MARKETING PSYCHOLOGY",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "They want a hot shower before work tomorrow. That's what you're really selling.",
+     "scene": {
+      "t": "illus",
+      "icon": "shower",
+      "text": null,
+      "label": "WHAT THEY'RE REALLY BUYING",
+      "stock": "Plumber installing a new tank water heater in a garage",
+      "accent": null
+     }
+    },
+    {
+     "vo": "But most plumbing ads talk about the company. Years in business. Certified techs.",
+     "scene": {
+      "t": "quote",
+      "lines": [
+       "30 years in business.",
+       "Certified technicians.",
+       "Quality you can trust."
+      ],
+      "kind": "bad",
+      "who": null,
+      "label": "COMPANY-CENTERED",
+      "icon": null
+     }
+    },
+    {
+     "vo": "The customer is thinking one thing. When can I shower again?",
+     "scene": {
+      "t": "title",
+      "text": "“When can I shower again?”",
+      "accent": "shower again?",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "So answer that. No hot water? New heater in tomorrow, old one hauled away.",
+     "scene": {
+      "t": "quote",
+      "lines": [
+       "No hot water?",
+       "New heater in tomorrow.",
+       "Old one hauled away."
+      ],
+      "kind": "offer",
+      "who": null,
+      "label": "CUSTOMER-CENTERED",
+      "icon": null
+     }
+    },
+    {
+     "vo": "Lead with their problem and the moment it's solved. Your credentials are the proof, not the headline.",
+     "scene": {
+      "t": "split",
+      "left": {
+       "h": "Headline",
+       "l": [
+        "Their outcome"
+       ]
+      },
+      "right": {
+       "h": "Proof",
+       "l": [
+        "Your credentials"
+       ]
+      },
+      "win": "none",
+      "title": null
+     }
+    },
+    {
+     "vo": "Follow Vantier for ads that talk like your customers think.",
+     "scene": {
+      "t": "cta",
+      "line": "Ads that talk like customers think.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Nobody wants to buy a water heater. They want a hot shower before work tomorrow.\n\nMost plumbing ads lead with the company: years in business, certifications, \"quality you can trust.\" That's all important, but it's not what the customer is thinking about at 6 a.m. with a cold shower.\n\nThey're thinking: when can I shower again?\n\nSo say that:\n\"No hot water? New heater installed tomorrow, old one hauled away.\"\n\nLead with their problem and the moment it's solved. Use your credentials as the proof underneath, not as the headline.\n\nThis works for every trade: sell the outcome, back it up with the credentials.\n\nFollow @official.vantier for ads that talk like your customers think.",
+   "tags": [
+    "plumbingbusiness",
+    "marketingpsychology",
+    "adcopy",
+    "plumbingmarketing",
+    "servicebusinessmarketing"
+   ],
+   "cta": "Follow"
+  },
+  {
+   "id": "R18",
+   "slug": "call-us-today-weak-cta",
+   "title": "'Call Us Today' Is the Weakest Line in Your Ad",
+   "pillar": "Conversion",
+   "industry": "Cleaning",
+   "music": "drive",
+   "beats": [
+    {
+     "vo": "Call us today might be the weakest line in your ad.",
+     "scene": {
+      "t": "title",
+      "text": "“Call us today” is a weak ask.",
+      "accent": "weak ask.",
+      "kicker": "CONVERSION",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Calling feels like work, especially for someone booking a cleaning on their lunch break.",
+     "scene": {
+      "t": "illus",
+      "icon": "spray",
+      "text": null,
+      "label": "BOOKING ON A LUNCH BREAK",
+      "stock": "Busy professional on a lunch break looking at her phone",
+      "accent": null
+     }
+    },
+    {
+     "vo": "They don't know what to say, what it costs, or how long it'll take.",
+     "scene": {
+      "t": "quote",
+      "lines": [
+       "What do I even say?",
+       "What will it cost?",
+       "How long is this call?"
+      ],
+      "kind": "thought",
+      "who": null,
+      "label": null,
+      "icon": null
+     }
+    },
+    {
+     "vo": "So make the first step smaller.",
+     "scene": {
+      "t": "title",
+      "text": "Make the first step smaller.",
+      "accent": "smaller.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Text a photo of your space, get a price in ten minutes.",
+     "scene": {
+      "t": "phone",
+      "ui": "sms",
+      "data": {
+       "msgs": [
+        [
+         "them",
+         "[photo] Kitchen + 2 baths, how much?"
+        ],
+        [
+         "me",
+         "Thanks! That's $185 for a deep clean. Thursday at 10 work?"
+        ]
+       ],
+       "header": "Text-a-photo quote"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Pick a time online in thirty seconds.",
+     "scene": {
+      "t": "phone",
+      "ui": "booking",
+      "data": {},
+      "stock": null
+     }
+    },
+    {
+     "vo": "Answer three quick questions, get an instant quote.",
+     "scene": {
+      "t": "phone",
+      "ui": "form",
+      "data": {
+       "fields": [
+        "Home size",
+        "How often?",
+        "Zip code"
+       ],
+       "cut": 0
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "The easier the first step, the more people take it.",
+     "scene": {
+      "t": "title",
+      "text": "Easier first step. More bookings.",
+      "accent": "More bookings.",
+      "kicker": null,
+      "bg": "gold",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Comment your current call to action, and we'll make it stronger.",
+     "scene": {
+      "t": "cta",
+      "line": "Comment your CTA. We'll sharpen it.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "\"Call us today!\" asks a stranger to do the hardest thing first: pick up the phone, explain what they need and ask about price, all before they trust you.\n\nMake the first step smaller:\n→ \"Text a photo of your space, get a price in 10 minutes.\"\n→ \"Pick a time online in 30 seconds.\"\n→ \"Answer 3 quick questions for an instant quote.\"\n\nEach of these lowers the effort it takes to raise a hand. And once someone has started, they're much more likely to finish.\n\nThis works for cleaning companies, detailers, landscapers, movers, almost any service business.\n\nComment your current call to action and we'll make it stronger.",
+   "tags": [
+    "cleaningbusiness",
+    "calltoaction",
+    "conversionoptimization",
+    "marketingtips",
+    "servicebusiness"
+   ],
+   "cta": "Comment"
+  },
+  {
+   "id": "R19",
+   "slug": "slow-season-head-start",
+   "title": "Your Slow Season Is a Head Start",
+   "pillar": "Business Growth",
+   "industry": "Landscaping / HVAC",
+   "music": "glass",
+   "beats": [
+    {
+     "vo": "Your slow season isn't a break. It's a head start.",
+     "scene": {
+      "t": "title",
+      "text": "Slow season is a head start.",
+      "accent": "head start.",
+      "kicker": "BUSINESS GROWTH",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Landscapers in winter. HVAC in the mild months.",
+     "scene": {
+      "t": "illus",
+      "icon": "snow",
+      "text": null,
+      "label": "THE QUIET MONTHS",
+      "stock": "Snow-covered suburban yard at dusk with a plow truck in the driveway",
+      "accent": null
+     }
+    },
+    {
+     "vo": "Most owners go quiet and wait. That's the mistake.",
+     "scene": {
+      "t": "title",
+      "text": "Most owners go quiet.",
+      "accent": "quiet.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Use the slow months to fill next season before it starts.",
+     "scene": {
+      "t": "calendar",
+      "fill": 0.5,
+      "label": "Next season, pre-booked",
+      "cell": null,
+      "noun": null
+     }
+    },
+    {
+     "vo": "Sell maintenance plans to everyone you served this year.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Maintenance plans for past customers",
+       "Early-booking slots at this year's price",
+       "Ads to last season's almost-customers"
+      ],
+      "title": null,
+      "hl": 0,
+      "mode": "num"
+     }
+    },
+    {
+     "vo": "Offer early-booking slots at this year's price.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Maintenance plans for past customers",
+       "Early-booking slots at this year's price",
+       "Ads to last season's almost-customers"
+      ],
+      "title": null,
+      "hl": 1,
+      "mode": "num"
+     }
+    },
+    {
+     "vo": "Run ads to people who almost booked last season.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Maintenance plans for past customers",
+       "Early-booking slots at this year's price",
+       "Ads to last season's almost-customers"
+      ],
+      "title": null,
+      "hl": 2,
+      "mode": "num"
+     }
+    },
+    {
+     "vo": "When the rush hits, competitors start from zero. You start half booked.",
+     "scene": {
+      "t": "split",
+      "left": {
+       "h": "Them",
+       "l": [
+        "0% booked"
+       ]
+      },
+      "right": {
+       "h": "You",
+       "l": [
+        "50% booked"
+       ]
+      },
+      "win": "right",
+      "title": null
+     }
+    },
+    {
+     "vo": "Save this for your slow season.",
+     "scene": {
+      "t": "cta",
+      "line": "Save this for your slow season.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Every seasonal business has a slow stretch. Landscapers in winter. HVAC in the mild months between heating and cooling.\n\nMost owners go quiet and wait for the phone to ring again. That's the mistake.\n\nUse the slow months to fill next season before it starts:\n1. Sell maintenance plans to every customer you served this year\n2. Offer early-booking slots at this year's price\n3. Run retargeting ads to people who almost booked last season\n\nWhen the rush hits, your competitors start from zero. You start half booked, with cash flow already locked in.\n\nSave this for your slow season.",
+   "tags": [
+    "landscapingbusiness",
+    "hvacbusiness",
+    "seasonalbusiness",
+    "businessgrowth",
+    "maintenanceplans"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "R20",
+   "slug": "past-customers-cheapest-ads",
+   "title": "Your Cheapest New Job Is in Your Phone",
+   "pillar": "Customer Acquisition",
+   "industry": "HVAC",
+   "music": "glass",
+   "beats": [
+    {
+     "vo": "Your cheapest new job is sitting in your phone right now.",
+     "scene": {
+      "t": "title",
+      "text": "Your cheapest job is in your phone.",
+      "accent": "in your phone.",
+      "kicker": "CUSTOMER ACQUISITION",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Every past customer already trusts you, but most businesses never contact them again.",
+     "scene": {
+      "t": "photo",
+      "img": "hvac_condenser",
+      "move": "in",
+      "text": null,
+      "label": null,
+      "stock": "HVAC technician servicing a past customer's outdoor AC unit"
+     }
+    },
+    {
+     "vo": "Pull your list from the last two years.",
+     "scene": {
+      "t": "phone",
+      "ui": "contacts",
+      "data": {
+       "names": [
+        "Mark D. — tune-up, May",
+        "Lisa R. — new unit, Aug",
+        "Tom W. — repair, Jan",
+        "Ana P. — tune-up, Mar",
+        "Chris B. — repair, Jul"
+       ]
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Send a short, personal text.",
+     "scene": {
+      "t": "phone",
+      "ui": "sms",
+      "data": {
+       "msgs": [
+        [
+         "me",
+         "Hey Mark, it's Danny from the AC company. We're opening a few tune-up spots next week for past customers. Want one?"
+        ]
+       ],
+       "header": "Mark D."
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "No graphics, no ad spend. Just a real message from a real person.",
+     "scene": {
+      "t": "title",
+      "text": "No ad spend. Just a real message.",
+      "accent": "real message.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Some will book. Some will refer a friend. Some will leave the review you forgot to ask for.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Some will book",
+       "Some will refer a friend",
+       "Some will leave a review"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "check"
+     }
+    },
+    {
+     "vo": "Do this before you spend a dollar on new customers.",
+     "scene": {
+      "t": "title",
+      "text": "Do this before you buy ads.",
+      "accent": "before",
+      "kicker": null,
+      "bg": "gold",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Share this with an owner who's sitting on a list.",
+     "scene": {
+      "t": "cta",
+      "line": "Share with an owner sitting on a list.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Before you spend another dollar on ads, text the people who already paid you.\n\nEvery past customer already knows your work and trusts you. Most businesses never contact them again.\n\nTry this:\n1. Pull your customer list from the last two years\n2. Send a short, personal text (not a blast with a graphic):\n\"Hey Mark, it's Danny from the AC company. We're opening a few tune-up spots next week for past customers. Want one?\"\n3. Reply to every response personally\n\nSome will book. Some will refer a friend. Some will leave the review you forgot to ask for. It costs nothing but an hour.\n\nShare this with an owner who's sitting on a list.",
+   "tags": [
+    "customerretention",
+    "hvaccontractor",
+    "smsmarketing",
+    "repeatcustomers",
+    "smallbusinesstips"
+   ],
+   "cta": "Share"
+  },
+  {
+   "id": "R21",
+   "slug": "reviews-are-your-best-ad",
+   "title": "Your Best Ad Is Already Written",
+   "pillar": "Marketing Psychology",
+   "industry": "Moving / Home services",
+   "music": "glass",
+   "beats": [
+    {
+     "vo": "Your best ad isn't something you write. Your customers already wrote it.",
+     "scene": {
+      "t": "title",
+      "text": "Your customers already wrote your best ad.",
+      "accent": "best ad.",
+      "kicker": "SOCIAL PROOF",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "People don't believe businesses. They believe other customers.",
+     "scene": {
+      "t": "illus",
+      "icon": "review",
+      "text": null,
+      "label": "TRUST TRANSFERS",
+      "stock": "Contractor and homeowner shaking hands on the front steps after a job",
+      "accent": null
+     }
+    },
+    {
+     "vo": "So stop writing ads about how great you are.",
+     "scene": {
+      "t": "quote",
+      "lines": [
+       "We're the best in town!",
+       "Unbeatable service!"
+      ],
+      "kind": "bad",
+      "who": null,
+      "label": "NOBODY BELIEVES THIS",
+      "icon": null
+     }
+    },
+    {
+     "vo": "Take a real five-star review and put it on screen, word for word, over footage of that exact job.",
+     "scene": {
+      "t": "quote",
+      "lines": [
+       "Showed up on time, wrapped every piece of furniture, and finished an hour early. Already recommended them to my sister."
+      ],
+      "kind": "review",
+      "who": "Jessica R. · Westside",
+      "label": "EXAMPLE REVIEW",
+      "icon": "truck"
+     }
+    },
+    {
+     "vo": "Add their first name and their neighborhood.",
+     "scene": {
+      "t": "quote",
+      "lines": [
+       "Showed up on time, wrapped every piece of furniture, and finished an hour early."
+      ],
+      "kind": "review",
+      "who": "Jessica R. · Westside",
+      "label": "NAME + NEIGHBORHOOD",
+      "icon": "truck"
+     }
+    },
+    {
+     "vo": "That one ad will outwork any slogan you'll ever pay for.",
+     "scene": {
+      "t": "title",
+      "text": "Proof beats slogans.",
+      "accent": "slogans.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Movers, roofers, barbers. The proof is already in your reviews.",
+     "scene": {
+      "t": "grid",
+      "cards": [
+       "Movers",
+       "Roofers",
+       "Barbers",
+       "Cleaners",
+       "HVAC",
+       "Detailers"
+      ],
+      "label": "WORKS FOR EVERY TRADE"
+     }
+    },
+    {
+     "vo": "Follow for ad ideas you can use this week.",
+     "scene": {
+      "t": "cta",
+      "line": "Ad ideas you can use this week.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Your best-performing ad might already be sitting in your Google reviews.\n\nPeople don't believe businesses talking about themselves. They believe other customers. So instead of writing \"We're the best in town!\", try this:\n\n1. Pick a real five-star review that describes a specific experience\n2. Put it on screen word for word\n3. Play it over footage of that exact type of job\n4. Add the customer's first name and neighborhood (with permission)\n\nThat one ad does more than any slogan you'll ever pay for. It works for movers, roofers, barbers, cleaners, anyone with happy customers.\n\nFollow @official.vantier for ad ideas you can use this week.",
+   "tags": [
+    "socialproof",
+    "customerreviews",
+    "movingcompany",
+    "adcreative",
+    "marketingpsychology"
+   ],
+   "cta": "Follow"
+  },
+  {
+   "id": "R22",
+   "slug": "instant-form-vs-landing-page",
+   "title": "Instant Form or Landing Page?",
+   "pillar": "Lead Generation",
+   "industry": "Local service (any)",
+   "music": "drive",
+   "beats": [
+    {
+     "vo": "Instant form or landing page? Here's the honest answer.",
+     "scene": {
+      "t": "split",
+      "left": {
+       "h": "Instant form",
+       "l": [
+        "Inside Instagram"
+       ]
+      },
+      "right": {
+       "h": "Landing page",
+       "l": [
+        "Your website"
+       ]
+      },
+      "win": "none",
+      "title": "LEAD GENERATION"
+     }
+    },
+    {
+     "vo": "Instant forms are fast. People never leave Instagram.",
+     "scene": {
+      "t": "phone",
+      "ui": "instant",
+      "data": {
+       "step": "form"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "That means more leads, and more people who forgot they filled it out.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "More leads",
+       "Lower cost per lead",
+       "More forgotten submissions"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "mixed"
+     }
+    },
+    {
+     "vo": "Landing pages take more effort, so fewer finish. But they're usually more serious.",
+     "scene": {
+      "t": "phone",
+      "ui": "site",
+      "data": {
+       "state": "landing"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "For most local service businesses, start with an instant form. Just build it right.",
+     "scene": {
+      "t": "title",
+      "text": "Start with an instant form. Build it right.",
+      "accent": "Build it right.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Use the higher intent form type, so people review their info before submitting.",
+     "scene": {
+      "t": "phone",
+      "ui": "instant",
+      "data": {
+       "step": "review"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Add one qualifying question, like timeline or zip code.",
+     "scene": {
+      "t": "phone",
+      "ui": "form",
+      "data": {
+       "fields": [
+        "Name",
+        "Phone",
+        "When do you want this done?"
+       ],
+       "cut": 0
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Then call while they still remember you.",
+     "scene": {
+      "t": "timer",
+      "to": 300,
+      "label": "Call within 5 minutes",
+      "tone": "gold",
+      "unit": "min"
+     }
+    },
+    {
+     "vo": "Save this before you build your next campaign.",
+     "scene": {
+      "t": "cta",
+      "line": "Save this before your next campaign.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Instant form or landing page for your Facebook and Instagram lead ads? Here's the honest answer for local service businesses.\n\nInstant forms: fast, people never leave the app, more leads at a lower cost. But also more people who barely remember filling them out.\n\nLanding pages: more effort, so fewer people finish. The ones who do are usually more serious.\n\nFor most local service businesses, start with an instant form and build it right:\n→ Choose the \"Higher intent\" form type so people review their info before submitting\n→ Add one qualifying question (timeline, zip code, project type)\n→ Call within five minutes, while they still remember you\n\nSave this before you build your next campaign.",
+   "tags": [
+    "leadgeneration",
+    "facebookleadads",
+    "instagramads",
+    "leadforms",
+    "servicebusinessmarketing"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "R23",
+   "slug": "before-after-done-right",
+   "title": "Before and After Videos, Done Right",
+   "pillar": "Paid Advertising",
+   "industry": "Pressure washing / Detailing",
+   "music": "drive",
+   "beats": [
+    {
+     "vo": "Before and after videos work. Most people just film them backwards.",
+     "scene": {
+      "t": "title",
+      "text": "Before & afters, done backwards.",
+      "accent": "backwards.",
+      "kicker": "AD CREATIVE",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "They lead with the finished result.",
+     "scene": {
+      "t": "illus",
+      "icon": "driveway",
+      "text": null,
+      "label": "THE AFTER (USUALLY SHOWN FIRST)",
+      "stock": "Freshly pressure-washed bright concrete driveway",
+      "accent": null
+     }
+    },
+    {
+     "vo": "But the before is the hook.",
+     "scene": {
+      "t": "title",
+      "text": "The before is the hook.",
+      "accent": "the hook.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Open on the worst of it. The black-streaked driveway. The dog hair in the back seat.",
+     "scene": {
+      "t": "illus",
+      "icon": "driveway_dirty",
+      "text": null,
+      "label": "OPEN ON THE WORST",
+      "stock": "Close-up of a black-streaked, grimy driveway before washing",
+      "accent": null
+     }
+    },
+    {
+     "vo": "Hold it just long enough to make people wince.",
+     "scene": {
+      "t": "illus",
+      "icon": "driveway_dirty",
+      "text": null,
+      "label": "HOLD IT",
+      "stock": "Slow push on the dirtiest section",
+      "accent": null
+     }
+    },
+    {
+     "vo": "Then the reveal, in one satisfying pass.",
+     "scene": {
+      "t": "illus",
+      "icon": "driveway_reveal",
+      "text": null,
+      "label": "THE REVEAL",
+      "stock": "Pressure washer cutting one clean stripe through the grime",
+      "accent": null
+     }
+    },
+    {
+     "vo": "End with the reaction, the price, or how fast you did it.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "The customer's reaction",
+       "The price",
+       "How fast you did it"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "check"
+     }
+    },
+    {
+     "vo": "Problem. Transformation. Proof. Under fifteen seconds.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Problem.",
+       "Transformation.",
+       "Proof."
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "plain"
+     }
+    },
+    {
+     "vo": "Send this to someone who films their own content.",
+     "scene": {
+      "t": "cta",
+      "line": "Send this to someone who films content.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Before-and-after videos are some of the best-performing ads for visual services like pressure washing, detailing, cleaning and landscaping. Most people just film them in the wrong order.\n\nThey lead with the shiny finished result. But the \"after\" is the payoff, not the hook.\n\nThe structure that works:\n1. PROBLEM: Open on the worst of it. The black-streaked driveway. The dog hair in the back seat. Hold it just long enough to make people wince.\n2. TRANSFORMATION: The reveal, in one satisfying pass.\n3. PROOF: End with the customer's reaction, the price, or how fast you did it.\n\nAll in under 15 seconds.\n\nSend this to someone who films their own content.",
+   "tags": [
+    "pressurewashing",
+    "autodetailing",
+    "beforeandafter",
+    "videomarketing",
+    "adcreative"
+   ],
+   "cta": "Share"
+  },
+  {
+   "id": "R24",
+   "slug": "three-second-test",
+   "title": "The Three-Second Test for Your Instagram",
+   "pillar": "Marketing Mistakes",
+   "industry": "Electrical / Home services",
+   "music": "pulse",
+   "beats": [
+    {
+     "vo": "Try the three-second test on your Instagram.",
+     "scene": {
+      "t": "timer",
+      "to": 3,
+      "label": "The 3-second test",
+      "tone": "gold",
+      "unit": "sec"
+     }
+    },
+    {
+     "vo": "Hand your phone to a stranger. Open your profile. Count to three.",
+     "scene": {
+      "t": "phone",
+      "ui": "profile",
+      "data": {
+       "name": "Your Company",
+       "tagline": "",
+       "bio": "Living the dream ✨ Est. 2009"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Can they tell what you do? Where you do it? And why they should pick you?",
+     "scene": {
+      "t": "list",
+      "items": [
+       "What you do",
+       "Where you do it",
+       "Why pick you"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "check"
+     }
+    },
+    {
+     "vo": "If your bio says, living the dream, established two thousand nine, that's a no.",
+     "scene": {
+      "t": "phone",
+      "ui": "profile",
+      "data": {
+       "name": "Your Company",
+       "tagline": "",
+       "bio": "Living the dream ✨ Est. 2009",
+       "bad": true
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Try something like this instead.",
+     "scene": {
+      "t": "phone",
+      "ui": "profile",
+      "data": {
+       "name": "Your Company",
+       "tagline": "Residential electricians",
+       "bio": "Serving the whole metro · Same-week panel upgrades · Tap below to book ↓",
+       "good": true
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Your profile isn't a scrapbook. It's a storefront.",
+     "scene": {
+      "t": "title",
+      "text": "Not a scrapbook. A storefront.",
+      "accent": "A storefront.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Do the test, and comment your score out of three.",
+     "scene": {
+      "t": "cta",
+      "line": "Comment your score out of 3.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Try the 3-second test on your Instagram profile.\n\nHand your phone to someone who's never heard of you. Open your profile. Count to three. Can they tell:\n\n1. What you do?\n2. Where you do it?\n3. Why they should pick you?\n\n❌ \"Living the dream ✨ Est. 2009\"\n✅ \"Residential electricians · Serving the whole metro · Same-week panel upgrades · Tap below to book\"\n\nPeople check your Instagram before they call you. Your profile isn't a scrapbook. It's a storefront.\n\nDo the test and comment your score out of 3 👇",
+   "tags": [
+    "instagramtips",
+    "instagramforbusiness",
+    "electrician",
+    "socialmediatips",
+    "localbusiness"
+   ],
+   "cta": "Comment"
+  },
+  {
+   "id": "R25",
+   "slug": "what-we-check-first",
+   "title": "What We Check First When We Audit Your Marketing",
+   "pillar": "Vantier Authority",
+   "industry": "Service businesses",
+   "music": "glass",
+   "beats": [
+    {
+     "vo": "When we look at a service business's marketing, the ads are not the first thing we check.",
+     "scene": {
+      "t": "title",
+      "text": "The ads aren't the first thing we check.",
+      "accent": "first thing",
+      "kicker": "HOW WE AUDIT",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "First, we call. Like a customer would.",
+     "scene": {
+      "t": "photo",
+      "img": "missed_call_jobsite",
+      "move": "right",
+      "text": null,
+      "label": null,
+      "stock": "Phone ringing unanswered on a job site"
+     }
+    },
+    {
+     "vo": "Does anyone pick up? Does anyone call back?",
+     "scene": {
+      "t": "phone",
+      "ui": "missed",
+      "data": {
+       "calls": [
+        "Your business · 2:14 PM",
+        "Your business · 2:31 PM"
+       ]
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Second, we read the offer. Would we book from it?",
+     "scene": {
+      "t": "quote",
+      "lines": [
+       "Free estimates.",
+       "Call today!"
+      ],
+      "kind": "ad",
+      "who": null,
+      "label": "WOULD YOU BOOK FROM THIS?",
+      "icon": null
+     }
+    },
+    {
+     "vo": "Third, what happens after a lead comes in? A text? A follow-up? A booking link?",
+     "scene": {
+      "t": "flow",
+      "nodes": [
+       "Lead comes in",
+       "Instant text",
+       "Follow-up",
+       "Booking link"
+      ],
+      "active": null,
+      "loop": false,
+      "title": null
+     }
+    },
+    {
+     "vo": "Only then do we open the ad account.",
+     "scene": {
+      "t": "phone",
+      "ui": "dash",
+      "data": {},
+      "stock": null
+     }
+    },
+    {
+     "vo": "Most of the time, the ads aren't the problem. Everything around them is.",
+     "scene": {
+      "t": "title",
+      "text": "The ads aren't the problem.",
+      "accent": "aren't",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Want us to run this check on your business? Send us a DM that says audit.",
+     "scene": {
+      "t": "cta",
+      "line": "DM us “AUDIT”.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "When a service business asks us to look at their marketing, the ad account isn't where we start.\n\n1. We call the business like a customer would. Does anyone pick up? How long does it ring? Does anyone call back?\n2. We read the offer. Would we book from it? Is it specific? Is there a reason to act now?\n3. We map what happens after a lead comes in. Is there an instant text? A follow-up sequence? A booking link?\n4. Only then do we open the ad account.\n\nMost of the time, the ads aren't the real problem. Everything around them is. Fix that, and the same ad budget books more jobs.\n\nWant us to run this check on your business? DM us \"AUDIT\".",
+   "tags": [
+    "marketingagency",
+    "marketingaudit",
+    "servicebusiness",
+    "leadgeneration",
+    "vantier"
+   ],
+   "cta": "DM"
+  },
+  {
+   "id": "R26",
+   "slug": "creative-is-targeting",
+   "title": "Your Creative Is Your Targeting",
+   "pillar": "Paid Advertising",
+   "industry": "Roofing / Gyms",
+   "music": "drive",
+   "beats": [
+    {
+     "vo": "Stop obsessing over interest targeting.",
+     "scene": {
+      "t": "phone",
+      "ui": "targeting",
+      "data": {},
+      "stock": null
+     }
+    },
+    {
+     "vo": "The algorithm finds buyers better than any checkbox you'll pick.",
+     "scene": {
+      "t": "title",
+      "text": "The algorithm beats your checkboxes.",
+      "accent": "checkboxes.",
+      "kicker": "META ADS",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Your job is to tell it who to look for, and you do that with the ad. Open with a callout.",
+     "scene": {
+      "t": "title",
+      "text": "Open with a callout.",
+      "accent": "callout.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Homeowners with a roof older than fifteen years.",
+     "scene": {
+      "t": "illus",
+      "icon": "roof",
+      "text": "“Homeowners with a roof older than 15 years…”",
+      "label": "CALLOUT",
+      "stock": "Roofer kneeling on a residential roof at golden hour",
+      "accent": null
+     }
+    },
+    {
+     "vo": "If you've been meaning to get back in the gym since January.",
+     "scene": {
+      "t": "illus",
+      "icon": "dumbbell",
+      "text": "“If you've been meaning to get back in the gym since January…”",
+      "label": "CALLOUT",
+      "stock": "Coach guiding a client through a kettlebell deadlift",
+      "accent": null
+     }
+    },
+    {
+     "vo": "The right people stop. Everyone else scrolls. And the algorithm learns from who stopped.",
+     "scene": {
+      "t": "flow",
+      "nodes": [
+       "Callout",
+       "Right people stop",
+       "Algorithm learns",
+       "Better leads"
+      ],
+      "active": null,
+      "loop": false,
+      "title": null
+     }
+    },
+    {
+     "vo": "Broad audience, specific creative. That's how targeting works now.",
+     "scene": {
+      "t": "title",
+      "text": "Broad audience. Specific creative.",
+      "accent": "Specific creative.",
+      "kicker": null,
+      "bg": "gold",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Follow for more Meta ads strategy.",
+     "scene": {
+      "t": "cta",
+      "line": "More Meta ads strategy.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "On Meta, your creative is your targeting.\n\nInterest targeting matters a lot less than it used to. The algorithm is better at finding buyers than any combination of checkboxes you'll pick. Your job is to tell it who to look for, and you do that with the ad itself.\n\nOpen with a callout that makes the right person stop:\n→ \"Homeowners with a roof older than 15 years…\"\n→ \"If you've been meaning to get back in the gym since January…\"\n→ \"If your AC is over 10 years old, watch this before summer.\"\n\nThe right people stop. Everyone else scrolls. And the algorithm learns from who stopped.\n\nBroad audience. Specific creative. Follow @official.vantier for more Meta ads strategy.",
+   "tags": [
+    "metaads",
+    "facebookadvertising",
+    "adtargeting",
+    "roofingmarketing",
+    "gymmarketing"
+   ],
+   "cta": "Follow"
+  },
+  {
+   "id": "R27",
+   "slug": "quote-limbo",
+   "title": "You Sent the Quote and Never Heard Back",
+   "pillar": "Conversion",
+   "industry": "Remodeling / Construction",
+   "music": "glass",
+   "beats": [
+    {
+     "vo": "You sent the quote, and never heard back.",
+     "scene": {
+      "t": "phone",
+      "ui": "email",
+      "data": {
+       "subject": "Kitchen remodel — estimate.pdf",
+       "status": "Sent 9 days ago · No reply"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Most owners take that as a no. It usually isn't.",
+     "scene": {
+      "t": "title",
+      "text": "Silence isn't a no.",
+      "accent": "isn't a no.",
+      "kicker": "CONVERSION",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "On a big project like a kitchen remodel, silence means busy, overwhelmed, or comparing.",
+     "scene": {
+      "t": "illus",
+      "icon": "plans",
+      "text": null,
+      "label": "BUSY · OVERWHELMED · COMPARING",
+      "stock": "Contractor reviewing renovation plans with a couple at their kitchen table",
+      "accent": null
+     }
+    },
+    {
+     "vo": "The contractor who follows up well usually wins.",
+     "scene": {
+      "t": "title",
+      "text": "Follow-up wins jobs.",
+      "accent": "wins jobs.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Day two, call. Don't email. Any questions on the numbers?",
+     "scene": {
+      "t": "timeline",
+      "steps": [
+       {
+        "d": "Day 2",
+        "t": "Call: “Any questions on the numbers?”"
+       },
+       {
+        "d": "Day 5",
+        "t": "Send a photo of a similar job"
+       },
+       {
+        "d": "Day 10",
+        "t": "“Want me to hold a spot?”"
+       }
+      ],
+      "active": 0
+     }
+    },
+    {
+     "vo": "Day five, send a photo of a similar project you just finished.",
+     "scene": {
+      "t": "timeline",
+      "steps": [
+       {
+        "d": "Day 2",
+        "t": "Call: “Any questions on the numbers?”"
+       },
+       {
+        "d": "Day 5",
+        "t": "Send a photo of a similar job"
+       },
+       {
+        "d": "Day 10",
+        "t": "“Want me to hold a spot?”"
+       }
+      ],
+      "active": 1
+     }
+    },
+    {
+     "vo": "Day ten. We're planning next month's schedule. Want me to hold a spot?",
+     "scene": {
+      "t": "timeline",
+      "steps": [
+       {
+        "d": "Day 2",
+        "t": "Call: “Any questions on the numbers?”"
+       },
+       {
+        "d": "Day 5",
+        "t": "Send a photo of a similar job"
+       },
+       {
+        "d": "Day 10",
+        "t": "“Want me to hold a spot?”"
+       }
+      ],
+      "active": 2
+     }
+    },
+    {
+     "vo": "Some of your best jobs are sitting in quotes you already sent.",
+     "scene": {
+      "t": "title",
+      "text": "Your best jobs are in quotes you already sent.",
+      "accent": "already sent.",
+      "kicker": null,
+      "bg": "gold",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Save this, and follow up on one quote today.",
+     "scene": {
+      "t": "cta",
+      "line": "Follow up on one quote today.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "You sent the quote. Then nothing. Most contractors take silence as a \"no.\" It usually isn't.\n\nOn a big project like a kitchen remodel, silence usually means busy, overwhelmed or comparing options. The contractor who follows up well often wins, even against a lower price.\n\nA simple follow-up rhythm:\nDay 2 → Call (don't email): \"Any questions on the numbers?\"\nDay 5 → Send a photo of a similar project you just finished\nDay 10 → \"We're planning next month's schedule. Want me to hold a spot for you?\"\n\nPolite, persistent, helpful. Never pushy.\n\nSome of your best jobs are sitting in quotes you already sent. Save this and follow up on one today.",
+   "tags": [
+    "remodelingcontractor",
+    "constructionbusiness",
+    "salesfollowup",
+    "contractortips",
+    "closingdeals"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "R28",
+   "slug": "gyms-sell-the-start",
+   "title": "Gyms: Stop Selling Memberships in Your Ads",
+   "pillar": "Offer Creation",
+   "industry": "Gyms / Fitness",
+   "music": "drive",
+   "beats": [
+    {
+     "vo": "Gyms, stop selling memberships in your ads.",
+     "scene": {
+      "t": "title",
+      "text": "Gyms: stop selling memberships.",
+      "accent": "memberships.",
+      "kicker": "GYMS · OFFER",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "A membership sounds like a commitment, and that's scary for someone who hasn't worked out in a year.",
+     "scene": {
+      "t": "illus",
+      "icon": "dumbbell",
+      "text": null,
+      "label": "COMMITMENT FEELS SCARY",
+      "stock": "Modern strength gym interior in morning light",
+      "accent": null
+     }
+    },
+    {
+     "vo": "Sell the first step instead.",
+     "scene": {
+      "t": "title",
+      "text": "Sell the first step.",
+      "accent": "first step.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "A fourteen day starter program. Three coached sessions a week. One price, no contract.",
+     "scene": {
+      "t": "quote",
+      "lines": [
+       "14-day starter program",
+       "3 coached sessions a week",
+       "One price. No contract."
+      ],
+      "kind": "offer",
+      "who": null,
+      "label": "THE OFFER",
+      "icon": null
+     }
+    },
+    {
+     "vo": "Now it's not join a gym. It's try something for two weeks. That's a much easier yes.",
+     "scene": {
+      "t": "split",
+      "left": {
+       "h": "Old ask",
+       "l": [
+        "Join a gym"
+       ]
+      },
+      "right": {
+       "h": "New ask",
+       "l": [
+        "Try 2 weeks"
+       ]
+      },
+      "win": "right",
+      "title": null
+     }
+    },
+    {
+     "vo": "And once someone sees results with your coaches, the membership sells itself.",
+     "scene": {
+      "t": "illus",
+      "icon": "kettlebell",
+      "text": null,
+      "label": "RESULTS SELL MEMBERSHIPS",
+      "stock": "Personal coach guiding a client through a kettlebell deadlift",
+      "accent": null
+     }
+    },
+    {
+     "vo": "Tag a gym owner who needs to hear this.",
+     "scene": {
+      "t": "cta",
+      "line": "Tag a gym owner.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Gym owners: stop selling memberships in your ads.\n\nTo someone who hasn't worked out in a year, \"membership\" sounds like a long commitment to something they're afraid they'll fail at. That's a hard yes.\n\nSell the first step instead:\n\"14-day starter program. 3 coached sessions a week. One price, no contract.\"\n\nNow it's not \"join a gym.\" It's \"try something for two weeks.\" That's an easy yes.\n\nAnd once someone sees real results with your coaches, the membership conversation takes care of itself.\n\nSell the start. Keep them with the experience.\n\nTag a gym owner who needs to hear this.",
+   "tags": [
+    "gymmarketing",
+    "gymowner",
+    "fitnessbusiness",
+    "offercreation",
+    "personaltrainerbusiness"
+   ],
+   "cta": "Tag"
+  },
+  {
+   "id": "R29",
+   "slug": "instagram-booking-engine",
+   "title": "Barbers & Stylists: Turn Instagram Into a Booking Engine",
+   "pillar": "Social Media Marketing",
+   "industry": "Salons / Barbershops",
+   "music": "drive",
+   "beats": [
+    {
+     "vo": "Barbers and stylists, your Instagram is a portfolio. It should be a booking engine.",
+     "scene": {
+      "t": "title",
+      "text": "Portfolio → booking engine.",
+      "accent": "booking engine.",
+      "kicker": "SALONS & BARBERSHOPS",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Your feed is full of great work. But nothing tells people what to do next.",
+     "scene": {
+      "t": "illus",
+      "icon": "scissors",
+      "text": null,
+      "label": "GREAT WORK. NO NEXT STEP.",
+      "stock": "Barber giving a skin fade in a moody barbershop",
+      "accent": null
+     }
+    },
+    {
+     "vo": "Put your booking link first in your bio. Not a link page with nine buttons.",
+     "scene": {
+      "t": "phone",
+      "ui": "profile",
+      "data": {
+       "name": "Your Shop",
+       "tagline": "Barbershop",
+       "bio": "Fades · Beard work · Walk-ins welcome",
+       "book": true
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "End your reels with an open slot. Two chairs open Thursday. Link in bio.",
+     "scene": {
+      "t": "phone",
+      "ui": "story",
+      "data": {
+       "text": "2 chairs open Thursday",
+       "sub": "Link in bio"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Post today's openings in your stories every morning.",
+     "scene": {
+      "t": "phone",
+      "ui": "story",
+      "data": {
+       "text": "Today's openings",
+       "sub": "11:30 · 2:15 · 4:00"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "And answer every how much DM with a price and a link.",
+     "scene": {
+      "t": "phone",
+      "ui": "dm",
+      "data": {
+       "msgs": [
+        [
+         "them",
+         "How much for a fade + beard?"
+        ],
+        [
+         "me",
+         "$45! Here's my book link, Thursday's open 👇"
+        ]
+       ],
+       "header": "New message"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Great work gets attention. A clear next step gets bookings.",
+     "scene": {
+      "t": "title",
+      "text": "Clear next step. More bookings.",
+      "accent": "More bookings.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Follow for more ways to fill your chair.",
+     "scene": {
+      "t": "cta",
+      "line": "More ways to fill your chair.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Barbers, stylists, salon owners: your Instagram is probably a great portfolio. But a portfolio doesn't book appointments. A booking engine does.\n\nFour changes:\n1. Put your booking link first in your bio, not a link page with nine buttons\n2. End your reels with an open slot: \"2 chairs open Thursday. Link in bio.\"\n3. Post today's openings in your stories every morning\n4. Answer every \"how much?\" DM with a price and your booking link\n\nGreat work gets attention. A clear next step gets bookings.\n\nFollow @official.vantier for more ways to fill your chair.",
+   "tags": [
+    "barbershop",
+    "salonmarketing",
+    "barbermarketing",
+    "instagrammarketing",
+    "hairstylist"
+   ],
+   "cta": "Follow"
+  },
+  {
+   "id": "R30",
+   "slug": "cheapest-costs-most",
+   "title": "Being the Cheapest Is Costing You",
+   "pillar": "Marketing Psychology",
+   "industry": "Cleaning",
+   "music": "pulse",
+   "beats": [
+    {
+     "vo": "Being the cheapest option is costing you more than you think.",
+     "scene": {
+      "t": "title",
+      "text": "Being the cheapest is costing you.",
+      "accent": "costing you.",
+      "kicker": "PRICING PSYCHOLOGY",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Low prices attract customers who only care about price.",
+     "scene": {
+      "t": "illus",
+      "icon": "tag",
+      "text": null,
+      "label": "PRICE SHOPPERS",
+      "stock": "Cleaning team arriving at a front door with supplies",
+      "accent": null
+     }
+    },
+    {
+     "vo": "They haggle. They cancel. They leave one star over a missed corner.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "They haggle",
+       "They cancel",
+       "They leave one star"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "x"
+     }
+    },
+    {
+     "vo": "And they're gone the second someone's ten dollars cheaper.",
+     "scene": {
+      "t": "stat",
+      "value": "$10",
+      "label": "cheaper elsewhere = gone",
+      "sub": null,
+      "strike": false,
+      "tone": "red",
+      "count": false
+     }
+    },
+    {
+     "vo": "The customers you actually want are shopping for something else.",
+     "scene": {
+      "t": "title",
+      "text": "Your best customers want something else.",
+      "accent": "something else.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Reliability. Communication. Not having to think about it.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Reliability",
+       "Communication",
+       "Not having to think about it"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "check"
+     }
+    },
+    {
+     "vo": "Show your process, your guarantee, and your crew. Make the price feel obvious.",
+     "scene": {
+      "t": "illus",
+      "icon": "team",
+      "text": null,
+      "label": "SHOW THE CREW",
+      "stock": "Uniformed cleaning team walking up to a home together",
+      "accent": null
+     }
+    },
+    {
+     "vo": "You don't need more cheap customers. You need better ones.",
+     "scene": {
+      "t": "title",
+      "text": "Better customers. Not cheaper ones.",
+      "accent": "Better customers.",
+      "kicker": null,
+      "bg": "gold",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Comment agree if you've had a price shopper nightmare.",
+     "scene": {
+      "t": "cta",
+      "line": "Comment “AGREE”.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Being the cheapest option is one of the most expensive positions in a service business.\n\nLow prices attract customers who only care about price. They haggle, they cancel, they leave a one-star review over a missed corner, and they leave the second someone else is $10 cheaper.\n\nThe customers you actually want are shopping for something else:\n✔ Reliability\n✔ Communication\n✔ Not having to think about it\n\nSo price for that customer, and market to them. Show your process, your guarantee and your crew. Make your price feel obvious instead of defending it.\n\nYou don't need more cheap customers. You need better ones.\n\nComment \"agree\" if you've had a price-shopper nightmare.",
+   "tags": [
+    "cleaningbusiness",
+    "pricingstrategy",
+    "marketingpsychology",
+    "smallbusinessowner",
+    "servicebusiness"
+   ],
+   "cta": "Comment"
+  },
+  {
+   "id": "R31",
+   "slug": "ask-any-agency-this",
+   "title": "Before You Hire Any Marketing Agency, Ask This",
+   "pillar": "Vantier Authority",
+   "industry": "Service businesses",
+   "music": "glass",
+   "beats": [
+    {
+     "vo": "Before you hire any marketing agency, ask them this.",
+     "scene": {
+      "t": "title",
+      "text": "Before you hire an agency, ask this.",
+      "accent": "ask this.",
+      "kicker": "BEFORE YOU HIRE",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "How will we know if this is working?",
+     "scene": {
+      "t": "quote",
+      "lines": [
+       "“How will we know if this is working?”"
+      ],
+      "kind": "ad",
+      "who": null,
+      "label": "THE QUESTION",
+      "icon": null
+     }
+    },
+    {
+     "vo": "If the answer is impressions, reach, or engagement, keep walking.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Impressions",
+       "Reach",
+       "Engagement"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "strike"
+     }
+    },
+    {
+     "vo": "You can't deposit impressions.",
+     "scene": {
+      "t": "title",
+      "text": "You can't deposit impressions.",
+      "accent": "deposit",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "The right answer is leads, how many you reached, how many booked, and what each booked job cost you.",
+     "scene": {
+      "t": "flow",
+      "nodes": [
+       "Leads",
+       "Reached",
+       "Booked",
+       "Cost per booked job"
+      ],
+      "active": null,
+      "loop": false,
+      "title": null
+     }
+    },
+    {
+     "vo": "Then ask, who owns the ad account? And can I see the numbers anytime?",
+     "scene": {
+      "t": "list",
+      "items": [
+       "Who owns the ad account?",
+       "Can I see the numbers anytime?"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "num"
+     }
+    },
+    {
+     "vo": "The answers should be you, and yes.",
+     "scene": {
+      "t": "title",
+      "text": "You. And yes.",
+      "accent": "And yes.",
+      "kicker": null,
+      "bg": "gold",
+      "sub": null
+     }
+    },
+    {
+     "vo": "That goes for us too. Save this for the next agency that calls.",
+     "scene": {
+      "t": "cta",
+      "line": "Save this for the next agency call.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Before you hire any marketing agency (including us), ask one question:\n\n\"How will we know if this is working?\"\n\nIf the answer is impressions, reach or engagement, keep walking. You can't deposit impressions.\n\nThe right answer sounds like:\n\"We'll track your leads, how many you actually reach, how many book, and what each booked job costs you.\"\n\nThen ask two more:\n1. Who owns the ad account? (Answer: you.)\n2. Can I see the numbers whenever I want? (Answer: yes.)\n\nThat standard goes for us too. Save this for the next time an agency calls you.",
+   "tags": [
+    "marketingagency",
+    "hiringanagency",
+    "smallbusinessowner",
+    "facebookadsagency",
+    "businesstips"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "R32",
+   "slug": "owner-at-10pm",
+   "title": "It's 10 PM and You're Supposed to Post on Instagram",
+   "pillar": "Business Owner Pain Points",
+   "industry": "Roofing / Contractors",
+   "music": "glass",
+   "beats": [
+    {
+     "vo": "It's ten p.m. You just finished invoices, and now you're supposed to post on Instagram.",
+     "scene": {
+      "t": "illus",
+      "icon": "night_desk",
+      "text": "10:04 PM",
+      "label": "OWNER LIFE",
+      "stock": "Owner at the kitchen table late at night with a laptop and invoices",
+      "accent": null
+     }
+    },
+    {
+     "vo": "You didn't start a roofing company to become a content creator. So get your nights back.",
+     "scene": {
+      "t": "title",
+      "text": "You're not a content creator.",
+      "accent": "content creator.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "One. Film everything on the job for a week. Raw clips. No editing.",
+     "scene": {
+      "t": "illus",
+      "icon": "camera_phone",
+      "text": null,
+      "label": "1 — FILM RAW",
+      "stock": "Tradesman filming a coworker vertically on a phone at a job site",
+      "accent": null
+     }
+    },
+    {
+     "vo": "Two. Batch it. One hour on Sunday, a week of posts.",
+     "scene": {
+      "t": "calendar",
+      "fill": 1.0,
+      "label": "2 — One hour on Sunday",
+      "cell": "POST",
+      "noun": "posts"
+     }
+    },
+    {
+     "vo": "Three. Automate the follow-up, so new leads get a text even when you're on a roof.",
+     "scene": {
+      "t": "phone",
+      "ui": "sms",
+      "data": {
+       "msgs": [
+        [
+         "me",
+         "Thanks for reaching out! We're on a job right now. Calling you back within the hour. Want to pick a time instead? [link]"
+        ]
+       ],
+       "header": "3 — Auto-reply"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Or hand it to someone whose full-time job is this. Your time is worth more on the business.",
+     "scene": {
+      "t": "title",
+      "text": "Your time is worth more on the business.",
+      "accent": "on the business.",
+      "kicker": null,
+      "bg": "gold",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Send this to an owner who's still posting at midnight.",
+     "scene": {
+      "t": "cta",
+      "line": "Send this to an owner posting at midnight.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "It's 10 p.m. You just finished invoices. And now you're supposed to post on Instagram?\n\nYou didn't start a roofing company (or a plumbing, HVAC or cleaning company) to become a content creator. Here's how to get your nights back:\n\n1. Film everything on the job for a week. Raw clips, no editing, no talking required.\n2. Batch it. One hour on Sunday turns those clips into a week of posts.\n3. Automate the follow-up, so new leads get a text even when you're on a roof.\n\nOr hand it to someone whose full-time job is this. Your time is worth more working on the business than writing captions at midnight.\n\nSend this to an owner who's still posting at midnight.",
+   "tags": [
+    "smallbusinessowner",
+    "entrepreneurlife",
+    "roofingcompany",
+    "contentmarketing",
+    "contractorlife"
+   ],
+   "cta": "Share"
+  },
+  {
+   "id": "R33",
+   "slug": "prices-in-ads",
+   "title": "Should You Put Prices in Your Ads?",
+   "pillar": "Marketing Psychology",
+   "industry": "Landscaping / Lawn care",
+   "music": "pulse",
+   "beats": [
+    {
+     "vo": "Should you put prices in your ads?",
+     "scene": {
+      "t": "title",
+      "text": "Should you show prices in your ads?",
+      "accent": "prices",
+      "kicker": "PRICING",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Most owners say no. They're scared of scaring people off.",
+     "scene": {
+      "t": "illus",
+      "icon": "mower",
+      "text": null,
+      "label": "MOST OWNERS SAY NO",
+      "stock": "Landscaper on a zero-turn mower cutting stripes into a lawn",
+      "accent": null
+     }
+    },
+    {
+     "vo": "But that's kind of the point.",
+     "scene": {
+      "t": "title",
+      "text": "That's the point.",
+      "accent": "the point.",
+      "kicker": null,
+      "bg": "ivory",
+      "sub": null
+     }
+    },
+    {
+     "vo": "A starting-at price filters out people who were never going to pay it.",
+     "scene": {
+      "t": "quote",
+      "lines": [
+       "Weekly lawn care",
+       "from $45 a visit"
+      ],
+      "kind": "offer",
+      "who": null,
+      "label": "FROM-PRICE",
+      "icon": null
+     }
+    },
+    {
+     "vo": "The ones who still reach out already know your range.",
+     "scene": {
+      "t": "phone",
+      "ui": "dm",
+      "data": {
+       "msgs": [
+        [
+         "them",
+         "Saw the $45/visit. Do you service our street? Half-acre lot."
+        ]
+       ],
+       "header": "New message"
+      },
+      "stock": null
+     }
+    },
+    {
+     "vo": "Fewer leads, but better ones. And fewer awkward phone calls.",
+     "scene": {
+      "t": "split",
+      "left": {
+       "h": "No price",
+       "l": [
+        "More leads",
+        "More tire-kickers"
+       ]
+      },
+      "right": {
+       "h": "From-price",
+       "l": [
+        "Fewer leads",
+        "Better leads"
+       ]
+      },
+      "win": "right",
+      "title": null
+     }
+    },
+    {
+     "vo": "You don't need a full price list. A from price or a typical range is enough.",
+     "scene": {
+      "t": "list",
+      "items": [
+       "“From $45”",
+       "“Most projects $8K–$12K”",
+       "No full price list needed"
+      ],
+      "title": null,
+      "hl": null,
+      "mode": "check"
+     }
+    },
+    {
+     "vo": "Transparency reads as confidence. Confidence reads as quality.",
+     "scene": {
+      "t": "title",
+      "text": "Transparency reads as confidence.",
+      "accent": "confidence.",
+      "kicker": null,
+      "bg": "gold",
+      "sub": null
+     }
+    },
+    {
+     "vo": "Comment yes or no. Do you show prices?",
+     "scene": {
+      "t": "cta",
+      "line": "Comment YES or NO.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "Should you put prices in your ads? Most service business owners say no. They're afraid of scaring people off.\n\nBut that's kind of the point.\n\nA \"starting at\" price filters out people who were never going to pay it. The people who still reach out already know your range, so you get fewer leads, but better ones, and far fewer awkward phone calls.\n\nYou don't need a full price list:\n→ \"Weekly lawn care from $45 a visit\"\n→ \"Most bathroom remodels land between $18K and $28K\"\n\nTransparency reads as confidence. Confidence reads as quality.\n\nDo you show prices? Comment yes or no 👇",
+   "tags": [
+    "pricing",
+    "lawncarebusiness",
+    "landscaping",
+    "marketingpsychology",
+    "leadquality"
+   ],
+   "cta": "Comment"
+  },
+  {
+   "id": "R34",
+   "slug": "lead-gen-system",
+   "title": "How We'd Build a Lead-Gen System for a Local Service Business",
+   "pillar": "Vantier Authority",
+   "industry": "Service businesses",
+   "music": "drive",
+   "beats": [
+    {
+     "vo": "Here's how we'd build a lead gen system for a local service business.",
+     "scene": {
+      "t": "title",
+      "text": "How we'd build your lead-gen system.",
+      "accent": "lead-gen system.",
+      "kicker": "THE SYSTEM",
+      "bg": "ink",
+      "sub": null
+     }
+    },
+    {
+     "vo": "It's not one ad. It's six parts working together.",
+     "scene": {
+      "t": "flow",
+      "nodes": [
+       "Offer",
+       "Ad",
+       "Form",
+       "Speed",
+       "Follow-up",
+       "Reviews"
+      ],
+      "active": -1,
+      "loop": true,
+      "title": null
+     }
+    },
+    {
+     "vo": "One. An offer people actually want.",
+     "scene": {
+      "t": "flow",
+      "nodes": [
+       "Offer",
+       "Ad",
+       "Form",
+       "Speed",
+       "Follow-up",
+       "Reviews"
+      ],
+      "active": 0,
+      "loop": true,
+      "title": null
+     }
+    },
+    {
+     "vo": "Two. Ads that open on the customer's problem.",
+     "scene": {
+      "t": "flow",
+      "nodes": [
+       "Offer",
+       "Ad",
+       "Form",
+       "Speed",
+       "Follow-up",
+       "Reviews"
+      ],
+      "active": 1,
+      "loop": true,
+      "title": null
+     }
+    },
+    {
+     "vo": "Three. A short form with one qualifying question.",
+     "scene": {
+      "t": "flow",
+      "nodes": [
+       "Offer",
+       "Ad",
+       "Form",
+       "Speed",
+       "Follow-up",
+       "Reviews"
+      ],
+      "active": 2,
+      "loop": true,
+      "title": null
+     }
+    },
+    {
+     "vo": "Four. An instant text, then a call inside five minutes.",
+     "scene": {
+      "t": "flow",
+      "nodes": [
+       "Offer",
+       "Ad",
+       "Form",
+       "Speed",
+       "Follow-up",
+       "Reviews"
+      ],
+      "active": 3,
+      "loop": true,
+      "title": null
+     }
+    },
+    {
+     "vo": "Five. Follow-up for anyone who doesn't book right away.",
+     "scene": {
+      "t": "flow",
+      "nodes": [
+       "Offer",
+       "Ad",
+       "Form",
+       "Speed",
+       "Follow-up",
+       "Reviews"
+      ],
+      "active": 4,
+      "loop": true,
+      "title": null
+     }
+    },
+    {
+     "vo": "Six. A review request after every job, which becomes your next ad.",
+     "scene": {
+      "t": "flow",
+      "nodes": [
+       "Offer",
+       "Ad",
+       "Form",
+       "Speed",
+       "Follow-up",
+       "Reviews"
+      ],
+      "active": 5,
+      "loop": true,
+      "title": null
+     }
+    },
+    {
+     "vo": "Most businesses have one or two. It works when all six connect.",
+     "scene": {
+      "t": "flow",
+      "nodes": [
+       "Offer",
+       "Ad",
+       "Form",
+       "Speed",
+       "Follow-up",
+       "Reviews"
+      ],
+      "active": 99,
+      "loop": true,
+      "title": null
+     }
+    },
+    {
+     "vo": "That's what we build at Vantier. DM us system if you want yours mapped out.",
+     "scene": {
+      "t": "cta",
+      "line": "DM us “SYSTEM”.",
+      "sub": "@official.vantier"
+     }
+    }
+   ],
+   "caption": "A lead generation system for a local service business isn't one ad. It's six parts working together:\n\n1. An offer people actually want (specific, low-risk, easy to say yes to)\n2. Ads that open on the customer's problem, not your logo\n3. A short form with one qualifying question\n4. An instant text, then a real call within five minutes\n5. Follow-up for everyone who doesn't book right away\n6. A review request after every job, which becomes your next ad\n\nMost businesses have one or two of these. It starts working when all six connect.\n\nThat's what we build at Vantier for service businesses nationwide. DM us \"SYSTEM\" if you want yours mapped out.",
+   "tags": [
+    "leadgenerationsystem",
+    "marketingagency",
+    "servicebusinessmarketing",
+    "metaads",
+    "vantier"
+   ],
+   "cta": "DM"
+  }
+ ],
+ "carousels": [
+  {
+   "id": "C01",
+   "slug": "meta-ad-setup-mistakes",
+   "title": "5 Meta Ad Mistakes Quietly Draining Your Budget",
+   "pillar": "Advertising Mistakes",
+   "industry": "Service businesses",
+   "theme": "ink",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "PAID ADVERTISING",
+     "title": "5 Meta ad mistakes quietly draining your budget",
+     "accent": "draining your budget",
+     "icon": "dash"
+    },
+    {
+     "k": "point",
+     "n": "01",
+     "head": "Picking the wrong objective",
+     "body": "Engagement and traffic campaigns find people who like and click, not people who book. If you want calls and form fills, choose Leads."
+    },
+    {
+     "k": "point",
+     "n": "02",
+     "head": "No tracking set up",
+     "body": "Without the Meta pixel and Conversions API, Meta can't learn who actually becomes a customer. You're optimizing blind."
+    },
+    {
+     "k": "point",
+     "n": "03",
+     "head": "Splitting a small budget five ways",
+     "body": "Five ad sets at $10 a day means none of them get enough data to learn. Consolidate into fewer ad sets."
+    },
+    {
+     "k": "point",
+     "n": "04",
+     "head": "Judging results after two days",
+     "body": "Early delivery is noisy. Give a new ad 5–7 days and enough spend before you decide."
+    },
+    {
+     "k": "point",
+     "n": "05",
+     "head": "Paying for clicks you can't serve",
+     "body": "Check your map. Tighten the radius and exclude the zip codes you don't work in. Clicks from 40 miles away are a tax on your budget."
+    },
+    {
+     "k": "statement",
+     "text": "Fix these five and results often improve without spending a dollar more.",
+     "accent": "without spending a dollar more."
+    },
+    {
+     "k": "final",
+     "line": "Save this before your next campaign.",
+     "sub": "Follow @official.vantier for more"
+    }
+   ],
+   "caption": "Most service business ad accounts we look at have at least one of these five mistakes. None of them are about creativity. They're setup:\n\n1. Wrong objective. Engagement and traffic campaigns find clickers, not customers.\n2. No tracking. Without the pixel and Conversions API, Meta can't learn who books.\n3. Too many ad sets on a small budget. Nothing gets enough data to learn.\n4. Judging after two days. Give new ads 5–7 days and enough spend.\n5. Paying for clicks outside your service area. Tighten the radius and exclude zip codes you don't serve.\n\nFix these and results often improve without spending a dollar more.\n\nSave this before your next campaign and follow @official.vantier for more Facebook and Instagram ads strategy.",
+   "tags": [
+    "metaads",
+    "facebookads",
+    "admistakes",
+    "paidadvertising",
+    "servicebusinessmarketing"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "C02",
+   "slug": "anatomy-of-an-ad-that-books-jobs",
+   "title": "Anatomy of an Ad That Books Jobs",
+   "pillar": "Paid Advertising",
+   "industry": "Roofing (example)",
+   "theme": "ivory",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "AD ANATOMY",
+     "title": "Anatomy of an ad that books jobs",
+     "accent": "books jobs",
+     "icon": "roof"
+    },
+    {
+     "k": "ad",
+     "focus": null,
+     "label": "THE FULL AD"
+    },
+    {
+     "k": "ad",
+     "focus": "hook",
+     "label": "1 — THE HOOK",
+     "body": "Calls out the exact customer in the first line. Not your company name."
+    },
+    {
+     "k": "ad",
+     "focus": "problem",
+     "label": "2 — THE PROBLEM",
+     "body": "Names what they're worried about, in their words: leaks, surprise bills, contractors who vanish."
+    },
+    {
+     "k": "ad",
+     "focus": "offer",
+     "label": "3 — THE OFFER",
+     "body": "A specific, low-risk next step. Not a $15,000 decision."
+    },
+    {
+     "k": "ad",
+     "focus": "proof",
+     "label": "4 — THE PROOF",
+     "body": "A number or a name. Specific beats “trusted and reliable.”"
+    },
+    {
+     "k": "ad",
+     "focus": "cta",
+     "label": "5 — THE CTA",
+     "body": "One action, plus what happens next and how fast."
+    },
+    {
+     "k": "final",
+     "line": "Want us to tear down your current ad?",
+     "sub": "Send it to @official.vantier in a DM"
+    }
+   ],
+   "caption": "Every high-converting service ad has the same five parts. Here's the anatomy, using a roofing example (the numbers are illustrative):\n\n1. HOOK: \"Homeowners with a roof over 15 years old:\" calls out the exact customer\n2. PROBLEM: names what they're worried about, in their words\n3. OFFER: \"Free 20-minute inspection with a photo report.\" A specific, low-risk next step\n4. PROOF: \"4.9★ from 212 homeowners in your area.\" A number beats \"trusted and reliable\"\n5. CTA: \"Tap to pick a time. We'll text to confirm within 10 minutes.\" One action, and what happens next\n\nSwap in your trade and your real numbers and this works for HVAC, plumbing, remodeling, cleaning and more.\n\nWant us to tear down your current ad? Send it to us in a DM.",
+   "tags": [
+    "adcopy",
+    "facebookads",
+    "roofingmarketing",
+    "advertisingstrategy",
+    "copywriting"
+   ],
+   "cta": "DM"
+  },
+  {
+   "id": "C03",
+   "slug": "max-you-can-pay-for-a-lead",
+   "title": "How Much Can You Afford to Pay for a Lead?",
+   "pillar": "Business Growth",
+   "industry": "Roofing / Remodeling",
+   "theme": "ink",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "KNOW YOUR NUMBERS",
+     "title": "How much can you afford to pay for a lead?",
+     "accent": "pay for a lead?",
+     "icon": "calc"
+    },
+    {
+     "k": "statement",
+     "text": "Most owners guess. Here's the 3-step math.",
+     "accent": "3-step math."
+    },
+    {
+     "k": "eq",
+     "n": "01",
+     "head": "Profit per job",
+     "rows": [
+      [
+       "$8,000 job",
+       "× 35% margin",
+       "$2,800"
+      ]
+     ],
+     "note": "Average job value × gross margin"
+    },
+    {
+     "k": "eq",
+     "n": "02",
+     "head": "What you'll invest to win it",
+     "rows": [
+      [
+       "$2,800",
+       "× 20%",
+       "$560"
+      ]
+     ],
+     "note": "Your max cost per booked job"
+    },
+    {
+     "k": "eq",
+     "n": "03",
+     "head": "Your max cost per lead",
+     "rows": [
+      [
+       "$560",
+       "× 1 in 4 book",
+       "$140"
+      ]
+     ],
+     "note": "Max cost per booked job × lead-to-job rate"
+    },
+    {
+     "k": "statement",
+     "text": "A $90 lead might feel expensive. In this example, it's a bargain.",
+     "accent": "it's a bargain."
+    },
+    {
+     "k": "final",
+     "line": "Save this and plug in your own numbers.",
+     "sub": "Follow @official.vantier for more"
+    }
+   ],
+   "caption": "How much can you afford to pay for a lead? Most owners guess. Here's the math (example numbers for a roofing or remodeling company):\n\nStep 1: Profit per job\n$8,000 average job × 35% gross margin = $2,800\n\nStep 2: What you're willing to invest to win that job\n20% of $2,800 = $560 max cost per booked job\n\nStep 3: Your max cost per lead\nIf 1 in 4 leads books, $560 × 0.25 = $140 per lead\n\nSo a $90 lead that feels expensive is actually well under your ceiling.\n\nWhen you know these three numbers, you stop panicking over cost per lead and start making confident decisions about your ad budget.\n\nSave this and plug in your own numbers.",
+   "tags": [
+    "knowyournumbers",
+    "costperlead",
+    "roofingbusiness",
+    "remodelingbusiness",
+    "businessgrowth"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "C04",
+   "slug": "offers-that-beat-free-estimate",
+   "title": "8 Offers That Beat 'Free Estimate'",
+   "pillar": "Offer Creation",
+   "industry": "Multiple trades",
+   "theme": "ivory",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "OFFER SWIPE FILE",
+     "title": "8 offers that beat “free estimate”",
+     "accent": "“free estimate”",
+     "icon": "tag"
+    },
+    {
+     "k": "quote",
+     "label": "ROOFING",
+     "lines": [
+      "Free 20-minute inspection with a photo report of every issue we find."
+     ],
+     "icon": "roof"
+    },
+    {
+     "k": "quote",
+     "label": "HVAC",
+     "lines": [
+      "Tune-up + priority scheduling all summer. Can't get you in within 24 hours? Your next visit is free."
+     ],
+     "icon": "ac"
+    },
+    {
+     "k": "quote",
+     "label": "CLEANING",
+     "lines": [
+      "First clean with a re-clean guarantee: miss a spot, we're back within 24 hours."
+     ],
+     "icon": "spray"
+    },
+    {
+     "k": "quote",
+     "label": "LANDSCAPING",
+     "lines": [
+      "Book spring cleanup now and lock in this year's price."
+     ],
+     "icon": "mower"
+    },
+    {
+     "k": "quote",
+     "label": "AUTO DETAILING",
+     "lines": [
+      "Interior reset while you wait, or free pickup and drop-off."
+     ],
+     "icon": "car_shine"
+    },
+    {
+     "k": "quote",
+     "label": "GYMS",
+     "lines": [
+      "14-day starter program: 6 coached sessions, one price, no contract."
+     ],
+     "icon": "dumbbell"
+    },
+    {
+     "k": "quote",
+     "label": "PEST CONTROL",
+     "lines": [
+      "Pests come back between visits? So do we, free."
+     ],
+     "icon": "shield_bug"
+    },
+    {
+     "k": "quote",
+     "label": "REMODELING",
+     "lines": [
+      "See your new kitchen in 3D before you sign anything."
+     ],
+     "icon": "kitchen"
+    },
+    {
+     "k": "final",
+     "line": "Save this. Then make yours more specific than your competitor's.",
+     "sub": "@official.vantier"
+    }
+   ],
+   "caption": "\"Free estimate\" isn't an offer anymore. Everyone has one. Here are 8 offers that give people a real reason to pick you:\n\n🏠 Roofing: Free 20-minute inspection with a photo report of every issue\n❄️ HVAC: Tune-up + priority scheduling all summer, or your next visit is free\n🧽 Cleaning: First clean with a re-clean guarantee within 24 hours\n🌿 Landscaping: Book spring cleanup now and lock in this year's price\n🚗 Detailing: Interior reset while you wait, or free pickup and drop-off\n🏋️ Gyms: 14-day starter program, one price, no contract\n🐜 Pest control: Pests come back between visits? So do we, free\n🔨 Remodeling: See your new kitchen in 3D before you sign\n\nNotice the pattern: specific, low-risk, and easy to say yes to.\n\nSave this, and make yours more specific than your competitor's.",
+   "tags": [
+    "offercreation",
+    "marketingideas",
+    "servicebusiness",
+    "smallbusinessmarketing",
+    "leadgeneration"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "C05",
+   "slug": "weekly-content-plan",
+   "title": "What to Post This Week (Service Business Edition)",
+   "pillar": "Social Media Marketing",
+   "industry": "Service businesses",
+   "theme": "ink",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "CONTENT PLAN",
+     "title": "What to post this week if you run a service business",
+     "accent": "this week",
+     "icon": "calendar"
+    },
+    {
+     "k": "day",
+     "day": "MON",
+     "head": "Job of the week",
+     "body": "A before-and-after, with the price range and how long it took."
+    },
+    {
+     "k": "day",
+     "day": "TUE",
+     "head": "Answer a real question",
+     "body": "The question customers ask you on every call. Answer it on camera in 30 seconds."
+    },
+    {
+     "k": "day",
+     "day": "WED",
+     "head": "Meet the crew",
+     "body": "15 seconds with one team member. People hire people."
+    },
+    {
+     "k": "day",
+     "day": "THU",
+     "head": "Review spotlight",
+     "body": "Read a real review on camera, over footage of that job."
+    },
+    {
+     "k": "day",
+     "day": "FRI",
+     "head": "Behind the scenes",
+     "body": "The part of the job customers never see, and why you do it right."
+    },
+    {
+     "k": "day",
+     "day": "SAT",
+     "head": "Open slots",
+     "body": "“3 openings next week.” A simple reminder with your booking link."
+    },
+    {
+     "k": "statement",
+     "text": "6 posts. 1 hour of filming. All from your phone.",
+     "accent": "All from your phone."
+    },
+    {
+     "k": "final",
+     "line": "Save this as your weekly checklist.",
+     "sub": "Follow @official.vantier for more"
+    }
+   ],
+   "caption": "Not sure what to post? Here's a simple weekly content plan for any service business, whether you're a roofer, cleaner, detailer, barber or HVAC company:\n\nMON: Job of the week (before/after + price range)\nTUE: Answer the question every customer asks\nWED: Meet the crew (15 seconds, one person)\nTHU: Review spotlight (read a real review on camera)\nFRI: Behind the scenes (the part customers never see)\nSAT: Open slots next week + booking link\n\n6 posts. About an hour of filming. All from your phone.\n\nConsistency beats perfection on social media. This plan builds trust with locals who will hire you, not just people who double-tap.\n\nSave this as your weekly checklist.",
+   "tags": [
+    "contentplan",
+    "socialmediamarketing",
+    "instagramtips",
+    "servicebusiness",
+    "contentstrategy"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "C06",
+   "slug": "marketing-myths",
+   "title": "6 Marketing Myths Costing You Jobs",
+   "pillar": "Marketing Myths",
+   "industry": "Service businesses",
+   "theme": "ivory",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "MARKETING MYTHS",
+     "title": "6 marketing myths costing you jobs",
+     "accent": "costing you jobs",
+     "icon": "x"
+    },
+    {
+     "k": "myth",
+     "n": "01",
+     "myth": "Word of mouth is enough.",
+     "truth": "It's great, but you can't turn it up when you're slow."
+    },
+    {
+     "k": "myth",
+     "n": "02",
+     "myth": "Ads don't work in my industry.",
+     "truth": "Bad ads don't work in any industry."
+    },
+    {
+     "k": "myth",
+     "n": "03",
+     "myth": "I need a new website first.",
+     "truth": "A fast page with a big call button beats a pretty site that takes six months."
+    },
+    {
+     "k": "myth",
+     "n": "04",
+     "myth": "Marketing is a cost.",
+     "truth": "Marketing you can measure is an investment with a return."
+    },
+    {
+     "k": "myth",
+     "n": "05",
+     "myth": "We need to be on every platform.",
+     "truth": "Be great on one or two where your customers actually are."
+    },
+    {
+     "k": "myth",
+     "n": "06",
+     "myth": "SEO will take care of it.",
+     "truth": "SEO is a long game. Ads put you in front of buyers this month. Use both."
+    },
+    {
+     "k": "final",
+     "line": "Which one did you believe? Comment the number.",
+     "sub": "@official.vantier"
+    }
+   ],
+   "caption": "Six marketing myths we hear from service business owners all the time, and what's actually true:\n\n1. \"Word of mouth is enough.\" It's great, but you can't turn it up when you're slow.\n2. \"Ads don't work in my industry.\" Bad ads don't work in any industry.\n3. \"I need a new website first.\" A fast page with a big call button beats a pretty site that takes six months.\n4. \"Marketing is a cost.\" Measurable marketing is an investment with a return.\n5. \"We need to be on every platform.\" Be great on one or two where your customers actually are.\n6. \"SEO will take care of it.\" SEO is a long game. Ads reach buyers this month. Use both.\n\nWhich one did you believe? Comment the number 👇",
+   "tags": [
+    "marketingmyths",
+    "smallbusinessmarketing",
+    "businessowner",
+    "marketingtips",
+    "localbusiness"
+   ],
+   "cta": "Comment"
+  },
+  {
+   "id": "C07",
+   "slug": "read-your-ads-dashboard",
+   "title": "Read Your Ads Dashboard Like an Owner",
+   "pillar": "Paid Advertising",
+   "industry": "Service businesses",
+   "theme": "ink",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "META ADS",
+     "title": "Read your ads dashboard in 60 seconds",
+     "accent": "60 seconds",
+     "icon": "dash"
+    },
+    {
+     "k": "metric",
+     "name": "CPM",
+     "what": "What it costs to show your ad 1,000 times.",
+     "signal": "High CPM: competitive market, narrow audience, or tired creative."
+    },
+    {
+     "k": "metric",
+     "name": "CTR (link)",
+     "what": "How many people click.",
+     "signal": "Low CTR: your hook or first frame isn't stopping the right person."
+    },
+    {
+     "k": "metric",
+     "name": "CPL",
+     "what": "Cost per lead.",
+     "signal": "Useful, but never the final word."
+    },
+    {
+     "k": "metric",
+     "name": "Frequency",
+     "what": "How often the same person sees your ad.",
+     "signal": "Rising frequency + rising costs = creative fatigue. Refresh."
+    },
+    {
+     "k": "metric",
+     "name": "Cost per booked job",
+     "what": "Ad spend ÷ booked jobs.",
+     "signal": "The only number that pays the bills."
+    },
+    {
+     "k": "list",
+     "title": "Read them in this order",
+     "items": [
+      "Seeing it? (CPM)",
+      "Stopping? (CTR)",
+      "Raising a hand? (CPL)",
+      "Booking? (Cost per job)"
+     ]
+    },
+    {
+     "k": "final",
+     "line": "Save this for your next ad review.",
+     "sub": "Follow @official.vantier for more"
+    }
+   ],
+   "caption": "You don't need to be a media buyer to read your Meta ads dashboard. You need five numbers, in order:\n\n1. CPM: what it costs to show your ad 1,000 times. High CPM can mean a competitive market, a narrow audience or tired creative.\n2. CTR (link): how many people click. Low CTR usually means your hook or first frame isn't stopping the right person.\n3. CPL: cost per lead. Useful, but never the final word.\n4. Frequency: how often the same person sees your ad. Rising frequency plus rising costs means it's time for new creative.\n5. Cost per booked job: ad spend ÷ booked jobs. The only number that pays the bills.\n\nAre people seeing it? Stopping? Raising a hand? Booking? Read it in that order.\n\nSave this for your next ad review.",
+   "tags": [
+    "metaads",
+    "facebookadstips",
+    "admetrics",
+    "digitalmarketing",
+    "smallbusinessowner"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "C08",
+   "slug": "follow-up-texts",
+   "title": "4 Follow-Up Texts That Turn Leads Into Booked Jobs",
+   "pillar": "Lead Generation",
+   "industry": "Home services",
+   "theme": "ivory",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "COPY + PASTE",
+     "title": "4 follow-up texts that turn leads into booked jobs",
+     "accent": "booked jobs",
+     "icon": "sms"
+    },
+    {
+     "k": "sms",
+     "label": "TEXT 1 — INSTANTLY",
+     "msgs": [
+      [
+       "me",
+       "Hi Sarah, this is Mike with [Company]. Got your request for a quote. Calling you in 2 minutes from this number."
+      ]
+     ]
+    },
+    {
+     "k": "sms",
+     "label": "TEXT 2 — NO ANSWER, 1 HOUR",
+     "msgs": [
+      [
+       "me",
+       "Tried you just now! When's a good time today for a 3-minute call? Or text me a photo and I'll ballpark it."
+      ]
+     ]
+    },
+    {
+     "k": "sms",
+     "label": "TEXT 3 — NEXT MORNING",
+     "msgs": [
+      [
+       "me",
+       "Morning Sarah! I have Thursday 10am or Friday 2pm open for the estimate. Want one?"
+      ]
+     ]
+    },
+    {
+     "k": "sms",
+     "label": "TEXT 4 — DAY 4",
+     "msgs": [
+      [
+       "me",
+       "Should I close out your request, or do you still want help with the [project]? Either is totally fine."
+      ]
+     ]
+    },
+    {
+     "k": "statement",
+     "text": "Why #4 works: an easy way to say no makes people more likely to reply at all.",
+     "accent": "reply at all."
+    },
+    {
+     "k": "list",
+     "title": "The rules",
+     "items": [
+      "Reply in minutes, not hours",
+      "Sound like a human",
+      "Always offer a specific next step"
+     ]
+    },
+    {
+     "k": "final",
+     "line": "Save this and set them up as templates today.",
+     "sub": "@official.vantier"
+    }
+   ],
+   "caption": "Most leads don't book because nobody followed up. Here are four texts you can copy, paste and set up as templates today:\n\n1️⃣ Instantly: \"Hi Sarah, this is Mike with [Company]. Got your request for a quote. Calling you in 2 minutes from this number.\"\n\n2️⃣ No answer, 1 hour later: \"Tried you just now! When's a good time today for a 3-minute call? Or text me a photo and I'll ballpark it.\"\n\n3️⃣ Next morning: \"Morning Sarah! I have Thursday 10am or Friday 2pm open for the estimate. Want one?\"\n\n4️⃣ Day 4: \"Should I close out your request, or do you still want help with the [project]? Either is totally fine.\"\n\nWhy #4 works: giving people an easy way to say no makes them far more likely to reply at all.\n\nSave this and set them up today.",
+   "tags": [
+    "followup",
+    "leadconversion",
+    "smsmarketing",
+    "homeservices",
+    "salestips"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "C09",
+   "slug": "real-estate-win-listings",
+   "title": "Agents: Your Listing Ads Should Win Listings",
+   "pillar": "Customer Acquisition",
+   "industry": "Real estate",
+   "theme": "ink",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "REAL ESTATE",
+     "title": "Agents: use every listing to win the next one",
+     "accent": "win the next one",
+     "icon": "key_house"
+    },
+    {
+     "k": "statement",
+     "text": "Every listing ad is seen by neighbors. Neighbors are future sellers.",
+     "accent": "future sellers."
+    },
+    {
+     "k": "point",
+     "n": "01",
+     "head": "Target the surrounding zip codes",
+     "body": "Run your “Just Listed” and “Just Sold” content to the neighborhood, not just to buyers."
+    },
+    {
+     "k": "point",
+     "n": "02",
+     "head": "Use the hook sellers care about",
+     "body": "“Homes on your street are going under contract fast. Curious what yours is worth?”"
+    },
+    {
+     "k": "point",
+     "n": "03",
+     "head": "Offer a no-pressure next step",
+     "body": "A free home value report beats “call me” for someone who isn't ready to talk yet."
+    },
+    {
+     "k": "point",
+     "n": "04",
+     "head": "Follow up with the street, not a newsletter",
+     "body": "Hyper-local market updates (“3 homes sold on Maple this month”) keep you top of mind."
+    },
+    {
+     "k": "statement",
+     "text": "One listing, marketed right, can become your next three.",
+     "accent": "your next three."
+    },
+    {
+     "k": "final",
+     "line": "Share this with an agent who wants more listings.",
+     "sub": "@official.vantier"
+    }
+   ],
+   "caption": "Real estate agents: most listing ads are only aimed at buyers. That leaves the most valuable audience on the table: the neighbors.\n\nEveryone who lives near your listing is a future seller. Use every listing to win the next one:\n\n1. Run \"Just Listed\" and \"Just Sold\" content to the surrounding zip codes\n2. Use the hook sellers care about: \"Homes on your street are going under contract fast. Curious what yours is worth?\"\n3. Offer a free home value report instead of \"call me\"\n4. Follow up with hyper-local updates for that street, not a generic newsletter\n\nOne listing, marketed right, can become your next three.\n\nShare this with an agent who wants more listings.",
+   "tags": [
+    "realestatemarketing",
+    "realtor",
+    "listingagent",
+    "realestateagent",
+    "facebookadsforrealestate"
+   ],
+   "cta": "Share"
+  },
+  {
+   "id": "C10",
+   "slug": "big-ticket-runway",
+   "title": "Why Your Remodeling Ads Get Clicks but Not Contracts",
+   "pillar": "Customer Acquisition",
+   "industry": "Remodeling / Construction",
+   "theme": "ivory",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "REMODELING & CONSTRUCTION",
+     "title": "Why your remodeling ads get clicks but not contracts",
+     "accent": "not contracts",
+     "icon": "kitchen"
+    },
+    {
+     "k": "statement",
+     "text": "A $60K renovation isn't an impulse buy. People take weeks or months to decide.",
+     "accent": "weeks or months"
+    },
+    {
+     "k": "statement",
+     "text": "If your marketing stops at the first ad, you disappear during the decision.",
+     "accent": "you disappear"
+    },
+    {
+     "k": "day",
+     "day": "WK 1",
+     "head": "Show the dream",
+     "body": "Finished projects, reveals, the “after.” Make them want it."
+    },
+    {
+     "k": "day",
+     "day": "WK 2–4",
+     "head": "Show the process",
+     "body": "Timelines, permits, how you protect their home. Make them trust it."
+    },
+    {
+     "k": "day",
+     "day": "WK 4–8",
+     "head": "Show the numbers",
+     "body": "Real budgets, financing, what it actually costs. Make the decision easy."
+    },
+    {
+     "k": "point",
+     "n": "+",
+     "head": "Retarget everyone who engaged",
+     "body": "So you're there when they're finally ready, not your competitor."
+    },
+    {
+     "k": "final",
+     "line": "Follow for more on marketing high-ticket services.",
+     "sub": "@official.vantier"
+    }
+   ],
+   "caption": "If your remodeling or construction ads get clicks but not contracts, the problem might be the runway, not the ads.\n\nA $60K renovation isn't an impulse buy. Most homeowners take weeks or months to decide. If your marketing stops at the first ad, you disappear right when they're deciding.\n\nBuild a runway:\nWeek 1 → Show the dream: finished projects and reveals\nWeeks 2–4 → Show the process: timelines, permits, how you protect their home\nWeeks 4–8 → Show the numbers: real budgets, financing, what it actually costs\nAlways → Retarget everyone who engaged\n\nBe there when they're ready, not just when they first click.\n\nFollow @official.vantier for more on marketing high-ticket services.",
+   "tags": [
+    "remodelingcontractor",
+    "constructionmarketing",
+    "homeremodeling",
+    "contractormarketing",
+    "highticketsales"
+   ],
+   "cta": "Follow"
+  },
+  {
+   "id": "C11",
+   "slug": "google-vs-meta-ads",
+   "title": "Google Ads or Meta Ads: Which First?",
+   "pillar": "Paid Advertising",
+   "industry": "Service businesses",
+   "theme": "ink",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "PAID ADVERTISING",
+     "title": "Google Ads or Meta Ads: which one should you start with?",
+     "accent": "which one",
+     "icon": "split"
+    },
+    {
+     "k": "compare",
+     "left": {
+      "h": "Google",
+      "l": [
+       "Captures demand",
+       "People already searching",
+       "“emergency plumber near me”"
+      ]
+     },
+     "right": {
+      "h": "Meta",
+      "l": [
+       "Creates demand",
+       "People who need you but aren't searching",
+       "the dated kitchen, the overdue tune-up"
+      ]
+     }
+    },
+    {
+     "k": "point",
+     "n": "G",
+     "head": "Start with Google if…",
+     "body": "Urgent, search-driven jobs drive your business: plumbing emergencies, HVAC repair, electrical problems."
+    },
+    {
+     "k": "point",
+     "n": "M",
+     "head": "Start with Meta if…",
+     "body": "You sell planned or visual services: remodeling, landscaping, detailing, gyms, salons, cleaning."
+    },
+    {
+     "k": "statement",
+     "text": "Long term? Both. Meta builds the want. Google catches the search.",
+     "accent": "Both."
+    },
+    {
+     "k": "statement",
+     "text": "Ask: do customers search for me in a panic, or decide over time?",
+     "accent": "panic, or decide over time?"
+    },
+    {
+     "k": "final",
+     "line": "Comment your industry. We'll tell you where we'd start.",
+     "sub": "@official.vantier"
+    }
+   ],
+   "caption": "Google Ads or Meta Ads (Facebook + Instagram): which should a service business start with?\n\nGoogle captures demand. People are already searching: \"emergency plumber near me.\"\nMeta creates demand. It reaches people who need you but aren't searching yet: the homeowner with a dated kitchen, the overdue AC tune-up.\n\nStart with Google if urgent, search-driven jobs drive your business (plumbing emergencies, HVAC repair, electrical problems).\nStart with Meta if you sell planned or visual services (remodeling, landscaping, detailing, gyms, salons, cleaning).\n\nLong term, the answer is both. Meta builds the want. Google catches the search.\n\nComment your industry and we'll tell you where we'd start 👇",
+   "tags": [
+    "googleads",
+    "metaads",
+    "paidadvertising",
+    "localbusinessmarketing",
+    "advertisingstrategy"
+   ],
+   "cta": "Comment"
+  },
+  {
+   "id": "C12",
+   "slug": "hooks-that-stop-the-scroll",
+   "title": "10 Hooks That Stop the Scroll",
+   "pillar": "Marketing Psychology",
+   "industry": "Multiple trades",
+   "theme": "ivory",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "HOOK SWIPE FILE",
+     "title": "10 hooks that stop the scroll (for service businesses)",
+     "accent": "stop the scroll",
+     "icon": "hook"
+    },
+    {
+     "k": "list",
+     "title": "Hooks 1–2",
+     "items": [
+      "“If your AC is older than 10 years, watch this before summer.”",
+      "“3 signs your roof won't make it through another winter.”"
+     ],
+     "mode": "quote"
+    },
+    {
+     "k": "list",
+     "title": "Hooks 3–4",
+     "start": 3,
+     "items": [
+      "“We get asked this every week: how much does a bathroom remodel really cost?”",
+      "“Don't hire a mover until you ask these 3 questions.”"
+     ],
+     "mode": "quote"
+    },
+    {
+     "k": "list",
+     "title": "Hooks 5–6",
+     "start": 5,
+     "items": [
+      "“Here's what we found inside this ‘clean’ car.”",
+      "“POV: you finally fixed the thing you've ignored for two years.”"
+     ],
+     "mode": "quote"
+    },
+    {
+     "k": "list",
+     "title": "Hooks 7–8",
+     "start": 7,
+     "items": [
+      "“The cheapest quote cost this homeowner $4,000.”",
+      "“Your electrical panel might be the oldest thing in your house.”"
+     ],
+     "mode": "quote"
+    },
+    {
+     "k": "list",
+     "title": "Hooks 9–10",
+     "start": 9,
+     "items": [
+      "“What skipping gutter cleaning actually costs you.”",
+      "“If you've been putting off the gym since January, this is for you.”"
+     ],
+     "mode": "quote"
+    },
+    {
+     "k": "statement",
+     "text": "Why they work: each one names a specific person, problem, or curiosity gap.",
+     "accent": "specific"
+    },
+    {
+     "k": "final",
+     "line": "Save this and film one tomorrow.",
+     "sub": "Follow @official.vantier for more"
+    }
+   ],
+   "caption": "The first line of your video decides whether anyone hears the rest. Here are 10 hooks for service business ads and content:\n\n1. \"If your AC is older than 10 years, watch this before summer.\"\n2. \"3 signs your roof won't make it through another winter.\"\n3. \"We get asked this every week: how much does a bathroom remodel really cost?\"\n4. \"Don't hire a mover until you ask these 3 questions.\"\n5. \"Here's what we found inside this 'clean' car.\"\n6. \"POV: you finally fixed the thing you've ignored for two years.\"\n7. \"The cheapest quote cost this homeowner $4,000.\"\n8. \"Your electrical panel might be the oldest thing in your house.\"\n9. \"What skipping gutter cleaning actually costs you.\"\n10. \"If you've been putting off the gym since January, this is for you.\"\n\nEach one names a specific person, problem or curiosity gap. Save this and film one tomorrow.",
+   "tags": [
+    "hooks",
+    "videomarketing",
+    "adcreative",
+    "contentcreation",
+    "servicebusiness"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "C13",
+   "slug": "ad-formats-that-work",
+   "title": "6 Ad Formats That Work for Local Service Businesses",
+   "pillar": "Paid Advertising",
+   "industry": "Service businesses",
+   "theme": "ink",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "AD CREATIVE",
+     "title": "6 ad formats that work for local service businesses",
+     "accent": "that work",
+     "icon": "camera_phone"
+    },
+    {
+     "k": "point",
+     "n": "01",
+     "head": "Owner to camera",
+     "body": "30 seconds, you on camera, talking to one customer. Trust builds faster with a face."
+    },
+    {
+     "k": "point",
+     "n": "02",
+     "head": "Before & after",
+     "body": "Problem first, transformation second, proof last. Under 15 seconds."
+    },
+    {
+     "k": "point",
+     "n": "03",
+     "head": "Review read",
+     "body": "A real review on screen, over footage of that exact job."
+    },
+    {
+     "k": "point",
+     "n": "04",
+     "head": "POV job footage",
+     "body": "First-person clips of the work. Raw beats polished here."
+    },
+    {
+     "k": "point",
+     "n": "05",
+     "head": "Myth-buster",
+     "body": "“You don't need a whole new roof.” Teach something, earn trust."
+    },
+    {
+     "k": "point",
+     "n": "06",
+     "head": "Day in the life",
+     "body": "Crew, trucks, coffee, jobs. Shows you're real and established."
+    },
+    {
+     "k": "statement",
+     "text": "Test 2–3 formats at once. Let booked jobs, not likes, pick the winner.",
+     "accent": "booked jobs, not likes"
+    },
+    {
+     "k": "final",
+     "line": "Which format are you trying first? Comment below.",
+     "sub": "@official.vantier"
+    }
+   ],
+   "caption": "Not every ad format works for local service businesses. These six consistently do:\n\n1. Owner to camera: 30 seconds, you talking to one customer. Trust builds faster with a face.\n2. Before & after: problem first, transformation second, proof last.\n3. Review read: a real review on screen over footage of that job.\n4. POV job footage: first-person clips of the work. Raw beats polished.\n5. Myth-buster: teach something useful and earn trust.\n6. Day in the life: crew, trucks, jobs. Shows you're real and established.\n\nTest 2–3 formats at once, and let booked jobs (not likes) pick the winner.\n\nWhich format are you trying first? Comment below 👇",
+   "tags": [
+    "adcreative",
+    "videoads",
+    "facebookads",
+    "instagramads",
+    "localbusinessmarketing"
+   ],
+   "cta": "Comment"
+  },
+  {
+   "id": "C14",
+   "slug": "fill-slow-weekdays",
+   "title": "Empty Chairs on Tuesday? Try This.",
+   "pillar": "Customer Acquisition",
+   "industry": "Salons / Barbershops",
+   "theme": "ivory",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "SALONS & BARBERSHOPS",
+     "title": "Empty chairs on Tuesday? Try this.",
+     "accent": "Try this.",
+     "icon": "scissors"
+    },
+    {
+     "k": "point",
+     "n": "01",
+     "head": "Rebook before they leave",
+     "body": "“Same time in 3 weeks?” The easiest booking you'll ever get."
+    },
+    {
+     "k": "point",
+     "n": "02",
+     "head": "Create a weekday-only service",
+     "body": "Express cuts, gloss treatments, beard tune-ups. Priced to move, only Tue–Thu."
+    },
+    {
+     "k": "point",
+     "n": "03",
+     "head": "Start a last-minute list",
+     "body": "Clients who want early notice. Text it the moment someone cancels."
+    },
+    {
+     "k": "point",
+     "n": "04",
+     "head": "Run a small slow-day ad",
+     "body": "Only on your slow days, only to people within a few miles."
+    },
+    {
+     "k": "point",
+     "n": "05",
+     "head": "Reward weekday regulars",
+     "body": "Every 5th weekday visit, an add-on on the house."
+    },
+    {
+     "k": "statement",
+     "text": "Busy days take care of themselves. Slow days are where the profit is.",
+     "accent": "where the profit is."
+    },
+    {
+     "k": "final",
+     "line": "Send this to your favorite barber or stylist.",
+     "sub": "@official.vantier"
+    }
+   ],
+   "caption": "Saturdays fill themselves. Tuesdays are where salons and barbershops win or lose.\n\nFive ways to fill your chairs on slow weekdays:\n1. Rebook before they leave: \"Same time in 3 weeks?\"\n2. Create a weekday-only service: express cuts, gloss treatments, beard tune-ups\n3. Start a last-minute list and text it whenever someone cancels\n4. Run a small local ad only on slow days, only within a few miles\n5. Reward weekday regulars: every 5th weekday visit, an add-on on the house\n\nYour busy days take care of themselves. Your slow days are where the extra profit is.\n\nSend this to your favorite barber or stylist.",
+   "tags": [
+    "barbershop",
+    "salonowner",
+    "salonmarketing",
+    "barberlife",
+    "smallbusinessideas"
+   ],
+   "cta": "Share"
+  },
+  {
+   "id": "C15",
+   "slug": "auto-repair-trust",
+   "title": "Why People Don't Trust Auto Shops (and How to Flip It)",
+   "pillar": "Marketing Psychology",
+   "industry": "Auto repair",
+   "theme": "ink",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "AUTO REPAIR",
+     "title": "Why people don't trust auto shops, and how to flip it",
+     "accent": "how to flip it",
+     "icon": "car_wrench"
+    },
+    {
+     "k": "statement",
+     "text": "Most people walk in expecting to be upsold. That fear is your opportunity.",
+     "accent": "your opportunity."
+    },
+    {
+     "k": "point",
+     "n": "01",
+     "head": "Show the old part",
+     "body": "Text customers a photo or short video of what you found. Seeing is believing."
+    },
+    {
+     "k": "point",
+     "n": "02",
+     "head": "Explain the price before the work",
+     "body": "Plain English, line by line, before a wrench turns."
+    },
+    {
+     "k": "point",
+     "n": "03",
+     "head": "Separate “now” from “can wait”",
+     "body": "Customers remember the shop that didn't push."
+    },
+    {
+     "k": "point",
+     "n": "04",
+     "head": "Turn it into content",
+     "body": "A 30-second video of a tech explaining a worn brake pad is a better ad than any discount."
+    },
+    {
+     "k": "statement",
+     "text": "In a low-trust industry, transparency is the marketing.",
+     "accent": "transparency is the marketing."
+    },
+    {
+     "k": "final",
+     "line": "Follow for more marketing that builds trust.",
+     "sub": "@official.vantier"
+    }
+   ],
+   "caption": "Most people walk into an auto repair shop expecting to be upsold. That's not a problem. It's an opportunity.\n\nIn a low-trust industry, transparency is the marketing:\n1. Show the old part. Text customers a photo or short video of what you found.\n2. Explain the price before the work, in plain English, line by line.\n3. Separate \"needs it now\" from \"can wait.\" Customers remember who didn't push.\n4. Turn it into content. A 30-second video of a tech explaining a worn brake pad is a better ad than any coupon.\n\nDo this consistently and your reviews start saying the one thing every shop wants: \"honest.\"\n\nFollow @official.vantier for more marketing that builds trust.",
+   "tags": [
+    "autorepair",
+    "autoshop",
+    "mechaniclife",
+    "customertrust",
+    "automotivemarketing"
+   ],
+   "cta": "Follow"
+  },
+  {
+   "id": "C16",
+   "slug": "shoot-ads-on-your-phone",
+   "title": "Your Phone Is All You Need to Make Great Ads",
+   "pillar": "Social Media Marketing",
+   "industry": "Service businesses",
+   "theme": "ivory",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "CONTENT CREATION",
+     "title": "Your phone is all you need to make great ads",
+     "accent": "all you need",
+     "icon": "camera_phone"
+    },
+    {
+     "k": "point",
+     "n": "01",
+     "head": "Shoot vertical. Always.",
+     "body": "9:16 fills the whole screen on Reels and Stories."
+    },
+    {
+     "k": "point",
+     "n": "02",
+     "head": "Face the light",
+     "body": "Window or sun in front of you, never behind you."
+    },
+    {
+     "k": "point",
+     "n": "03",
+     "head": "Open on action, not a greeting",
+     "body": "Skip “Hey guys, it's Mike from…” Start with the problem."
+    },
+    {
+     "k": "point",
+     "n": "04",
+     "head": "Get close to the mic",
+     "body": "Bad audio kills more ads than bad video. Stand near the phone or use a $20 clip-on mic."
+    },
+    {
+     "k": "point",
+     "n": "05",
+     "head": "Film 10 clips per job",
+     "body": "Before, during, after, the crew, the customer's reaction."
+    },
+    {
+     "k": "point",
+     "n": "06",
+     "head": "Keep it real",
+     "body": "Polished commercials get scrolled. Real job sites get watched."
+    },
+    {
+     "k": "final",
+     "line": "Save this for your next job.",
+     "sub": "Follow @official.vantier for more"
+    }
+   ],
+   "caption": "You don't need a film crew to make ads that work. For most service businesses, real job site footage beats polished commercials. Your phone is enough:\n\n1. Shoot vertical (9:16). Always.\n2. Face the light. Window or sun in front of you, never behind.\n3. Open on action, not a greeting. Skip \"Hey guys, it's Mike from…\"\n4. Get close to the mic. Bad audio kills more ads than bad video.\n5. Film 10 short clips per job: before, during, after, the crew, the reaction.\n6. Keep it real. Real job sites get watched.\n\nSave this for your next job.",
+   "tags": [
+    "contentcreation",
+    "videomarketing",
+    "smartphonevideo",
+    "socialmediatips",
+    "smallbusiness"
+   ],
+   "cta": "Save"
+  },
+  {
+   "id": "C17",
+   "slug": "see-competitors-ads",
+   "title": "How to See Every Ad Your Competitors Are Running",
+   "pillar": "Competitor / Market Analysis",
+   "industry": "Service businesses",
+   "theme": "ink",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "COMPETITOR RESEARCH",
+     "title": "How to see every ad your competitors are running (free)",
+     "accent": "(free)",
+     "icon": "search"
+    },
+    {
+     "k": "search",
+     "step": "01",
+     "head": "Open the Meta Ad Library",
+     "body": "Search “Meta Ad Library” or go to facebook.com/ads/library. No login needed to browse."
+    },
+    {
+     "k": "search",
+     "step": "02",
+     "head": "Search a competitor's name",
+     "body": "Set the category to “All ads” and your country, then type the business name."
+    },
+    {
+     "k": "search",
+     "step": "03",
+     "head": "Look for long-running ads",
+     "body": "Ads that have been running for months are usually the ones making money."
+    },
+    {
+     "k": "search",
+     "step": "04",
+     "head": "Note the offer, hook, and format",
+     "body": "Not to copy. To find the gap."
+    },
+    {
+     "k": "statement",
+     "text": "If everyone says “free estimate,” you say something specific. That's the gap.",
+     "accent": "That's the gap."
+    },
+    {
+     "k": "statement",
+     "text": "It takes 10 minutes. Most of your competitors have never done it.",
+     "accent": "never done it."
+    },
+    {
+     "k": "final",
+     "line": "Share this with a business partner.",
+     "sub": "@official.vantier"
+    }
+   ],
+   "caption": "You can see every Facebook and Instagram ad your competitors are running right now, for free.\n\n1. Open the Meta Ad Library (facebook.com/ads/library)\n2. Set the category to \"All ads,\" choose your country and search a competitor's business name\n3. Look for ads that have been running for months. Long-running ads are usually the profitable ones.\n4. Note their offer, hook and format. Not to copy them, but to find the gap.\n\nIf every competitor says \"free estimate,\" you say something specific. That's how you stand out in a crowded local market.\n\nIt takes 10 minutes, and most of your competitors have never done it.\n\nShare this with a business partner.",
+   "tags": [
+    "competitoranalysis",
+    "metaadlibrary",
+    "facebookads",
+    "marketresearch",
+    "smallbusinesstips"
+   ],
+   "cta": "Share"
+  },
+  {
+   "id": "C18",
+   "slug": "how-vantier-works",
+   "title": "What Happens When You Work With Vantier",
+   "pillar": "Vantier Authority",
+   "industry": "Service businesses",
+   "theme": "ivory",
+   "slides": [
+    {
+     "k": "cover",
+     "kicker": "VANTIER",
+     "title": "What happens when you work with Vantier",
+     "accent": "Vantier",
+     "icon": "mark"
+    },
+    {
+     "k": "point",
+     "n": "01",
+     "head": "Audit",
+     "body": "We call your business like a customer, review your offer, and map what happens after a lead comes in."
+    },
+    {
+     "k": "point",
+     "n": "02",
+     "head": "Offer",
+     "body": "We build an offer your market actually wants. Specific, low-risk, easy to say yes to."
+    },
+    {
+     "k": "point",
+     "n": "03",
+     "head": "Creative",
+     "body": "Hooks and videos built around your customers' problems, not your logo."
+    },
+    {
+     "k": "point",
+     "n": "04",
+     "head": "Launch",
+     "body": "Meta campaigns aimed at your service area, tracked to booked jobs."
+    },
+    {
+     "k": "point",
+     "n": "05",
+     "head": "Follow-up",
+     "body": "Systems that make sure every lead gets a fast, human response."
+    },
+    {
+     "k": "point",
+     "n": "06",
+     "head": "Report",
+     "body": "A plain-English report every Friday: what we spent, what it booked, what's next."
+    },
+    {
+     "k": "statement",
+     "text": "Built for service businesses only. Nationwide.",
+     "accent": "Nationwide."
+    },
+    {
+     "k": "final",
+     "line": "Want to see this for your business? DM us “VANTIER”.",
+     "sub": "Or tap the link in our bio"
+    }
+   ],
+   "caption": "Here's exactly what happens when a service business works with Vantier:\n\n01 Audit: we call your business like a customer, review your offer and map what happens after a lead comes in\n02 Offer: we build an offer your market actually wants\n03 Creative: hooks and videos built around your customers' problems, not your logo\n04 Launch: Meta campaigns aimed at your service area, tracked to booked jobs\n05 Follow-up: systems so every lead gets a fast, human response\n06 Report: a plain-English report every Friday covering what we spent, what it booked and what's next\n\nWe only work with service businesses: roofers, HVAC, plumbers, electricians, cleaners, detailers, landscapers, gyms, salons and more, nationwide.\n\nWant to see what this looks like for your business? DM us \"VANTIER\" or tap the link in our bio.",
+   "tags": [
+    "vantier",
+    "marketingagency",
+    "servicebusinessmarketing",
+    "metaadsagency",
+    "leadgeneration"
+   ],
+   "cta": "DM"
+  }
+ ]
+}

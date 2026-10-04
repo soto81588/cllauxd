@@ -1,0 +1,5 @@
+studio/node_modules/
+studio/out/
+studio/public/audio/
+**/__pycache__/
+.DS_Store

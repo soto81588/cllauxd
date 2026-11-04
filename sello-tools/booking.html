@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Book Your Detail</title>
+<style>
+:root{--bg:#0f1115;--card:#181b22;--line:#2a2f3a;--txt:#eef0f4;--mut:#9aa3b2;--acc:#e8b931}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:var(--bg);color:var(--txt)}
+.w{max-width:640px;margin:auto;padding:24px 16px}h1{margin:0 0 4px}p{color:var(--mut)}
+.pk{display:grid;gap:10px;margin:16px 0}.pk label{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;cursor:pointer}
+.pk b{font-size:17px}.pr{float:right;color:var(--acc);font-weight:700}
+input,select,textarea{width:100%;font:inherit;background:var(--card);color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:10px;margin:4px 0 10px}
+.pk input{width:auto;margin-right:8px}
+button{width:100%;padding:14px;border:0;border-radius:10px;background:var(--acc);color:#111;font-weight:700;font-size:17px;cursor:pointer}
+.note{font-size:13px;color:var(--mut);margin-top:10px}
+</style></head><body><div class="w">
+<script>
+/* ===== EDIT THIS FOR EACH CLIENT ===== */
+const CONFIG={
+ business:"Your Detailing Co.",
+ area:"Hialeah, Doral & Miami Lakes",
+ phone:"13055550000",   // detailer's cell, digits only: booking details are texted here
+ deposit:50,
+ depositLink:"https://buy.stripe.com/REPLACE_ME", // free Stripe Payment Link for the deposit
+ packages:[
+  {name:"Maintenance Detail",price:"from $149",desc:"Wash, wax, interior vacuum and wipe-down"},
+  {name:"Full Detail",price:"from $249",desc:"Deep interior + exterior decon and sealant"},
+  {name:"Paint Correction",price:"from $450",desc:"Remove swirls and scratches"},
+  {name:"Ceramic Coating",price:"from $899",desc:"Multi-year protection and gloss"}]
+};
+/* ===================================== */
+</script>
+<h1 id="bn"></h1><p id="ar"></p>
+<form id="f"><div class="pk" id="pk"></div>
+<input name="name" placeholder="Your name" required>
+<input name="phone" placeholder="Phone" required>
+<input name="car" placeholder="Car (year, make, model)" required>
+<input name="zip" placeholder="ZIP code" required>
+<input type="date" name="date" required>
+<select name="time"><option>Morning (8-11am)</option><option>Midday (11am-2pm)</option><option>Afternoon (2-5pm)</option></select>
+<textarea name="notes" placeholder="Anything we should know? (pet hair, stains...)"></textarea>
+<button id="btn"></button>
+<p class="note" id="dn"></p></form>
+<script>
+const C=CONFIG;
+document.getElementById("bn").textContent=C.business;
+document.getElementById("ar").textContent="Serving "+C.area;
+document.getElementById("pk").innerHTML=C.packages.map((p,i)=>`<label><input type="radio" name="pkg" value="${p.name}" ${i?"":"checked"}><b>${p.name}</b><span class="pr">${p.price}</span><br><small>${p.desc}</small></label>`).join("");
+document.getElementById("btn").textContent=`Reserve my spot: $${C.deposit} deposit`;
+document.getElementById("dn").textContent=`Your $${C.deposit} deposit locks in your time and comes off your final price. Free reschedule with 24 hours' notice.`;
+document.getElementById("f").onsubmit=e=>{e.preventDefault();
+ const d=Object.fromEntries(new FormData(e.target));
+ const msg=`NEW BOOKING\n${d.pkg}\n${d.name} ${d.phone}\n${d.car} - ${d.zip}\n${d.date} ${d.time}\n${d.notes}`;
+ window.open(C.depositLink,"_blank");
+ location.href=`sms:+${C.phone}?&body=`+encodeURIComponent(msg);
+};
+</script></div></body></html>

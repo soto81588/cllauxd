@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SELLO CRM</title>
+<style>
+:root{--bg:#0f1115;--card:#181b22;--line:#2a2f3a;--txt:#e9ecf1;--mut:#9aa3b2;--acc:#e8b931}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:var(--bg);color:var(--txt)}
+header{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+header b{color:var(--acc);margin-right:auto}
+button,select,input{font:inherit;background:var(--card);color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:8px}
+button{cursor:pointer}button.p{background:var(--acc);color:#111;border:0;font-weight:600}
+main{padding:16px;max-width:1200px;margin:auto}.tabs button.on{border-color:var(--acc);color:var(--acc)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.col{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px;min-height:120px}
+.col h4{margin:4px 0 8px;font-size:13px;color:var(--mut)}
+.item{border:1px solid var(--line);border-radius:8px;padding:8px;margin-bottom:6px;font-size:14px}
+.item small{color:var(--mut);display:block}
+table{width:100%;border-collapse:collapse;font-size:14px}td,th{border-bottom:1px solid var(--line);padding:6px;text-align:left}
+form{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:8px;margin-bottom:14px}
+.stat{font-size:22px;color:var(--acc)}.lbl{cursor:pointer;border:1px solid var(--line);border-radius:8px;padding:8px}
+</style></head><body>
+<header><b>SELLO CRM</b>
+<span class="tabs"><button data-t="leads" class="on">Leads</button> <button data-t="clients">Clients</button> <button data-t="shows">Shows &amp; Billing</button></span>
+<button onclick="exp()">Export backup</button>
+<label class="lbl">Import<input type="file" hidden onchange="imp(this)"></label></header>
+<main id="app"></main>
+<script>
+// Per-show fees (edit here). Launch fee for founding 10.
+const FEES={Basic:15,Full:20,Correction:35,Ceramic:75};
+const LAUNCH=1500, GUARANTEE=10;
+const STAGES=["New","Contacted","Replied","Call booked","Signed","Lost"];
+let db=null;try{db=JSON.parse(localStorage.getItem("sello")||"null")}catch(e){}
+db=db||{leads:[],clients:[],shows:[]};
+const save=()=>{try{localStorage.setItem("sello",JSON.stringify(db))}catch(e){alert("Could not save. Export a backup.")}};
+let tab="leads";
+const uid=()=>Math.random().toString(36).slice(2,9);
+const $=s=>document.querySelector(s);
+const today=()=>new Date().toISOString().slice(0,10);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{tab=b.dataset.t;document.querySelectorAll(".tabs button").forEach(x=>x.classList.toggle("on",x===b));render()});
+function render(){({leads,clients,shows})[tab]()}
+
+function leads(){
+ $("#app").innerHTML=`<form id="f"><input name="name" placeholder="Business name" required><input name="phone" placeholder="Phone"><input name="ig" placeholder="Instagram"><input name="area" placeholder="Area (Hialeah...)"><input name="notes" placeholder="Notes"><button class="p">Add lead</button></form>
+ <div class="cols">${STAGES.map(s=>{const L=db.leads.filter(l=>l.stage===s);return `<div class="col"><h4>${s} (${L.length})</h4>${L.map(l=>`<div class="item"><b>${esc(l.name)}</b><small>${esc(l.area)} · ${esc(l.phone)} · ${esc(l.ig)}</small><small>${esc(l.notes)}</small>
+ <select onchange="mv('${l.id}',this.value)">${STAGES.map(x=>`<option ${x===l.stage?"selected":""}>${x}</option>`).join("")}</select> <button onclick="del('leads','${l.id}')">x</button></div>`).join("")}</div>`}).join("")}</div>`;
+ $("#f").onsubmit=e=>{e.preventDefault();const d=Object.fromEntries(new FormData(e.target));db.leads.push({...d,id:uid(),stage:"New",added:today()});save();render()};
+}
+function mv(i,s){const l=db.leads.find(x=>x.id===i);l.stage=s;
+ if(s==="Signed"&&!db.clients.some(c=>c.lead===i))db.clients.push({id:uid(),lead:i,name:l.name,phone:l.phone,area:l.area,start:today(),launchPaid:false});
+ save();render()}
+function del(t,i){if(confirm("Delete?")){db[t]=db[t].filter(x=>x.id!==i);save();render()}}
+
+function clients(){
+ $("#app").innerHTML=`<p>Founding spots used: <span class="stat">${db.clients.length}/10</span></p>
+ <table><tr><th>Client</th><th>Area</th><th>Start</th><th>Total shows</th><th>Launch fee</th><th></th></tr>
+ ${db.clients.map(c=>`<tr><td>${esc(c.name)}</td><td>${esc(c.area)}</td><td>${c.start}</td><td>${db.shows.filter(s=>s.client===c.id).length}</td>
+ <td><label><input type="checkbox" ${c.launchPaid?"checked":""} onchange="lp('${c.id}',this.checked)"> $${LAUNCH} paid</label></td>
+ <td><button onclick="del('clients','${c.id}')">x</button></td></tr>`).join("")}</table>
+ <p style="color:var(--mut)">Clients appear here automatically when a lead is moved to "Signed".</p>`;
+}
+function lp(i,v){db.clients.find(c=>c.id===i).launchPaid=v;save()}
+
+function shows(){
+ if(!db.clients.length){$("#app").innerHTML="<p>No clients yet. Move a lead to Signed first.</p>";return}
+ $("#app").innerHTML=`<form id="f"><select name="client">${db.clients.map(c=>`<option value="${c.id}">${esc(c.name)}</option>`).join("")}</select>
+ <input name="customer" placeholder="Customer name" required><select name="svc">${Object.keys(FEES).map(k=>`<option>${k}</option>`).join("")}</select>
+ <input type="date" name="date" value="${today()}"><button class="p">Log show</button></form>
+ <label>Invoice month <input type="month" id="mo" value="${today().slice(0,7)}"></label><div id="bill"></div>`;
+ $("#f").onsubmit=e=>{e.preventDefault();const d=Object.fromEntries(new FormData(e.target));db.shows.push({...d,id:uid()});save();render()};
+ const bill=()=>{const mo=$("#mo").value;
+  $("#bill").innerHTML=db.clients.map(c=>{
+   const all=db.shows.filter(x=>x.client===c.id).sort((a,b)=>a.date.localeCompare(b.date));
+   // Guarantee: the first 10 shows are free if they happen in the first 30 days
+   const end=new Date(c.start);end.setDate(end.getDate()+30);
+   const inWindow=all.filter(x=>new Date(x.date)<=end);
+   const free=new Set(inWindow.length<GUARANTEE?all.slice(0,GUARANTEE).map(x=>x.id):[]);
+   const s=all.filter(x=>x.date.startsWith(mo));
+   const tot=s.reduce((a,x)=>a+(free.has(x.id)?0:FEES[x.svc]),0);
+   return `<h3>${esc(c.name)}: ${s.length} shows, invoice $${tot}</h3>${free.size?`<small style="color:var(--mut)">Guarantee active: fewer than ${GUARANTEE} shows in first 30 days, so the first ${GUARANTEE} shows are free.</small>`:""}
+   <table>${s.map(x=>`<tr><td>${x.date}</td><td>${esc(x.customer)}</td><td>${x.svc}</td><td>${free.has(x.id)?"$0 (guarantee)":"$"+FEES[x.svc]}</td><td><button onclick="del('shows','${x.id}')">x</button></td></tr>`).join("")}</table>`}).join("")};
+ $("#mo").onchange=bill;bill();
+}
+function exp(){const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(db)],{type:"application/json"}));a.download="sello-crm-backup-"+today()+".json";a.click()}
+function imp(i){const r=new FileReader();r.onload=()=>{try{db=JSON.parse(r.result);save();render()}catch(e){alert("Bad file")}};r.readAsText(i.files[0])}
+render();
+</script></body></html>
